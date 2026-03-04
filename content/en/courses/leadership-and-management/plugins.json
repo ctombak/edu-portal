@@ -1,0 +1,589 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "title": "General Plug-In Modules",
+      "description": "Self-contained modules (30–45 min each) that can be swapped into the main program based on audience needs.",
+      "modules": [
+        {
+          "id": "A",
+          "title": "Conflict as a Leadership Tool",
+          "duration": "40 min",
+          "purpose": "Most managers avoid conflict. The best leaders use it. This module reframes conflict from something to be managed to something to be leveraged—and gives participants tools for navigating difficult conversations with skill.",
+          "bestFor": "High-conflict environments; new managers",
+          "learningObjectives": [
+            "Understand the five conflict-handling modes and when each is appropriate",
+            "Reframe conflict as a source of better decisions and stronger relationships",
+            "Navigate difficult conversations using a structured preparation framework",
+            "Practice opening lines that create dialogue rather than defensiveness"
+          ],
+          "keyTopics": [
+            {
+              "title": "Thomas-Kilmann Conflict Modes",
+              "description": "Five modes (Competing, Collaborating, Compromising, Avoiding, Accommodating) and when each is appropriate. Most leaders have a default—the question is whether it matches the situation."
+            },
+            {
+              "title": "Difficult Conversation Preparation",
+              "description": "Five-question framework: What happened? What story am I telling myself? What's their story? What do I want? How can I start? Enter with curiosity, not conclusions."
+            },
+            {
+              "title": "Opening Lines That Work",
+              "description": "Replace confrontational openings with curiosity-based ones. Instead of 'We need to talk' try 'I'd like to understand your perspective on...'"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Leading Hybrid & Remote Teams",
+          "duration": "35 min",
+          "purpose": "Addresses the unique challenges of leading when you can't rely on physical presence. Builds trust and inclusion without proximity, and designs effective async/sync communication rhythms.",
+          "bestFor": "Distributed teams; post-pandemic organizations",
+          "learningObjectives": [
+            "Understand the key challenges of hybrid/remote leadership",
+            "Build trust and inclusion without physical presence",
+            "Design effective asynchronous and synchronous communication rhythms",
+            "Avoid common hybrid pitfalls like proximity bias"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Hybrid Leadership Challenge",
+              "description": "What changes when you can't see your team: casual check-ins must be intentional, output-based trust replaces visible effort, proximity bias unconsciously favors in-person people."
+            },
+            {
+              "title": "Async-First Operating Rhythm",
+              "description": "Default to asynchronous communication; reserve synchronous time for what truly requires real-time interaction. A sample weekly rhythm balancing written updates with meetings."
+            },
+            {
+              "title": "Inclusion Practices",
+              "description": "If one person is remote, everyone joins virtually. Rotate meeting times. Assign a 'remote advocate.' Document decisions in writing."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Managing Up & Across",
+          "duration": "30 min",
+          "purpose": "Expands on managing-up content for audiences where peer relationships and upward influence are primary challenges. Covers boss mapping, upward feedback, and building peer alliances.",
+          "bestFor": "Matrixed organizations; mid-level managers",
+          "learningObjectives": [
+            "Build a strategic relationship with your manager",
+            "Give feedback upward without damaging trust",
+            "Build peer alliances across departments",
+            "Navigate situations where your boss's style conflicts with yours"
+          ],
+          "keyTopics": [
+            {
+              "title": "Boss Mapping Exercise",
+              "description": "Map your boss's top pressures, information preferences, stress triggers, what they value in reports, and where they feel exposed. Manage your boss the way THEY want to be managed."
+            },
+            {
+              "title": "COIN Framework for Upward Feedback",
+              "description": "Context (set the stage) → Observation (what you noticed, no judgment) → Impact (the effect observed) → Next (a suggestion or question). Frame as helping the team."
+            },
+            {
+              "title": "Peer Network Audit",
+              "description": "Rate relationships with 5-7 key peers from 1-5. Strategies: find shared interests, offer help first, create informal touchpoints, share information generously, give credit publicly."
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Building Your Leadership Pipeline",
+          "duration": "35 min",
+          "purpose": "Helps leaders think systematically about developing the next generation using the 9-Box Grid and 70-20-10 development model.",
+          "bestFor": "Senior leaders; succession planning",
+          "learningObjectives": [
+            "Assess team readiness and identify high-potential individuals",
+            "Create development opportunities beyond formal training",
+            "Build succession depth across your team",
+            "Apply the 'What happens when you leave?' test"
+          ],
+          "keyTopics": [
+            {
+              "title": "The 9-Box Grid",
+              "description": "Map team members on Performance vs. Potential: Develop (invest in growth), Stretch (give bigger challenges), Address (performance conversation), Retain (keep engaged and growing)."
+            },
+            {
+              "title": "70-20-10 Development Model",
+              "description": "70% from on-the-job experience (stretch assignments, leading projects), 20% from learning from others (mentoring, peer learning), 10% from formal learning (training, courses)."
+            },
+            {
+              "title": "Development Actions",
+              "description": "Delegate leadership moments, create 'acting' opportunities, pair junior with senior, debrief together after key moments, share your thinking (explain WHY, not just what)."
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "title": "Emotional Intelligence in Practice",
+          "duration": "40 min",
+          "purpose": "Deepens self-awareness content for emotional regulation, empathy, and reading interpersonal dynamics. Covers Goleman's four EI domains and trigger mapping.",
+          "bestFor": "High-stress environments; self-regulation needs",
+          "learningObjectives": [
+            "Understand the four domains of emotional intelligence",
+            "Identify your emotional triggers and develop regulation strategies",
+            "Practice empathy as a strategic leadership tool",
+            "Read the emotional temperature of a room"
+          ],
+          "keyTopics": [
+            {
+              "title": "Goleman's Four EI Domains",
+              "description": "Self-Awareness (knowing your triggers), Self-Regulation (managing emotional responses), Social Awareness (reading others and the room), Relationship Management (using awareness to guide interactions)."
+            },
+            {
+              "title": "Trigger Mapping & The 6-Second Pause",
+              "description": "Map your triggers and typical reactions. Between trigger and response, there's a gap—emotional intelligence is what you do in that gap. Name the emotion → Pause → Choose your response."
+            },
+            {
+              "title": "Reading the Room",
+              "description": "Before any important meeting: What's the energy? Who's engaged? What's not being said? What emotion am I bringing? Observing what's below the surface separates good leaders from great ones."
+            }
+          ]
+        },
+        {
+          "id": "F",
+          "title": "Strategic Prioritization & Saying No",
+          "duration": "30 min",
+          "purpose": "Builds the discipline of prioritization using the Eisenhower Matrix—and the courage to say no (or 'not now') to protect team capacity and strategic focus.",
+          "bestFor": "Managers facing initiative overload",
+          "learningObjectives": [
+            "Apply the Eisenhower Matrix to current workload",
+            "Distinguish between 'urgent' and 'important' in daily practice",
+            "Say no to requests without damaging relationships",
+            "Protect team capacity from initiative overload"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Eisenhower Matrix",
+              "description": "Four quadrants: Do First (urgent + important), Schedule (important + not urgent), Delegate (urgent + not important), Eliminate (not urgent + not important). The best leaders spend disproportionate time in the top-right quadrant."
+            },
+            {
+              "title": "The Art of Saying No",
+              "description": "Five approaches: The Redirect, The Trade-off, The Delay, The Scope Reduction, The Honest Boundary. Each preserves relationships while protecting capacity."
+            },
+            {
+              "title": "Protecting Team Capacity",
+              "description": "Initiative overload is a leadership failure, not a team failure. Leaders must actively protect focus and say 'not now' to preserve strategic priorities."
+            }
+          ]
+        },
+        {
+          "id": "G",
+          "title": "Cross-Cultural Leadership",
+          "duration": "35 min",
+          "purpose": "Builds awareness of cultural dimensions (Hofstede, Meyer) that affect leadership style, communication, and decision-making across international contexts.",
+          "bestFor": "International teams; multinational audiences",
+          "learningObjectives": [
+            "Understand key cultural dimensions that impact leadership",
+            "Adapt leadership style across cultural contexts",
+            "Navigate common cross-cultural misunderstandings",
+            "Leverage cultural diversity as a strategic advantage"
+          ],
+          "keyTopics": [
+            {
+              "title": "Cultural Dimensions",
+              "description": "Based on Hofstede and Erin Meyer: Power Distance, Communication Style, Time Orientation, Individualism/Collectivism, Uncertainty Avoidance. No 'right' culture—only different defaults."
+            },
+            {
+              "title": "Cross-Cultural Friction Points",
+              "description": "Direct feedback, silence after proposals, missed deadlines, decisions without meetings—each interpreted differently across cultures. The bridge skill: 'Is this a personality issue or a cultural difference?'"
+            },
+            {
+              "title": "Turkey in Context",
+              "description": "Higher power distance than Northern Europe, high-context communication, strong collective loyalty, moderate uncertainty avoidance with entrepreneurial flexibility."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hr",
+      "title": "HR Leadership Modules",
+      "description": "Designed for leadership trainings delivered to HR teams—addressing the unique challenges HR leaders face.",
+      "modules": [
+        {
+          "id": "H1",
+          "title": "The HR Leader as 'Leader of Leaders'",
+          "duration": "40 min",
+          "purpose": "Addresses the distinct challenge of coaching and influencing managers across the organization without formal authority. Builds credibility as a strategic leadership partner.",
+          "bestFor": "HR leaders coaching other managers",
+          "learningObjectives": [
+            "Understand the unique influence dynamics of the HR leadership role",
+            "Coach managers who don't report to you without becoming 'HR police'",
+            "Build credibility as a strategic leadership partner",
+            "Navigate the tension between advising and directing"
+          ],
+          "keyTopics": [
+            {
+              "title": "The HR Influence Paradox",
+              "description": "HR leaders are expected to shape leadership org-wide but rarely have positional authority. The influence-without-authority challenge at its most extreme."
+            },
+            {
+              "title": "The Credibility Equation for HR",
+              "description": "Shift from 'HR says we have to...' to 'Here's the business risk if we don't...' Build trust through business language and strategic framing."
+            }
+          ]
+        },
+        {
+          "id": "H2",
+          "title": "Leading Through Organizational Transformation",
+          "duration": "40 min",
+          "purpose": "HR leaders don't just support organizational change—they architect it. Addresses the unique emotional and strategic burden of leading restructurings and transformations.",
+          "bestFor": "HR leaders navigating restructurings",
+          "learningObjectives": [
+            "Lead organizational change as architect, not just supporter",
+            "Manage the emotional burden of driving restructurings",
+            "Apply change frameworks to HR-led transformations",
+            "Support your own team while leading others through change"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Dual Burden of HR Change Leadership",
+              "description": "HR simultaneously designs the change and holds people through it—often without anyone holding HR through it."
+            },
+            {
+              "title": "Change Architecture",
+              "description": "Building on Module 4's change equation, specific strategies for HR-led transformations: restructurings, culture changes, and AI-driven role redesign."
+            }
+          ]
+        },
+        {
+          "id": "H3",
+          "title": "The Culture Architect — Building Culture by Design",
+          "duration": "35 min",
+          "purpose": "Moves HR leaders from describing culture to actively shaping it. Connects psychological safety frameworks to intentional culture design.",
+          "bestFor": "HR leaders focused on culture transformation",
+          "learningObjectives": [
+            "Move from describing culture to actively shaping it",
+            "Connect psychological safety frameworks to culture design",
+            "Build intentional culture through systems and behaviors",
+            "Measure and maintain culture over time"
+          ],
+          "keyTopics": [
+            {
+              "title": "Culture by Design",
+              "description": "Culture can't be left to chance. HR leaders must intentionally build, maintain, and sometimes repair organizational culture."
+            },
+            {
+              "title": "The Culture Stack",
+              "description": "Connecting psychological safety (Module 3) and change management (Module 4) to systematic culture architecture."
+            }
+          ]
+        },
+        {
+          "id": "H4",
+          "title": "Data-Driven HR — People Analytics for Influence",
+          "duration": "35 min",
+          "purpose": "Builds capability to use people data as forward-looking business storytelling rather than backward-looking reporting.",
+          "bestFor": "HR leaders seeking strategic credibility",
+          "learningObjectives": [
+            "Translate people data into business insight",
+            "Use data as forward-looking storytelling, not backward-looking reporting",
+            "Build influence at the leadership table through analytics",
+            "Connect people metrics to business outcomes"
+          ],
+          "keyTopics": [
+            {
+              "title": "From Reporting to Storytelling",
+              "description": "Shift from 'here are the numbers' to 'here's what the numbers mean for business strategy.' Predict, don't just react."
+            },
+            {
+              "title": "People Analytics for Influence",
+              "description": "Using data to gain disproportionate influence—connecting directly to Module 2's influence and stakeholder mastery frameworks."
+            }
+          ]
+        },
+        {
+          "id": "H5",
+          "title": "Navigating the Dual Role — Employee Advocate & Business Partner",
+          "duration": "35 min",
+          "purpose": "Addresses the tension between advocating for employees and serving the business—one of the most adaptive challenges in the HR profession.",
+          "bestFor": "HR leaders balancing employee and business needs",
+          "learningObjectives": [
+            "Navigate the tension between employee advocacy and business partnership",
+            "Apply adaptive leadership to HR's defining challenge",
+            "Make values-based decisions when employee and business needs conflict",
+            "Build trust with both employees and business leaders"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Adaptive Challenge of HR",
+              "description": "No technical solution to the advocate/partner tension—only judgment, values, and the ability to hold competing commitments."
+            },
+            {
+              "title": "Decision Navigation",
+              "description": "Connecting Module 1's adaptive leadership framework to HR's most complex decisions: when to advocate, when to partner, when to push back."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "title": "Finance Leadership Modules",
+      "description": "Designed for leadership trainings delivered to Finance teams—addressing the unique challenges finance leaders face.",
+      "modules": [
+        {
+          "id": "F1",
+          "title": "Financial Storytelling — Turning Numbers into Influence",
+          "duration": "40 min",
+          "purpose": "Builds the skill of translating financial data into compelling stories that influence strategy. The #1 emerging skill gap for finance leaders.",
+          "bestFor": "Finance leaders who need to influence beyond numbers",
+          "learningObjectives": [
+            "Translate financial data into compelling strategic narratives",
+            "Influence decision-making through data storytelling",
+            "Present numbers in ways that drive action",
+            "Connect financial insights to business strategy"
+          ],
+          "keyTopics": [
+            {
+              "title": "Numbers vs. Narrative",
+              "description": "Accuracy alone doesn't drive decisions—narrative does. The critical emerging skill for finance leaders."
+            },
+            {
+              "title": "Strategic Communication for Finance",
+              "description": "Building on Module 2's influence frameworks: how to present financial data to different audiences in ways that drive strategic decisions."
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "title": "From Scorekeeper to Strategic Partner",
+          "duration": "40 min",
+          "purpose": "Addresses the leadership shift from gatekeeper to enabler. The traditional finance role is being automated—the future belongs to strategic partners.",
+          "bestFor": "Finance leaders seeking strategic partnership role",
+          "learningObjectives": [
+            "Shift from gatekeeper to enabler role",
+            "Partner with business leaders to drive decisions",
+            "Build trust as a strategic advisor",
+            "Move beyond tracking and controlling to enabling"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Finance Leadership Shift",
+              "description": "Traditional finance (tracking, reporting, controlling) is being automated. The future belongs to finance leaders who partner with business."
+            },
+            {
+              "title": "Building Partnership Trust",
+              "description": "Using the Trust Equation from Module 2 to transform finance's relationship with business stakeholders."
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "title": "Leading Through Cost Pressure & Difficult Trade-offs",
+          "duration": "35 min",
+          "purpose": "Addresses the psychological and leadership dimensions of being the bearer of difficult news while leading your own team through constraints.",
+          "bestFor": "Finance leaders managing cost discipline",
+          "learningObjectives": [
+            "Lead teams through resource constraints while maintaining motivation",
+            "Communicate difficult financial decisions effectively",
+            "Balance cost discipline with team morale",
+            "Navigate the 'bearer of bad news' role"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Leadership Burden",
+              "description": "Finance leaders must drive cost discipline org-wide while simultaneously leading their own team through constraints."
+            },
+            {
+              "title": "Communicating Difficult Decisions",
+              "description": "Building on Module 4's ownership framework: how to deliver hard messages with accountability and empathy."
+            }
+          ]
+        },
+        {
+          "id": "F4",
+          "title": "Building a Future-Ready Finance Team",
+          "duration": "35 min",
+          "purpose": "Helps finance leaders build teams that can thrive in 2026—navigating shrinking talent pipelines and expanding skill requirements.",
+          "bestFor": "Finance leaders building team capability",
+          "learningObjectives": [
+            "Build teams for the evolving finance landscape",
+            "Address the talent pipeline challenge",
+            "Develop AI fluency within finance teams",
+            "Create development paths for emerging capabilities"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Finance Talent Squeeze",
+              "description": "Shrinking pipeline of graduates while required skills expand: data analytics, AI fluency, business partnering."
+            },
+            {
+              "title": "Future-Ready Development",
+              "description": "Connecting to Plug-in D (Leadership Pipeline) and Module 5 (AI Fluency) for finance-specific team building."
+            }
+          ]
+        },
+        {
+          "id": "F5",
+          "title": "Risk, Uncertainty & Decision Leadership",
+          "duration": "35 min",
+          "purpose": "Builds capability to frame uncertainty, model scenarios, and help business leaders make decisions with incomplete information.",
+          "bestFor": "Finance leaders supporting strategic decisions",
+          "learningObjectives": [
+            "Frame uncertainty for business leaders",
+            "Model scenarios for strategic decision-making",
+            "Move beyond risk reporting into decision leadership",
+            "Help leaders make decisions with incomplete information"
+          ],
+          "keyTopics": [
+            {
+              "title": "From Risk Reporting to Decision Leadership",
+              "description": "Finance leaders are uniquely positioned to navigate uncertainty—but only by moving beyond reporting."
+            },
+            {
+              "title": "Scenario Modeling & Decision Frameworks",
+              "description": "Extending Module 4's RAPID and bias mitigation frameworks into finance-specific strategic contexts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering Leadership Modules",
+      "description": "Designed for leadership trainings delivered to Engineering teams—addressing the unique challenges engineering managers face.",
+      "modules": [
+        {
+          "id": "E1",
+          "title": "The IC-to-Manager Transition",
+          "duration": "40 min",
+          "purpose": "Addresses the identity shift from individual contributor to manager. What made you successful as an engineer can actively undermine you as a manager.",
+          "bestFor": "New engineering managers; recently promoted ICs",
+          "learningObjectives": [
+            "Navigate the identity shift from IC to manager",
+            "Redefine 'productivity' for the management role",
+            "Avoid common traps that derail new engineering managers",
+            "Build a new leadership identity beyond technical expertise"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Identity Shift",
+              "description": "What made you successful as an engineer—deep focus, technical mastery, solving problems yourself—can actively undermine you as a manager."
+            },
+            {
+              "title": "New Engineering Manager Traps",
+              "description": "The hero coding trap, the 'just let me do it' instinct, measuring productivity by code output instead of team output. Building on Module 1's self-awareness."
+            }
+          ]
+        },
+        {
+          "id": "E2",
+          "title": "Translating Engineering to Business",
+          "duration": "40 min",
+          "purpose": "Builds the critical skill of translating engineering reality into business impact. Technical debt, infrastructure investment, and refactoring in business language.",
+          "bestFor": "Engineering managers communicating with business",
+          "learningObjectives": [
+            "Communicate engineering value in business language",
+            "Frame technical needs as business impact",
+            "Influence resource allocation through strategic communication",
+            "Build bridges between engineering and business stakeholders"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Translation Gap",
+              "description": "Technical debt sounds optional, infrastructure investment sounds like cost, 'we need to refactor' sounds like rework. Reframing in business impact language."
+            },
+            {
+              "title": "Influence Through Translation",
+              "description": "Extending Module 2's influence frameworks: how to communicate engineering reality to executives, product, and business teams."
+            }
+          ]
+        },
+        {
+          "id": "E3",
+          "title": "Engineering Team Health — Burnout & Sustainable Pace",
+          "duration": "35 min",
+          "purpose": "Gives engineering managers practical tools for monitoring and maintaining team health amid on-call pressure, AI anxiety, and 'always shipping' culture.",
+          "bestFor": "Engineering teams facing burnout and pressure",
+          "learningObjectives": [
+            "Monitor team health indicators proactively",
+            "Address burnout before it becomes critical",
+            "Create sustainable pace in high-pressure environments",
+            "Navigate AI anxiety within engineering teams"
+          ],
+          "keyTopics": [
+            {
+              "title": "Engineering-Specific Burnout Risks",
+              "description": "On-call rotations, incident response, 'always shipping' culture, AI reshaping profession. Extending Module 1's energy management and Module 3's psychological safety."
+            },
+            {
+              "title": "Sustainable Pace Tools",
+              "description": "Practical monitoring and maintenance tools for engineering managers facing the burnout crisis."
+            }
+          ]
+        },
+        {
+          "id": "E4",
+          "title": "Managing Technical Debt as a Leadership Challenge",
+          "duration": "35 min",
+          "purpose": "Frames technical debt management as an adaptive leadership challenge requiring cross-functional negotiation and strategic prioritization.",
+          "bestFor": "Engineering leaders managing legacy systems",
+          "learningObjectives": [
+            "Frame technical debt as a leadership challenge",
+            "Negotiate cross-functionally for debt reduction",
+            "Prioritize debt strategically using business impact",
+            "Communicate debt risks to non-technical stakeholders"
+          ],
+          "keyTopics": [
+            {
+              "title": "Debt as Adaptive Challenge",
+              "description": "Technical debt requires cross-functional negotiation, stakeholder communication, and strategic prioritization—not just engineering effort."
+            },
+            {
+              "title": "The Debt Prioritization Framework",
+              "description": "Connecting Module 1's Heifetz framework, Module 2's influence skills, and Module 4's ownership tools to technical debt decisions."
+            }
+          ]
+        },
+        {
+          "id": "E5",
+          "title": "Leading Engineering Through AI Transformation",
+          "duration": "40 min",
+          "purpose": "Addresses specific AI challenges engineering leaders face—between executive expectations of 10x productivity and the messy reality of integration.",
+          "bestFor": "Engineering leaders navigating AI adoption",
+          "learningObjectives": [
+            "Navigate the gap between AI expectations and reality",
+            "Manage team anxiety about AI disruption",
+            "Build practical AI adoption strategies",
+            "Balance executive expectations with engineering reality"
+          ],
+          "keyTopics": [
+            {
+              "title": "The AI Leadership Gap",
+              "description": "Between executive expectations of 10x productivity and the messy reality of integration challenges, quality concerns, and team anxiety."
+            },
+            {
+              "title": "Engineering-Specific AI Strategy",
+              "description": "Extending Module 5's AI fluency into the specific challenges of AI-assisted coding, quality concerns, and team adoption in engineering."
+            }
+          ]
+        },
+        {
+          "id": "E6",
+          "title": "The Dual Ladder — Supporting ICs & Managing Managers",
+          "duration": "35 min",
+          "purpose": "Addresses the dual career ladder (IC vs management track) and the fundamentally different job of managing other managers.",
+          "bestFor": "Senior engineering managers and directors",
+          "learningObjectives": [
+            "Support both IC and management career tracks",
+            "Navigate the challenges of managing other managers",
+            "Build a healthy dual career ladder in your organization",
+            "Develop both technical and people leaders"
+          ],
+          "keyTopics": [
+            {
+              "title": "The Dual Career Ladder",
+              "description": "Some best people want to stay technical (IC track), others want to lead people (management track). Supporting both is essential."
+            },
+            {
+              "title": "Managing Managers",
+              "description": "A fundamentally different job from managing ICs—connecting to Plug-in D (Leadership Pipeline) and Module 3's coaching framework."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

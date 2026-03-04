@@ -1,0 +1,123 @@
+{
+  "intro": "Use this guide to select plug-in modules based on audience profile and team function. The core program (Modules 1-5) provides the foundation; plug-in modules customize the experience for specific audiences.",
+  "generalTitle": "General Audience Selection",
+  "generalRows": [
+    { "profile": "New / first-level managers", "recommended": "A (Conflict), F (Prioritization)", "swapOut": "Module 5 (AI) if time needed" },
+    { "profile": "Mid-level in matrixed organizations", "recommended": "C (Managing Up), D (Pipeline)", "swapOut": "Add as follow-up sessions" },
+    { "profile": "Leaders of distributed/remote teams", "recommended": "B (Hybrid), E (EI)", "swapOut": "Compress Module 4 change section" },
+    { "profile": "Senior leaders / executives", "recommended": "D (Pipeline), G (Cross-Cultural)", "swapOut": "Module 3 coaching (they've likely had it)" },
+    { "profile": "High-conflict or low-trust environments", "recommended": "A (Conflict), E (EI)", "swapOut": "Module 5 (AI); compress Module 4" },
+    { "profile": "International / multinational audience", "recommended": "G (Cross-Cultural), B (Hybrid)", "swapOut": "Turkish-specific content (generalize)" }
+  ],
+  "teams": [
+    {
+      "id": "hr",
+      "title": "HR Team Training",
+      "description": "Core program (Modules 1-5) + recommended HR plug-ins",
+      "priorities": [
+        { "priority": "Must-Have", "module": "H1: Leader of Leaders", "why": "The defining HR challenge — coaching without authority" },
+        { "priority": "Must-Have", "module": "H5: Dual Role (Advocate & Partner)", "why": "The adaptive challenge at the heart of HR leadership" },
+        { "priority": "High Value", "module": "H3: Culture Architect", "why": "Top CHRO priority for 2026; connects to psych safety" },
+        { "priority": "High Value", "module": "H2: Leading Through Transformation", "why": "HR leads every restructuring; they need support too" },
+        { "priority": "Recommended", "module": "H4: Data-Driven HR", "why": "Builds strategic credibility; aligns with AI module" },
+        { "priority": "Recommended", "module": "A: Conflict as a Leadership Tool", "why": "HR navigates conflict daily; deepens Module 3" },
+        { "priority": "Optional", "module": "E: Emotional Intelligence in Practice", "why": "Deepens self-awareness for high-stress HR contexts" },
+        { "priority": "Optional", "module": "D: Building Your Leadership Pipeline", "why": "Relevant for senior HR leaders focused on succession" }
+      ],
+      "schedule": [
+        { "session": "Opening", "content": "Connection, Context & Leadership Crucibles", "duration": "40 min" },
+        { "session": "Module 1", "content": "The Adaptive Leader (core)", "duration": "75 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "Module 2", "content": "The Relational Leader (core)", "duration": "70 min" },
+        { "session": "Lunch", "content": "", "duration": "60 min" },
+        { "session": "Module 3", "content": "The Growth Leader (core)", "duration": "70 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "H1", "content": "The HR Leader as 'Leader of Leaders'", "duration": "40 min" },
+        { "session": "H5", "content": "Navigating the Dual Role", "duration": "35 min" },
+        { "session": "Closing", "content": "Integration & Action Plan", "duration": "40 min" }
+      ],
+      "scheduleNote": "Module 4 (Strategic Leader) and Module 5 (AI) are replaced by H1 and H5. Core frameworks from Module 4 are referenced within H2 if added as a follow-up session."
+    },
+    {
+      "id": "finance",
+      "title": "Finance Team Training",
+      "description": "Core program (Modules 1-5) + recommended Finance plug-ins",
+      "priorities": [
+        { "priority": "Must-Have", "module": "F1: Financial Storytelling", "why": "The #1 skill gap for finance leaders; builds influence" },
+        { "priority": "Must-Have", "module": "F2: Scorekeeper to Strategic Partner", "why": "Defines the modern finance leader's role" },
+        { "priority": "High Value", "module": "F3: Cost Pressure & Difficult Trade-offs", "why": "The daily reality of finance leadership in 2026" },
+        { "priority": "High Value", "module": "F5: Risk, Uncertainty & Decision Leadership", "why": "Extends Module 4 into finance's strategic sweet spot" },
+        { "priority": "Recommended", "module": "F4: Building a Future-Ready Finance Team", "why": "Talent pipeline crisis in finance; aligns with AI module" },
+        { "priority": "Recommended", "module": "C: Managing Up & Across (Expanded)", "why": "Finance leaders partner across every function" },
+        { "priority": "Optional", "module": "F (Prioritization & Saying No)", "why": "Relevant for finance teams facing initiative overload" },
+        { "priority": "Optional", "module": "A: Conflict as a Leadership Tool", "why": "Useful for finance leaders navigating budget disputes" }
+      ],
+      "schedule": [
+        { "session": "Opening", "content": "Connection, Context & Leadership Crucibles", "duration": "40 min" },
+        { "session": "Module 1", "content": "The Adaptive Leader (core)", "duration": "75 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "Module 2", "content": "The Relational Leader (core)", "duration": "70 min" },
+        { "session": "Lunch", "content": "", "duration": "60 min" },
+        { "session": "Module 3", "content": "The Growth Leader (core)", "duration": "70 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "F1", "content": "Financial Storytelling", "duration": "40 min" },
+        { "session": "F2", "content": "From Scorekeeper to Strategic Partner", "duration": "40 min" },
+        { "session": "Closing", "content": "Integration & Action Plan", "duration": "40 min" }
+      ],
+      "scheduleNote": "Module 4 (Strategic Leader) and Module 5 (AI) are replaced by F1 and F2. Ownership and decision-making themes from Module 4 are naturally embedded in F2 and F3."
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering Team Training",
+      "description": "Core program (Modules 1-5) + recommended Engineering plug-ins",
+      "priorities": [
+        { "priority": "Must-Have", "module": "E1: IC-to-Manager Transition", "why": "The defining adaptive challenge for engineering managers" },
+        { "priority": "Must-Have", "module": "E2: Translating Engineering to Business", "why": "The #1 influence gap; connects technical work to business value" },
+        { "priority": "High Value", "module": "E3: Team Health, Burnout & Sustainable Pace", "why": "AI anxiety + 'do more with less' = burnout crisis" },
+        { "priority": "High Value", "module": "E5: Leading Through AI Transformation", "why": "Extends Module 5 into engineering's specific AI reality" },
+        { "priority": "Recommended", "module": "E4: Managing Technical Debt as Leadership", "why": "Reframes debt from technical issue to strategic conversation" },
+        { "priority": "Recommended", "module": "E6: Dual Ladder & Managing Managers", "why": "Essential for senior EMs and directors" },
+        { "priority": "Optional", "module": "A: Conflict as a Leadership Tool", "why": "Useful for engineering-product tensions" },
+        { "priority": "Optional", "module": "F (Prioritization & Saying No)", "why": "Engineering teams drowning in competing demands" }
+      ],
+      "schedule": [
+        { "session": "Opening", "content": "Connection, Context & Leadership Crucibles", "duration": "40 min" },
+        { "session": "Module 1", "content": "The Adaptive Leader (core)", "duration": "75 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "Module 2", "content": "The Relational Leader (core)", "duration": "70 min" },
+        { "session": "Lunch", "content": "", "duration": "60 min" },
+        { "session": "Module 3", "content": "The Growth Leader (core)", "duration": "70 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "E1", "content": "IC-to-Manager Transition", "duration": "40 min" },
+        { "session": "E2", "content": "Translating Engineering to Business", "duration": "40 min" },
+        { "session": "Closing", "content": "Integration & Action Plan", "duration": "40 min" }
+      ],
+      "scheduleNote": "Module 4 (Strategic Leader) and Module 5 (AI) are replaced by E1 and E2. Ownership and decision-making themes are directly embedded in E1.",
+      "altTitle": "Alternative: Senior Engineering Leaders (Directors+)",
+      "altSchedule": [
+        { "session": "Opening", "content": "Connection, Context & Leadership Crucibles", "duration": "40 min" },
+        { "session": "Module 1", "content": "The Adaptive Leader (core)", "duration": "75 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "Module 2", "content": "The Relational Leader (core)", "duration": "70 min" },
+        { "session": "Lunch", "content": "", "duration": "60 min" },
+        { "session": "E2", "content": "Translating Engineering to Business", "duration": "40 min" },
+        { "session": "E5", "content": "Leading Engineering Through AI Transformation", "duration": "40 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "E6", "content": "Dual Ladder & Managing Managers", "duration": "35 min" },
+        { "session": "Closing", "content": "Integration & Action Plan", "duration": "40 min" }
+      ],
+      "altNote": "Skips Module 3 coaching basics (senior leaders have likely had it) and Module 4/5 entirely, replacing them with strategically relevant engineering modules."
+    }
+  ],
+  "discussionTitle": "Meeting Preparation: Discussion Guide",
+  "discussionIntro": "Use this guide when meeting with each team to determine the final module selection.",
+  "questions": [
+    "What are the top 3 leadership challenges your team faces right now?",
+    "Where does your team feel most confident as leaders? Where are the gaps?",
+    "What's the biggest change your team is navigating this year?",
+    "How would you describe the team's relationship with other functions?",
+    "What would make this training a success in your eyes? What should people walk away able to do?"
+  ],
+  "decisionMatrixTitle": "Decision Matrix",
+  "decisionMatrixDesc": "For each plug-in module, rate with the team: Relevance (1-5) and Urgency (1-5). Select the top 2-3 modules by total score. Ensure at least one 'Must-Have' is included."
+}

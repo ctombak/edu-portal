@@ -1,0 +1,589 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "title": "Genel Eklenti Modülleri",
+      "description": "Hedef kitle ihtiyaçlarına göre ana programa eklenebilen bağımsız modüller (her biri 30-45 dk).",
+      "modules": [
+        {
+          "id": "A",
+          "title": "Liderlik Aracı Olarak Çatışma",
+          "duration": "40 dk",
+          "purpose": "Çoğu yönetici çatışmadan kaçınır. En iyi liderler onu kullanır. Bu modül çatışmayı yönetilmesi gereken bir şeyden, değerlendirilmesi gereken bir araca dönüştürür ve zor konuşmalar için pratik araçlar sunar.",
+          "bestFor": "Yüksek çatışmalı ortamlar; yeni yöneticiler",
+          "learningObjectives": [
+            "Beş çatışma yönetim modunu ve her birinin ne zaman uygun olduğunu anlamak",
+            "Çatışmayı daha iyi kararlar ve daha güçlü ilişkilerin kaynağı olarak yeniden çerçevelemek",
+            "Yapılandırılmış bir hazırlık çerçevesi kullanarak zor konuşmaları yönetmek",
+            "Savunmacılık yerine diyalog yaratan açılış cümleleri uygulamak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Thomas-Kilmann Çatışma Modları",
+              "description": "Beş mod (Rekabet, İş Birliği, Uzlaşma, Kaçınma, Uyum) ve her birinin ne zaman uygun olduğu. Çoğu liderin bir varsayılanı vardır—asıl soru bunun duruma uyup uymadığıdır."
+            },
+            {
+              "title": "Zor Konuşma Hazırlığı",
+              "description": "Beş soruluk çerçeve: Ne oldu? Kendime hangi hikayeyi anlatıyorum? Onların hikayesi ne? Ne istiyorum? Nasıl başlayabilirim? Sonuçlarla değil, merakla girin."
+            },
+            {
+              "title": "İşe Yarayan Açılış Cümleleri",
+              "description": "Yüzleştirici açılışları merak temelli olanlarla değiştirin. 'Konuşmamız lazım' yerine 'Konuyla ilgili bakış açınızı anlamak istiyorum...' deneyin."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Hibrit ve Uzaktan Ekiplere Liderlik",
+          "duration": "35 dk",
+          "purpose": "Fiziksel varlığa dayanamadığınızda liderlik etmenin benzersiz zorluklarını ele alır. Yakınlık olmadan güven ve kapsayıcılık inşa eder.",
+          "bestFor": "Dağıtık ekipler; pandemi sonrası organizasyonlar",
+          "learningObjectives": [
+            "Hibrit/uzaktan liderliğin temel zorluklarını anlamak",
+            "Fiziksel yakınlık olmadan güven ve kapsayıcılık inşa etmek",
+            "Etkili asenkron ve senkron iletişim ritimleri tasarlamak",
+            "Yakınlık önyargısı gibi yaygın hibrit tuzaklarından kaçınmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Hibrit Liderlik Zorluğu",
+              "description": "Ekibinizi göremediğinizde neler değişir: günlük sohbetler kasıtlı olmalı, çıktı temelli güven görünür çabayı değiştirir, yakınlık önyargısı bilinçsizce ofiste olanları kayırır."
+            },
+            {
+              "title": "Asenkron Öncelikli Çalışma Ritmi",
+              "description": "Varsayılan olarak asenkron iletişim kullanın; senkron zamanı gerçekten gerçek zamanlı etkileşim gerektiren konulara ayırın. Yazılı güncellemeler ile toplantıları dengeleyen örnek haftalık ritim."
+            },
+            {
+              "title": "Kapsayıcılık Uygulamaları",
+              "description": "Bir kişi uzaktaysa herkes sanal olarak katılır. Toplantı saatlerini dönüşümlü yapın. Bir 'uzaktan savunucu' atayın. Kararları yazılı olarak belgeleyin."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Yukarı ve Çapraz Yönetim",
+          "duration": "30 dk",
+          "purpose": "Akran ilişkileri ve yukarı doğru etki konularının birincil zorluklar olduğu kitleler için genişletilmiş içerik. Yönetici haritalama, yukarı geri bildirim ve akran ittifakları.",
+          "bestFor": "Matris organizasyonlar; orta düzey yöneticiler",
+          "learningObjectives": [
+            "Yöneticinizle stratejik bir ilişki kurmak",
+            "Güvene zarar vermeden yukarı doğru geri bildirim vermek",
+            "Departmanlar arası akran ittifakları kurmak",
+            "Yöneticinizin tarzı sizinkiyle çeliştiğinde durumu yönetmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Yönetici Haritalama Alıştırması",
+              "description": "Yöneticinizin en büyük baskılarını, bilgi tercihlerini, stres tetikleyicilerini, raporlarda neye değer verdiğini ve nerede açık hissettiğini haritalayın. Yöneticinizi ONLARIN istediği şekilde yönetin."
+            },
+            {
+              "title": "Yukarı Geri Bildirim İçin COIN Çerçevesi",
+              "description": "Bağlam (sahneyi kurun) → Gözlem (yargısız olarak ne fark ettiniz) → Etki (gözlemlenen sonuç) → Sonraki Adım (bir öneri veya soru). Ekibe yardım olarak çerçeveleyin."
+            },
+            {
+              "title": "Akran Ağı Denetimi",
+              "description": "5-7 kilit akranla ilişkilerinizi 1-5 arası puanlayın. Stratejiler: ortak ilgi alanları bulun, önce yardım teklif edin, gayri resmi temas noktaları yaratın, bilgiyi cömertçe paylaşın, başarıyı alenen takdir edin."
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "title": "Liderlik Hattınızı İnşa Etmek",
+          "duration": "35 dk",
+          "purpose": "Liderlerin 9-Box Grid ve 70-20-10 gelişim modeli kullanarak yeni nesli sistematik olarak geliştirmelerine yardımcı olur.",
+          "bestFor": "Üst düzey liderler; yedekleme planlaması",
+          "learningObjectives": [
+            "Ekip hazırlığını değerlendirmek ve yüksek potansiyelli bireyleri belirlemek",
+            "Resmi eğitimin ötesinde gelişim fırsatları yaratmak",
+            "Ekibiniz genelinde yedekleme derinliği oluşturmak",
+            "'Siz ayrılsanız ne olur?' testini uygulamak"
+          ],
+          "keyTopics": [
+            {
+              "title": "9-Box Grid (9 Kutulu Matris)",
+              "description": "Ekip üyelerini Performans ve Potansiyel ekseninde haritalayın: Geliştir (büyümeye yatırım yap), Zorla (daha büyük zorluklar ver), Ele Al (performans görüşmesi), Elde Tut (motive ve gelişen tut)."
+            },
+            {
+              "title": "70-20-10 Gelişim Modeli",
+              "description": "%70 iş başında deneyimden (zorlayıcı görevler, proje liderliği), %20 başkalarından öğrenmeden (mentorluk, akran öğrenmesi), %10 resmi öğrenmeden (eğitim, kurslar)."
+            },
+            {
+              "title": "Gelişim Aksiyonları",
+              "description": "Liderlik anlarını devredin, 'vekalet' fırsatları yaratın, kıdemsizi kıdemliyle eşleştirin, önemli anlardan sonra birlikte değerlendirme yapın, düşüncenizi paylaşın (sadece NE değil, NEDEN'i açıklayın)."
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "title": "Pratikte Duygusal Zekâ",
+          "duration": "40 dk",
+          "purpose": "Duygusal düzenleme, empati ve kişilerarası dinamikleri okuma konularını derinleştirir. Goleman'ın dört DZ alanını ve tetikleyici haritalamayı kapsar.",
+          "bestFor": "Yüksek stresli ortamlar; öz düzenleme ihtiyaçları",
+          "learningObjectives": [
+            "Duygusal zekânın dört alanını anlamak",
+            "Duygusal tetikleyicilerinizi belirlemek ve düzenleme stratejileri geliştirmek",
+            "Empatiyi stratejik bir liderlik aracı olarak uygulamak",
+            "Bir odanın duygusal sıcaklığını okumak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Goleman'ın Dört DZ Alanı",
+              "description": "Öz Farkındalık (tetikleyicilerinizi bilmek), Öz Düzenleme (duygusal tepkileri yönetmek), Sosyal Farkındalık (başkalarını ve ortamı okumak), İlişki Yönetimi (farkındalığı etkileşimleri yönlendirmek için kullanmak)."
+            },
+            {
+              "title": "Tetikleyici Haritalama ve 6 Saniyelik Duraklama",
+              "description": "Tetikleyicilerinizi ve tipik tepkilerinizi haritalayın. Tetikleyici ile tepki arasında bir boşluk vardır—duygusal zekâ o boşlukta ne yaptığınızdır. Duyguyu adlandır → Duraklat → Tepkini seç."
+            },
+            {
+              "title": "Odayı Okumak",
+              "description": "Herhangi bir önemli toplantıdan önce: Enerji ne durumda? Kim ilgili? Söylenmeyen ne var? Ben hangi duyguyu getiriyorum? Yüzeyin altındakileri gözlemlemek, iyi liderleri harika liderlerden ayırır."
+            }
+          ]
+        },
+        {
+          "id": "F",
+          "title": "Stratejik Önceliklendirme ve Hayır Diyebilmek",
+          "duration": "30 dk",
+          "purpose": "Eisenhower Matrisi kullanarak önceliklendirme disiplini ve ekip kapasitesini korumak için hayır deme cesareti inşa eder.",
+          "bestFor": "İnisiyatif aşırı yükü yaşayan yöneticiler",
+          "learningObjectives": [
+            "Eisenhower Matrisini mevcut iş yüküne uygulamak",
+            "Günlük pratikte 'acil' ile 'önemli' arasındaki farkı ayırt etmek",
+            "İlişkilere zarar vermeden taleplere hayır demek",
+            "Ekip kapasitesini inisiyatif aşırı yükünden korumak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Eisenhower Matrisi",
+              "description": "Dört çeyrek: Önce Yap (acil + önemli), Planla (önemli + acil değil), Delege Et (acil + önemli değil), Ele (acil değil + önemli değil). En iyi liderler orantısız zamanlarını sağ üst çeyrekte geçirir."
+            },
+            {
+              "title": "Hayır Deme Sanatı",
+              "description": "Beş yaklaşım: Yönlendirme, Takas, Erteleme, Kapsam Daraltma, Dürüst Sınır. Her biri kapasiteyi korurken ilişkileri sürdürür."
+            },
+            {
+              "title": "Ekip Kapasitesini Korumak",
+              "description": "İnisiyatif aşırı yükü ekip başarısızlığı değil, liderlik başarısızlığıdır. Liderler stratejik öncelikleri korumak için aktif olarak odağı korumalı ve 'şimdi değil' demelidir."
+            }
+          ]
+        },
+        {
+          "id": "G",
+          "title": "Kültürlerarası Liderlik",
+          "duration": "35 dk",
+          "purpose": "Liderlik tarzını, iletişimi ve karar almayı etkileyen kültürel boyutlar (Hofstede, Meyer) konusunda farkındalık oluşturur.",
+          "bestFor": "Uluslararası ekipler; çok uluslu hedef kitleler",
+          "learningObjectives": [
+            "Liderliği etkileyen temel kültürel boyutları anlamak",
+            "Liderlik tarzını kültürel bağlamlara uyarlamak",
+            "Yaygın kültürlerarası yanlış anlamaları yönetmek",
+            "Kültürel çeşitliliği stratejik bir avantaj olarak değerlendirmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Kültürel Boyutlar",
+              "description": "Hofstede ve Erin Meyer'e dayalı: Güç Mesafesi, İletişim Tarzı, Zaman Yönelimi, Bireycilik/Toplulukçuluk, Belirsizlikten Kaçınma. 'Doğru' kültür yoktur—sadece farklı varsayılanlar vardır."
+            },
+            {
+              "title": "Kültürlerarası Sürtüşme Noktaları",
+              "description": "Doğrudan geri bildirim, tekliflerden sonra sessizlik, kaçırılan teslim tarihleri, toplantısız kararlar—her biri kültürler arası farklı yorumlanır. Köprü becerisi: 'Bu bir kişilik meselesi mi yoksa kültürel fark mı?'"
+            },
+            {
+              "title": "Bağlamında Türkiye",
+              "description": "Kuzey Avrupa'dan daha yüksek güç mesafesi, yüksek bağlamlı iletişim, güçlü kolektif sadakat, girişimci esneklikle ılımlı belirsizlikten kaçınma."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hr",
+      "title": "İK Liderlik Modülleri",
+      "description": "İK ekiplerine yönelik liderlik eğitimleri için tasarlanmış—İK liderlerinin karşılaştığı benzersiz zorlukları ele alan modüller.",
+      "modules": [
+        {
+          "id": "H1",
+          "title": "İK Lideri: 'Liderlerin Lideri'",
+          "duration": "40 dk",
+          "purpose": "Resmi otorite olmadan organizasyon genelinde yöneticilere koçluk yapma ve onları etkileme zorluğunu ele alır. Stratejik liderlik ortağı olarak güvenilirlik inşa eder.",
+          "bestFor": "Diğer yöneticilere koçluk yapan İK liderleri",
+          "learningObjectives": [
+            "İK liderlik rolünün benzersiz etki dinamiklerini anlamak",
+            "'İK polisi' olmadan size bağlı olmayan yöneticilere koçluk yapmak",
+            "Stratejik liderlik ortağı olarak güvenilirlik inşa etmek",
+            "Danışmanlık ile yönlendirme arasındaki gerilimi yönetmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "İK Etki Paradoksu",
+              "description": "İK liderlerinden organizasyon genelinde liderliği şekillendirmeleri beklenir ancak nadiren pozisyonel otoriteleri vardır. Otoritesiz etki zorluğunun en uç hali."
+            },
+            {
+              "title": "İK İçin Güvenilirlik Denklemi",
+              "description": "'İK bunu yapmamız gerektiğini söylüyor...' yerine 'Yapmazsak iş riski şudur...' yaklaşımına geçiş. İş dili ve stratejik çerçeveleme yoluyla güven inşa etmek."
+            }
+          ]
+        },
+        {
+          "id": "H2",
+          "title": "Organizasyonel Dönüşüme Liderlik",
+          "duration": "40 dk",
+          "purpose": "İK liderleri organizasyonel değişimi sadece desteklemez—onu tasarlar. Yeniden yapılanma ve dönüşümlerin benzersiz duygusal ve stratejik yükünü ele alır.",
+          "bestFor": "Yeniden yapılanma sürecindeki İK liderleri",
+          "learningObjectives": [
+            "Organizasyonel değişime sadece destekçi değil, mimar olarak liderlik etmek",
+            "Yeniden yapılanmaları yönetmenin duygusal yükünü yönetmek",
+            "Değişim çerçevelerini İK liderliğindeki dönüşümlere uygulamak",
+            "Başkalarını değişimde yönetirken kendi ekibinizi desteklemek"
+          ],
+          "keyTopics": [
+            {
+              "title": "İK Değişim Liderliğinin İkili Yükü",
+              "description": "İK aynı anda hem değişimi tasarlar hem insanları bu süreçte taşır—çoğu zaman İK'yı taşıyan kimse olmadan."
+            },
+            {
+              "title": "Değişim Mimarisi",
+              "description": "Modül 4'ün değişim denklemini temel alarak, İK liderliğindeki dönüşümler için özel stratejiler: yeniden yapılanmalar, kültür değişiklikleri ve yapay zekâ odaklı rol yeniden tasarımı."
+            }
+          ]
+        },
+        {
+          "id": "H3",
+          "title": "Kültür Mimarı — Tasarımla Kültür İnşası",
+          "duration": "35 dk",
+          "purpose": "İK liderlerini kültürü tanımlamaktan aktif olarak şekillendirmeye taşır. Psikolojik güvenlik çerçevelerini kasıtlı kültür tasarımına bağlar.",
+          "bestFor": "Kültür dönüşümüne odaklanan İK liderleri",
+          "learningObjectives": [
+            "Kültürü tanımlamaktan aktif olarak şekillendirmeye geçmek",
+            "Psikolojik güvenlik çerçevelerini kültür tasarımına bağlamak",
+            "Sistemler ve davranışlar aracılığıyla kasıtlı kültür inşa etmek",
+            "Kültürü zaman içinde ölçmek ve sürdürmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Tasarımla Kültür",
+              "description": "Kültür şansa bırakılamaz. İK liderleri kasıtlı olarak organizasyon kültürünü inşa etmeli, sürdürmeli ve bazen onarmahıdır."
+            },
+            {
+              "title": "Kültür Yığını",
+              "description": "Psikolojik güvenlik (Modül 3) ve değişim yönetimini (Modül 4) sistematik kültür mimarisine bağlamak."
+            }
+          ]
+        },
+        {
+          "id": "H4",
+          "title": "Veri Odaklı İK — Etki İçin İnsan Analitiği",
+          "duration": "35 dk",
+          "purpose": "İnsan verisini geriye dönük raporlama yerine ileriye dönük iş hikayelerine dönüştürme kapasitesi inşa eder.",
+          "bestFor": "Stratejik güvenilirlik arayan İK liderleri",
+          "learningObjectives": [
+            "İnsan verisini iş içgörüsüne çevirmek",
+            "Veriyi geriye dönük raporlama değil, ileriye dönük hikaye anlatımı olarak kullanmak",
+            "Analitik yoluyla liderlik masasında etki oluşturmak",
+            "İnsan metriklerini iş sonuçlarına bağlamak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Raporlamadan Hikaye Anlatımına",
+              "description": "'İşte rakamlar' yerine 'işte rakamların iş stratejisi için anlamı' yaklaşımına geçiş. Tepki vermek yerine öngörmek."
+            },
+            {
+              "title": "Etki İçin İnsan Analitiği",
+              "description": "Orantısız etki elde etmek için veri kullanmak—doğrudan Modül 2'nin etki ve paydaş ustalığı çerçevelerine bağlanır."
+            }
+          ]
+        },
+        {
+          "id": "H5",
+          "title": "İkili Rol — Çalışan Savunucusu ve İş Ortağı",
+          "duration": "35 dk",
+          "purpose": "Çalışanları savunma ile işletmeye hizmet etme arasındaki gerilimi ele alır—İK mesleğindeki en uyarlanabilir zorluklardan biri.",
+          "bestFor": "Çalışan ve iş ihtiyaçlarını dengeleyen İK liderleri",
+          "learningObjectives": [
+            "Çalışan savunuculuğu ile iş ortaklığı arasındaki gerilimi yönetmek",
+            "İK'nın belirleyici zorluğuna uyarlanabilir liderliği uygulamak",
+            "Çalışan ve iş ihtiyaçları çeliştiğinde değer temelli kararlar almak",
+            "Hem çalışanlar hem iş liderleriyle güven inşa etmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "İK'nın Uyarlanabilir Zorluğu",
+              "description": "Savunucu/ortak gerilimine teknik çözüm yoktur—yalnızca yargı, değerler ve rekabet eden taahhütleri taşıma yeteneği vardır."
+            },
+            {
+              "title": "Karar Navigasyonu",
+              "description": "Modül 1'in uyarlanabilir liderlik çerçevesini İK'nın en karmaşık kararlarına bağlamak: ne zaman savunuculuk yapmalı, ne zaman ortaklık etmeli, ne zaman itiraz etmeli."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "title": "Finans Liderlik Modülleri",
+      "description": "Finans ekiplerine yönelik liderlik eğitimleri için tasarlanmış—finans liderlerinin karşılaştığı benzersiz zorlukları ele alan modüller.",
+      "modules": [
+        {
+          "id": "F1",
+          "title": "Finansal Hikaye Anlatıcılığı — Sayıları Etkiye Dönüştürmek",
+          "duration": "40 dk",
+          "purpose": "Finansal veriyi stratejiyi etkileyen ikna edici hikayelere dönüştürme becerisi inşa eder. Finans liderleri için en kritik yetkinlik açığı.",
+          "bestFor": "Sayıların ötesinde etki yaratması gereken finans liderleri",
+          "learningObjectives": [
+            "Finansal veriyi ikna edici stratejik anlatılara dönüştürmek",
+            "Veri hikaye anlatımı yoluyla karar almayı etkilemek",
+            "Sayıları harekete geçirici şekillerde sunmak",
+            "Finansal içgörüleri iş stratejisine bağlamak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Sayılar ve Anlatı",
+              "description": "Doğruluk tek başına kararları yönlendirmez—anlatı yönlendirir. Finans liderleri için kritik gelişen beceri."
+            },
+            {
+              "title": "Finans İçin Stratejik İletişim",
+              "description": "Modül 2'nin etki çerçevelerini temel alarak: finansal veriyi farklı kitlelere stratejik kararları yönlendirecek şekilde nasıl sunulur."
+            }
+          ]
+        },
+        {
+          "id": "F2",
+          "title": "Puantörden Stratejik Ortağa",
+          "duration": "40 dk",
+          "purpose": "Kapı bekçisinden kolaylaştırıcıya geçen liderlik dönüşümünü ele alır. Geleneksel finans rolü otomasyona geçiyor.",
+          "bestFor": "Stratejik ortaklık rolü arayan finans liderleri",
+          "learningObjectives": [
+            "Kapı bekçisinden kolaylaştırıcı rolüne geçmek",
+            "Kararları yönlendirmek için iş liderleriyle ortaklık kurmak",
+            "Stratejik danışman olarak güven inşa etmek",
+            "Takip ve kontrolün ötesine geçerek kolaylaştırıcı olmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Finans Liderlik Dönüşümü",
+              "description": "Geleneksel finans (takip, raporlama, kontrol) otomasyona geçiyor. Gelecek, iş dünyasıyla ortaklık kuran finans liderlerinindir."
+            },
+            {
+              "title": "Ortaklık Güveni İnşa Etmek",
+              "description": "Modül 2'deki Güven Denklemini kullanarak finansın iş paydaşlarıyla ilişkisini dönüştürmek."
+            }
+          ]
+        },
+        {
+          "id": "F3",
+          "title": "Maliyet Baskısı ve Zor Tercihler",
+          "duration": "35 dk",
+          "purpose": "Zor haberlerin taşıyıcısı olmanın psikolojik ve liderlik boyutlarını, kendi ekibinizi kısıtlamalar içinde yönetirken ele alır.",
+          "bestFor": "Maliyet disiplini yöneten finans liderleri",
+          "learningObjectives": [
+            "Motivasyonu koruyarak kaynak kısıtlamaları içinde ekiplere liderlik etmek",
+            "Zor finansal kararları etkili bir şekilde iletmek",
+            "Maliyet disiplini ile ekip morali arasında denge kurmak",
+            "'Kötü haber taşıyıcısı' rolünü yönetmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Liderlik Yükü",
+              "description": "Finans liderleri organizasyon genelinde maliyet disiplinini yönetirken aynı anda kendi ekiplerini kısıtlamalar içinde yönetmelidir."
+            },
+            {
+              "title": "Zor Kararları İletmek",
+              "description": "Modül 4'ün sahiplik çerçevesini temel alarak: zor mesajları hesap verebilirlik ve empatiyle nasıl iletilir."
+            }
+          ]
+        },
+        {
+          "id": "F4",
+          "title": "Geleceğe Hazır Finans Ekibi İnşası",
+          "duration": "35 dk",
+          "purpose": "Finans liderlerinin 2026 gerçekliğinde başarılı olabilecek ekipler kurmasına yardımcı olur—daralan yetenek havuzları ve genişleyen beceri gereksinimleri.",
+          "bestFor": "Ekip kapasitesi geliştiren finans liderleri",
+          "learningObjectives": [
+            "Gelişen finans manzarası için ekipler kurmak",
+            "Yetenek hattı zorluğunu ele almak",
+            "Finans ekiplerinde yapay zekâ okuryazarlığı geliştirmek",
+            "Gelişen yetkinlikler için kariyer yolları oluşturmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Finans Yetenek Darboğazı",
+              "description": "Gereken beceriler genişlerken mezun havuzu daralıyor: veri analitiği, yapay zekâ okuryazarlığı, iş ortaklığı."
+            },
+            {
+              "title": "Geleceğe Hazır Gelişim",
+              "description": "Finansa özel ekip oluşturma için Eklenti D (Liderlik Hattı) ve Modül 5'e (Yapay Zekâ Okuryazarlığı) bağlanır."
+            }
+          ]
+        },
+        {
+          "id": "F5",
+          "title": "Risk, Belirsizlik ve Karar Liderliği",
+          "duration": "35 dk",
+          "purpose": "Belirsizliği çerçeveleme, senaryo modelleme ve eksik bilgiyle karar alma kapasitesi inşa eder.",
+          "bestFor": "Stratejik kararları destekleyen finans liderleri",
+          "learningObjectives": [
+            "İş liderleri için belirsizliği çerçevelemek",
+            "Stratejik karar alma için senaryo modellemek",
+            "Risk raporlamanın ötesine geçerek karar liderliğine yönelmek",
+            "Liderlerin eksik bilgiyle karar almasına yardımcı olmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Risk Raporlamadan Karar Liderliğine",
+              "description": "Finans liderleri belirsizliği yönetmek için benzersiz bir konumdadır—ancak yalnızca raporlamanın ötesine geçerek."
+            },
+            {
+              "title": "Senaryo Modelleme ve Karar Çerçeveleri",
+              "description": "Modül 4'ün RAPID ve önyargı azaltma çerçevelerini finansa özel stratejik bağlamlara genişletmek."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "title": "Mühendislik Liderlik Modülleri",
+      "description": "Mühendislik ekiplerine yönelik liderlik eğitimleri için tasarlanmış—mühendislik yöneticilerinin karşılaştığı benzersiz zorlukları ele alan modüller.",
+      "modules": [
+        {
+          "id": "E1",
+          "title": "Bireysel Katkıcıdan Yöneticiye Geçiş",
+          "duration": "40 dk",
+          "purpose": "Bireysel katkıcıdan yöneticiye kimlik değişimini ele alır. Sizi mühendis olarak başarılı kılan şey, yönetici olarak baltalayabilir.",
+          "bestFor": "Yeni mühendislik yöneticileri; yakın zamanda terfi edenler",
+          "learningObjectives": [
+            "Bireysel katkıcıdan yöneticiye kimlik değişimini yönetmek",
+            "Yöneticilik rolü için 'üretkenliği' yeniden tanımlamak",
+            "Yeni mühendislik yöneticilerini raydan çıkaran yaygın tuzaklardan kaçınmak",
+            "Teknik uzmanlığın ötesinde yeni bir liderlik kimliği inşa etmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Kimlik Değişimi",
+              "description": "Sizi mühendis olarak başarılı kılan şey—derin odaklanma, teknik ustalık, sorunları kendiniz çözme—yönetici olarak sizi aktif olarak baltalayabilir."
+            },
+            {
+              "title": "Yeni Mühendislik Yöneticisi Tuzakları",
+              "description": "Kahraman kodlama tuzağı, 'bırak ben yapayım' içgüdüsü, üretkenliği kod çıktısıyla ölçme alışkanlığı. Modül 1'in öz farkındalık temelini geliştirir."
+            }
+          ]
+        },
+        {
+          "id": "E2",
+          "title": "Mühendisliği İşe Çevirmek",
+          "duration": "40 dk",
+          "purpose": "Mühendislik gerçekliğini iş etkisine çevirme becerisini inşa eder. Teknik borç, altyapı yatırımı ve yeniden düzenleme iş dilinde.",
+          "bestFor": "İş paydaşlarıyla iletişim kuran mühendislik yöneticileri",
+          "learningObjectives": [
+            "Mühendislik değerini iş dilinde ifade etmek",
+            "Teknik ihtiyaçları iş etkisi olarak çerçevelemek",
+            "Stratejik iletişim yoluyla kaynak tahsisini etkilemek",
+            "Mühendislik ve iş paydaşları arasında köprüler kurmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Çeviri Açığı",
+              "description": "Teknik borç isteğe bağlı görünür, altyapı yatırımı maliyet gibi duyulur, 'yeniden düzenlememiz gerekiyor' yeniden iş gibi algılanır. İş etkisi dilinde yeniden çerçevelemek."
+            },
+            {
+              "title": "Çeviri Yoluyla Etki",
+              "description": "Modül 2'nin etki çerçevelerini genişleterek: mühendislik gerçekliğini yöneticilere, ürün ekiplerine ve iş birimlerine nasıl iletilir."
+            }
+          ]
+        },
+        {
+          "id": "E3",
+          "title": "Mühendislik Ekip Sağlığı — Tükenmişlik ve Sürdürülebilir Tempo",
+          "duration": "35 dk",
+          "purpose": "Mühendislik yöneticilerine nöbet baskısı, yapay zekâ kaygısı ve 'sürekli teslimat' kültürü ortasında ekip sağlığını izleme araçları sunar.",
+          "bestFor": "Tükenmişlik ve baskıyla karşılaşan mühendislik ekipleri",
+          "learningObjectives": [
+            "Ekip sağlığı göstergelerini proaktif olarak izlemek",
+            "Tükenmişliği kritik hale gelmeden ele almak",
+            "Yüksek baskılı ortamlarda sürdürülebilir tempo oluşturmak",
+            "Mühendislik ekiplerindeki yapay zekâ kaygısını yönetmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Mühendisliğe Özel Tükenmişlik Riskleri",
+              "description": "Nöbet rotasyonları, olay müdahalesi, 'sürekli teslimat' kültürü, mesleği yeniden şekillendiren yapay zekâ. Modül 1'in enerji yönetimi ve Modül 3'ün psikolojik güvenliğini genişletir."
+            },
+            {
+              "title": "Sürdürülebilir Tempo Araçları",
+              "description": "Tükenmişlik kriziyle karşı karşıya olan mühendislik yöneticileri için pratik izleme ve bakım araçları."
+            }
+          ]
+        },
+        {
+          "id": "E4",
+          "title": "Teknik Borcu Liderlik Zorluğu Olarak Yönetmek",
+          "duration": "35 dk",
+          "purpose": "Teknik borç yönetimini, fonksiyonlar arası müzakere ve stratejik önceliklendirme gerektiren uyarlanabilir bir liderlik zorluğu olarak çerçeveler.",
+          "bestFor": "Eski sistemleri yöneten mühendislik liderleri",
+          "learningObjectives": [
+            "Teknik borcu bir liderlik zorluğu olarak çerçevelemek",
+            "Borç azaltma için fonksiyonlar arası müzakere yürütmek",
+            "İş etkisini kullanarak borcu stratejik olarak önceliklendirmek",
+            "Borç risklerini teknik olmayan paydaşlara iletmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Uyarlanabilir Zorluk Olarak Borç",
+              "description": "Teknik borç fonksiyonlar arası müzakere, paydaş iletişimi ve stratejik önceliklendirme gerektirir—sadece mühendislik çabası değil."
+            },
+            {
+              "title": "Borç Önceliklendirme Çerçevesi",
+              "description": "Modül 1'in Heifetz çerçevesini, Modül 2'nin etki becerilerini ve Modül 4'ün sahiplik araçlarını teknik borç kararlarına bağlamak."
+            }
+          ]
+        },
+        {
+          "id": "E5",
+          "title": "Yapay Zekâ Dönüşümünde Mühendisliğe Liderlik",
+          "duration": "40 dk",
+          "purpose": "Mühendislik liderlerinin karşılaştığı spesifik yapay zekâ zorluklarını ele alır—yönetim beklentileri ile entegrasyon gerçekliği arasında.",
+          "bestFor": "Yapay zekâ adaptasyonunu yöneten mühendislik liderleri",
+          "learningObjectives": [
+            "Yapay zekâ beklentileri ile gerçeklik arasındaki açığı yönetmek",
+            "Yapay zekâ dönüşümü konusundaki ekip kaygısını yönetmek",
+            "Pratik yapay zekâ benimseme stratejileri geliştirmek",
+            "Yönetim beklentileri ile mühendislik gerçekliği arasında denge kurmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Yapay Zekâ Liderlik Açığı",
+              "description": "Yönetimin 10 kat verimlilik beklentileri ile entegrasyon zorlukları, kalite endişeleri ve ekip kaygısının karmaşık gerçekliği arasında."
+            },
+            {
+              "title": "Mühendisliğe Özel Yapay Zekâ Stratejisi",
+              "description": "Modül 5'in yapay zekâ okuryazarlığını, yapay zekâ destekli kodlama, kalite endişeleri ve mühendislikte ekip benimsemesinin spesifik zorluklarına genişletmek."
+            }
+          ]
+        },
+        {
+          "id": "E6",
+          "title": "Çift Kariyer Yolu — Bireysel Katkıcılar ve Yönetici Yönetimi",
+          "duration": "35 dk",
+          "purpose": "Çift kariyer merdiveni (bireysel katkıcı vs yönetim) ve diğer yöneticileri yönetmenin temelden farklı işini ele alır.",
+          "bestFor": "Kıdemli mühendislik yöneticileri ve direktörler",
+          "learningObjectives": [
+            "Hem bireysel katkıcı hem yönetim kariyer yollarını desteklemek",
+            "Diğer yöneticileri yönetmenin zorluklarını aşmak",
+            "Organizasyonunuzda sağlıklı bir çift kariyer merdiveni inşa etmek",
+            "Hem teknik hem insan liderlerini geliştirmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Çift Kariyer Merdiveni",
+              "description": "En iyi insanlardan bazıları teknik kalmak ister (bireysel katkıcı yolu), diğerleri insan yönetmek ister (yönetim yolu). Her ikisini de desteklemek esastır."
+            },
+            {
+              "title": "Yöneticileri Yönetmek",
+              "description": "Bireysel katkıcıları yönetmekten temelden farklı bir iş—Eklenti D (Liderlik Hattı) ve Modül 3'ün koçluk çerçevesine bağlanır."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "intro": "Hedef kitle profili ve ekip fonksiyonuna göre eklenti modüllerini seçmek için bu kılavuzu kullanın. Çekirdek program (Modül 1-5) temeli oluşturur; eklenti modüller deneyimi belirli hedef kitleler için özelleştirir.",
+  "generalTitle": "Genel Hedef Kitle Seçimi",
+  "generalRows": [
+    { "profile": "Yeni / birinci düzey yöneticiler", "recommended": "A (Çatışma), F (Önceliklendirme)", "swapOut": "Zaman gerekirse Modül 5 (YZ)" },
+    { "profile": "Matris organizasyonlarda orta düzey", "recommended": "C (Yukarı Yönetim), D (Liderlik Hattı)", "swapOut": "Takip oturumları olarak ekleyin" },
+    { "profile": "Dağıtık/uzaktan ekip liderleri", "recommended": "B (Hibrit), E (DZ)", "swapOut": "Modül 4 değişim bölümünü sıkıştırın" },
+    { "profile": "Üst düzey liderler / yöneticiler", "recommended": "D (Liderlik Hattı), G (Kültürlerarası)", "swapOut": "Modül 3 koçluk (muhtemelen almışlardır)" },
+    { "profile": "Yüksek çatışma veya düşük güven ortamları", "recommended": "A (Çatışma), E (DZ)", "swapOut": "Modül 5 (YZ); Modül 4'ü sıkıştırın" },
+    { "profile": "Uluslararası / çok uluslu hedef kitle", "recommended": "G (Kültürlerarası), B (Hibrit)", "swapOut": "Türkiye'ye özgü içeriği genelleştirin" }
+  ],
+  "teams": [
+    {
+      "id": "hr",
+      "title": "İK Ekibi Eğitimi",
+      "description": "Çekirdek program (Modül 1-5) + önerilen İK eklenti modülleri",
+      "priorities": [
+        { "priority": "Olmazsa Olmaz", "module": "H1: Liderlerin Lideri", "why": "İK'nın tanımlayıcı zorluğu — otorite olmadan koçluk" },
+        { "priority": "Olmazsa Olmaz", "module": "H5: İkili Rol (Savunucu & Ortak)", "why": "İK liderliğinin kalbindeki uyarlanabilir zorluk" },
+        { "priority": "Yüksek Değer", "module": "H3: Kültür Mimarı", "why": "2026'nın en önemli CHRO önceliği; psikolojik güvenliğe bağlanır" },
+        { "priority": "Yüksek Değer", "module": "H2: Dönüşüme Liderlik", "why": "İK her yeniden yapılanmayı yönetir; desteklere ihtiyaçları var" },
+        { "priority": "Önerilen", "module": "H4: Veri Odaklı İK", "why": "Stratejik güvenilirlik inşa eder; YZ modülüyle uyumlu" },
+        { "priority": "Önerilen", "module": "A: Çatışma Aracı", "why": "İK günlük çatışmalarla başa çıkar; Modül 3'ü derinleştirir" },
+        { "priority": "İsteğe Bağlı", "module": "E: Duygusal Zekâ", "why": "Yüksek stresli İK bağlamları için öz farkındalığı derinleştirir" },
+        { "priority": "İsteğe Bağlı", "module": "D: Liderlik Hattı", "why": "Yedeklemeye odaklanan kıdemli İK liderleri için geçerli" }
+      ],
+      "schedule": [
+        { "session": "Açılış", "content": "Bağ Kurma, Bağlam ve Liderlik Sınavları", "duration": "40 dk" },
+        { "session": "Modül 1", "content": "Adaptif Lider (çekirdek)", "duration": "75 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "Modül 2", "content": "İlişkisel Lider (çekirdek)", "duration": "70 dk" },
+        { "session": "Öğle Yemeği", "content": "", "duration": "60 dk" },
+        { "session": "Modül 3", "content": "Gelişim Lideri (çekirdek)", "duration": "70 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "H1", "content": "İK Lideri: 'Liderlerin Lideri'", "duration": "40 dk" },
+        { "session": "H5", "content": "İkili Rolde Gezinmek", "duration": "35 dk" },
+        { "session": "Kapanış", "content": "Entegrasyon ve Eylem Planı", "duration": "40 dk" }
+      ],
+      "scheduleNote": "Modül 4 (Stratejik Lider) ve Modül 5 (YZ), H1 ve H5 ile değiştirilir. Modül 4'ün çekirdek çerçeveleri, takip oturumu olarak eklenen H2 içinde referans verilir."
+    },
+    {
+      "id": "finance",
+      "title": "Finans Ekibi Eğitimi",
+      "description": "Çekirdek program (Modül 1-5) + önerilen Finans eklenti modülleri",
+      "priorities": [
+        { "priority": "Olmazsa Olmaz", "module": "F1: Finansal Hikaye Anlatıcılığı", "why": "Finans liderleri için 1 numaralı beceri açığı; etki oluşturur" },
+        { "priority": "Olmazsa Olmaz", "module": "F2: Puantörden Stratejik Ortağa", "why": "Modern finans liderinin rolünü tanımlar" },
+        { "priority": "Yüksek Değer", "module": "F3: Maliyet Baskısı ve Zor Tercihler", "why": "2026'da finans liderliğinin günlük gerçekliği" },
+        { "priority": "Yüksek Değer", "module": "F5: Risk, Belirsizlik ve Karar Liderliği", "why": "Modül 4'ü finansın stratejik alanına genişletir" },
+        { "priority": "Önerilen", "module": "F4: Geleceğe Hazır Finans Ekibi", "why": "Finansta yetenek hattı krizi; YZ modülüyle uyumlu" },
+        { "priority": "Önerilen", "module": "C: Yukarı ve Çapraz Yönetim", "why": "Finans liderleri her fonksiyonla ortaklık kurar" },
+        { "priority": "İsteğe Bağlı", "module": "F (Önceliklendirme)", "why": "İnisiyatif aşırı yükü yaşayan finans ekipleri için" },
+        { "priority": "İsteğe Bağlı", "module": "A: Çatışma Aracı", "why": "Bütçe anlaşmazlıklarında gezinen finans liderleri için" }
+      ],
+      "schedule": [
+        { "session": "Açılış", "content": "Bağ Kurma, Bağlam ve Liderlik Sınavları", "duration": "40 dk" },
+        { "session": "Modül 1", "content": "Adaptif Lider (çekirdek)", "duration": "75 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "Modül 2", "content": "İlişkisel Lider (çekirdek)", "duration": "70 dk" },
+        { "session": "Öğle Yemeği", "content": "", "duration": "60 dk" },
+        { "session": "Modül 3", "content": "Gelişim Lideri (çekirdek)", "duration": "70 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "F1", "content": "Finansal Hikaye Anlatıcılığı", "duration": "40 dk" },
+        { "session": "F2", "content": "Puantörden Stratejik Ortağa", "duration": "40 dk" },
+        { "session": "Kapanış", "content": "Entegrasyon ve Eylem Planı", "duration": "40 dk" }
+      ],
+      "scheduleNote": "Modül 4 (Stratejik Lider) ve Modül 5 (YZ), F1 ve F2 ile değiştirilir. Sahiplenme ve karar alma temaları doğal olarak F2 ve F3'e gömülüdür."
+    },
+    {
+      "id": "engineering",
+      "title": "Mühendislik Ekibi Eğitimi",
+      "description": "Çekirdek program (Modül 1-5) + önerilen Mühendislik eklenti modülleri",
+      "priorities": [
+        { "priority": "Olmazsa Olmaz", "module": "E1: BK'dan Yöneticiye Geçiş", "why": "Mühendislik yöneticileri için tanımlayıcı uyarlanabilir zorluk" },
+        { "priority": "Olmazsa Olmaz", "module": "E2: Mühendisliği İşe Çevirmek", "why": "1 numaralı etki açığı; teknik işi iş değerine bağlar" },
+        { "priority": "Yüksek Değer", "module": "E3: Ekip Sağlığı ve Tükenmişlik", "why": "YZ kaygısı + 'daha azla daha fazla' = tükenmişlik krizi" },
+        { "priority": "Yüksek Değer", "module": "E5: YZ Dönüşümünde Liderlik", "why": "Modül 5'i mühendisliğin spesifik YZ gerçekliğine genişletir" },
+        { "priority": "Önerilen", "module": "E4: Teknik Borcu Liderlik Olarak Yönetmek", "why": "Borcu teknik sorundan stratejik konuşmaya dönüştürür" },
+        { "priority": "Önerilen", "module": "E6: Çift Yol ve Yönetici Yönetimi", "why": "Kıdemli mühendislik yöneticileri ve direktörler için kritik" },
+        { "priority": "İsteğe Bağlı", "module": "A: Çatışma Aracı", "why": "Mühendislik-ürün gerilimleri için faydalı" },
+        { "priority": "İsteğe Bağlı", "module": "F (Önceliklendirme)", "why": "Rakip taleplerle boğuşan mühendislik ekipleri" }
+      ],
+      "schedule": [
+        { "session": "Açılış", "content": "Bağ Kurma, Bağlam ve Liderlik Sınavları", "duration": "40 dk" },
+        { "session": "Modül 1", "content": "Adaptif Lider (çekirdek)", "duration": "75 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "Modül 2", "content": "İlişkisel Lider (çekirdek)", "duration": "70 dk" },
+        { "session": "Öğle Yemeği", "content": "", "duration": "60 dk" },
+        { "session": "Modül 3", "content": "Gelişim Lideri (çekirdek)", "duration": "70 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "E1", "content": "BK'dan Yöneticiye Geçiş", "duration": "40 dk" },
+        { "session": "E2", "content": "Mühendisliği İşe Çevirmek", "duration": "40 dk" },
+        { "session": "Kapanış", "content": "Entegrasyon ve Eylem Planı", "duration": "40 dk" }
+      ],
+      "scheduleNote": "Modül 4 (Stratejik Lider) ve Modül 5 (YZ), E1 ve E2 ile değiştirilir. Sahiplenme ve karar alma temaları doğrudan E1'e gömülüdür.",
+      "altTitle": "Alternatif: Kıdemli Mühendislik Liderleri (Direktör+)",
+      "altSchedule": [
+        { "session": "Açılış", "content": "Bağ Kurma, Bağlam ve Liderlik Sınavları", "duration": "40 dk" },
+        { "session": "Modül 1", "content": "Adaptif Lider (çekirdek)", "duration": "75 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "Modül 2", "content": "İlişkisel Lider (çekirdek)", "duration": "70 dk" },
+        { "session": "Öğle Yemeği", "content": "", "duration": "60 dk" },
+        { "session": "E2", "content": "Mühendisliği İşe Çevirmek", "duration": "40 dk" },
+        { "session": "E5", "content": "YZ Dönüşümünde Mühendisliğe Liderlik", "duration": "40 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "E6", "content": "Çift Yol ve Yönetici Yönetimi", "duration": "35 dk" },
+        { "session": "Kapanış", "content": "Entegrasyon ve Eylem Planı", "duration": "40 dk" }
+      ],
+      "altNote": "Modül 3 koçluk temelleri (kıdemli liderler muhtemelen almıştır) ve Modül 4/5 tamamen atlanır, stratejik olarak en ilgili mühendislik modülleriyle değiştirilir."
+    }
+  ],
+  "discussionTitle": "Toplantı Hazırlığı: Tartışma Kılavuzu",
+  "discussionIntro": "Son modül seçimini belirlemek için her ekiple toplantı yaparken bu kılavuzu kullanın.",
+  "questions": [
+    "Ekibinizin şu anda karşılaştığı en önemli 3 liderlik zorluğu nedir?",
+    "Ekibiniz liderlik konusunda en çok nerede kendine güveniyor? Boşluklar nerede?",
+    "Ekibinizin bu yıl yönettiği en büyük değişiklik nedir?",
+    "Ekibinizin diğer fonksiyonlarla ilişkisini nasıl tanımlarsınız?",
+    "Bu eğitimin gözünüzde başarılı olması için ne gerekir? Katılımcılar ne yapabilir hale gelmeli?"
+  ],
+  "decisionMatrixTitle": "Karar Matrisi",
+  "decisionMatrixDesc": "Her eklenti modülü için ekiple birlikte değerlendirin: İlgililik (1-5) ve Aciliyet (1-5). Toplam puana göre en iyi 2-3 modülü seçin. En az bir 'Olmazsa Olmaz' dahil edildiğinden emin olun."
+}

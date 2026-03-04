@@ -1,8 +1,9 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #09090b;
+  --foreground: #fafafa;
 }
 
 @theme inline {
@@ -12,15 +13,89 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.3);
+  color: #fff;
+}
+
+/* ── Dark mode (default) ───────────────────────────────────── */
+
+html[data-theme="dark"],
+html:not([data-theme]) {
+  color-scheme: dark;
+}
+
+/* ── Light mode ────────────────────────────────────────────── */
+
+html[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #18181b;
+  color-scheme: light;
+
+  /*
+   * Remap the zinc palette so every existing Tailwind utility
+   * (bg-zinc-950, text-zinc-400, border-zinc-800, etc.)
+   * automatically resolves to a light-theme equivalent.
+   *
+   * Dark value  →  Light equivalent
+   * zinc-950 (#09090b)  →  white
+   * zinc-900 (#18181b)  →  zinc-50
+   * zinc-800 (#27272a)  →  zinc-200
+   * zinc-700 (#3f3f46)  →  zinc-300
+   * zinc-600 (#52525b)  →  zinc-500
+   * zinc-500 (#71717a)  →  zinc-600
+   * zinc-400 (#a1a1aa)  →  zinc-700
+   * zinc-300 (#d4d4d8)  →  zinc-800
+   * zinc-200 (#e4e4e7)  →  zinc-900
+   * zinc-100 (#f4f4f5)  →  zinc-950
+   * zinc-50  (#fafafa)  →  zinc-950
+   */
+  --color-zinc-950: #ffffff;
+  --color-zinc-900: #fafafa;
+  --color-zinc-800: #e4e4e7;
+  --color-zinc-700: #d4d4d8;
+  --color-zinc-600: #71717a;
+  --color-zinc-500: #52525b;
+  --color-zinc-400: #3f3f46;
+  --color-zinc-300: #27272a;
+  --color-zinc-200: #18181b;
+  --color-zinc-100: #09090b;
+  --color-zinc-50: #09090b;
+
+  /* Invert "white" so CTA buttons / hover-text become dark */
+  --color-white: #18181b;
+}
+
+html[data-theme="light"] ::selection {
+  background: rgba(139, 92, 246, 0.25);
+  color: #18181b;
+}
+
+/* Override prose-invert variables in light mode so markdown
+   content renders with proper dark-on-light colors */
+html[data-theme="light"] .prose-invert {
+  --tw-prose-body: var(--color-zinc-400);
+  --tw-prose-headings: var(--color-zinc-100);
+  --tw-prose-lead: var(--color-zinc-400);
+  --tw-prose-links: var(--color-zinc-100);
+  --tw-prose-bold: var(--color-zinc-200);
+  --tw-prose-counters: var(--color-zinc-600);
+  --tw-prose-bullets: var(--color-zinc-600);
+  --tw-prose-hr: var(--color-zinc-800);
+  --tw-prose-quotes: var(--color-zinc-400);
+  --tw-prose-quote-borders: var(--color-zinc-700);
+  --tw-prose-captions: var(--color-zinc-600);
+  --tw-prose-th-borders: var(--color-zinc-700);
+  --tw-prose-td-borders: var(--color-zinc-800);
+  --tw-prose-code: var(--color-zinc-300);
+  --tw-prose-pre-code: var(--color-zinc-300);
+  --tw-prose-pre-bg: var(--color-zinc-900);
 }

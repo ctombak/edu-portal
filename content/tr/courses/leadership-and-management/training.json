@@ -1,0 +1,166 @@
+{
+  "tagline": "Otoriteden Etkiye: Yüksek Performans Kültürü Oluşturmak",
+  "duration": "Tam Gün (8 Saat)",
+  "audience": "Orta-Üst Düzey Yöneticiler",
+  "facilitator": "Cihat Tombak",
+  "overview": "Bu program, geleneksel hiyerarşik yönetim anlayışı ile günümüz organizasyonlarının gerektirdiği uyarlanabilir, etki odaklı liderlik yaklaşımı arasında köprü kurar. Harvard Business School, McKinsey, Center for Creative Leadership, Ronald Heifetz'in uyarlanabilir liderlik araştırmaları ve Maister/Green/Galford'un güven çerçevesinden yararlanılarak hazırlanan içerik, katılımcılara hemen uygulayabilecekleri pratik araçlar sunmaktadır.\n\nEğitim, küresel çok uluslu şirket perspektifi sunarken aynı zamanda Türkiye iş dünyasının kendine özgü dinamiklerini—yüksek güç mesafesi, kolektif sadakat ve konjonktürel ekonomik baskıları—göz önünde bulundurarak tasarlanmıştır.",
+  "stats": [
+    "Liderlerin %71'i artan stres bildiriyor; %75'i tükenmişlik belirtileri gösteriyor",
+    "Organizasyonlar yataylaşıyor — pozisyona dayalı otoritenin etkisi azalıyor",
+    "Yapay zekâ iş yapış biçimlerini dönüştürürken insani bağlantının önemi artıyor",
+    "Liderler sonuçların tam sorumluluğunu üstlenmeli — hesap verebilirlik yukarı devredilemez"
+  ],
+  "schedule": [
+    { "session": "Açılış", "focus": "Bağ Kurma, Bağlam ve Liderlik Sınavları", "duration": "40 dk", "startTime": "08:30", "type": "session" },
+    { "session": "Modül 1", "focus": "Adaptif Lider: Durum Tespiti ve Öz Farkındalık", "duration": "75 dk", "startTime": "09:10", "type": "session" },
+    { "session": "Mola", "focus": "Sabah Molası", "duration": "15 dk", "startTime": "10:25", "type": "break" },
+    { "session": "Modül 2", "focus": "İlişkisel Lider: Etki Gücü, Paydaş Yönetimi ve Yukarı Yönetim", "duration": "70 dk", "startTime": "10:40", "type": "session" },
+    { "session": "Öğle Yemeği", "focus": "Öğle Molası", "duration": "60 dk", "startTime": "11:50", "type": "break" },
+    { "session": "Modül 3", "focus": "Gelişim Lideri: Koçluk, Psikolojik Güvenlik ve Hızlı Yanılma Kültürü", "duration": "70 dk", "startTime": "12:50", "type": "session" },
+    { "session": "Mola", "focus": "Öğleden Sonra Molası", "duration": "15 dk", "startTime": "14:00", "type": "break" },
+    { "session": "Modül 4", "focus": "Stratejik Lider: Sahiplenme, Delegasyon, Karar Alma ve Değişim", "duration": "65 dk", "startTime": "14:15", "type": "session" },
+    { "session": "Modül 5", "focus": "Yapay Zekâ Okuryazarı Lider: Yapay Zekâ Çağında Liderlik", "duration": "35 dk", "startTime": "15:20", "type": "session" },
+    { "session": "Kapanış", "focus": "Entegrasyon ve 100 Günlük Eylem Planı", "duration": "50 dk", "startTime": "15:55", "type": "session" },
+    { "session": "Bitiş", "focus": "Networking", "duration": "15 dk", "startTime": "16:45", "type": "break" }
+  ],
+  "modules": [
+    {
+      "id": "adaptive",
+      "title": "Adaptif Lider",
+      "subtitle": "Modül 1",
+      "description": "Teknik sorunlar (çözümü net, mevcut uzmanlıkla çözülebilen) ile adaptif zorluklar (insanların inanç ve alışkanlıklarını değiştirmesini gerektiren) arasındaki farkı ayırt etmeyi öğrenin. Durumları doğru teşhis etmek için \"balkon ve dans pisti\" bakış açısını kullanmayı, kişisel liderlik kalıplarınızı tanımayı ve enerjinizi etkin yönetmeyi keşfedin.",
+      "keyInsight": "Liderlikte en büyük başarısızlık, uyarlanabilir zorlukları teknik sorunmuş gibi ele almaktır.",
+      "duration": "75 dk",
+      "learningObjectives": [
+        "Teknik sorunları uyarlanabilir zorluklardan ayırt etmek",
+        "Durumları teşhis etmek için 'balkon ve dans pisti' perspektifini uygulamak",
+        "Varsayılan liderlik kalıplarınızı ve kör noktalarınızı belirlemek",
+        "Enerji yönetimini bir liderlik disiplini olarak ustalaşmak"
+      ],
+      "topics": [
+        { "title": "Heifetz Çerçevesi", "description": "Harvard'dan Ronald Heifetz iki tür zorluk tanımlar. Teknik sorunların bilinen çözümleri vardır; adaptif zorluklar insanların inançlarını, alışkanlıklarını veya önceliklerini değiştirmesini gerektirir. Liderlikte en büyük başarısızlık, adaptif zorlukları teknik sorunmuş gibi ele almaktır." },
+        { "title": "Balkon ve Dans Pisti", "description": "Büyük liderler, katılım (dans pisti) ile sistemik perspektif (balkon) arasında geçiş yapma kapasitesi geliştirir. Teşhis soruları gerçek sorunu, tüm paydaşları, rekabet eden taahhütleri ve sistemdeki kendi rolünüzü görmenize yardımcı olur." },
+        { "title": "Dört Liderlik Yönelimi", "description": "Baskı altında varsayılan kalıplar: Analist (karmaşıklığı görür, aşırı analiz yapabilir), Yönlendirici (kararlıdır, paydaşları gözden kaçırabilir), Uyumlaştırıcı (uzlaşı kurar, çatışmadan kaçınabilir), Vizyoner (olasılıkları görür, detayları kaçırabilir). Amaç, repertuvarı genişletmektir." },
+        { "title": "Enerji Yönetimi ve Beş Uygulama", "description": "Adaptif liderler: balkona çıkar, adaptif zorluğu tanımlar, sıkıntıyı düzenler (kapanma olmadan üretken rahatsızlık), disiplinli dikkati sürdürür ve başkalarının kapasitesini geliştirmek için işi geri verir." }
+      ]
+    },
+    {
+      "id": "relational",
+      "title": "İlişkisel Lider",
+      "subtitle": "Modül 2",
+      "description": "Güven Denklemi çerçevesiyle (Maister, Green & Galford) güven ve güvenilirlik üzerinden etkinizi artırın. Paydaş haritanızı çıkarın, etkileşim stratejileri geliştirin ve politik dinamikleri etik çerçevede yönetin. İletişim tarzınızı farklı kitlelere göre uyarlamayı ve yukarı yönetimi etkili kullanmayı öğrenin.",
+      "keyInsight": "Pozisyona dayalı otorite zayıflıyor. İlişkisel sermaye sizin en değerli varlığınız.",
+      "duration": "70 dk",
+      "learningObjectives": [
+        "Otorite yerine güven ve güvenilirlik yoluyla etki inşa etmek",
+        "Paydaş haritalarını çıkarmak ve katılım stratejileri geliştirmek",
+        "Politik dinamikleri ve rekabet eden çıkarları etik biçimde yönetmek",
+        "Farklı hedef kitlelere stratejik iletişim kurmak",
+        "Üst yönetimle güven inşa etmek için etkili yukarı yönetim"
+      ],
+      "topics": [
+        { "title": "Güven Denklemi", "description": "Güven = (Güvenilirlik + Tutarlılık + Yakınlık) / Kişisel Çıkar Odaklılık. Maister, Green & Galford'un araştırmasından. Son derece güvenilir ve tutarlı olabilirsiniz ancak insanlar önceliğinizin kendi çıkarınız olduğunu hissederse yine de güvenilmezsiniz." },
+        { "title": "Paydaş Haritalama ve Katılım", "description": "Etki/Katılım Matrisi kullanılarak sistematik analiz. Kimin etkilendiğini, kimin otoritesi olduğunu, kimin gayrı resmi etkisi olduğunu, kaynakları kimin kontrol ettiğini ve ilerlemeyi kimin engelleyebileceğini belirleyin. Ardından katılım stratejilerini buna göre haritalayın." },
+        { "title": "Politik Dinamiklerde Yol Alma", "description": "Politika kötü bir kelime değildir — kararların nasıl alındığıdır. İlkeler: oyunu anlayın ama değerlerinize sadık kalın, ortak çıkarlar üzerine ittifaklar kurun, kalıcı düşmanlar edinmeyin, politik sermayenizi akıllıca yönetin, koalisyonları ihtiyaç duymadan önce kurun." },
+        { "title": "Stratejik İletişim ve Yukarı Yönetim", "description": "İletişimi hedef kitle tipine göre uyarlayın (Analitik, Yönlendirici, İfadeci, Uyumlu). Yukarı yönetim, patronunuzun baskılarını anlamak, sürpriz yapmamak, onların dilinden konuşmak, sadece sorun değil çözüm getirmek ve onları iyi göstermek demektir." }
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "Gelişim Lideri",
+      "subtitle": "Modül 3",
+      "description": "Yüksek performanslı ekiplerin bir numaralı belirleyicisi olan psikolojik güvenliği oluşturun (Google'ın Project Aristotle araştırması). İnovasyonu hızlandıran hızlı dene, hızlı yanıl kültürünü inşa edin. GROW modeli ile koçluk görüşmeleri pratiği yapın ve SBI (Durum-Davranış-Etki) yöntemiyle etkili geri bildirim vermeyi öğrenin.",
+      "keyInsight": "Hızlı dene, hızlı yanıl — başarısızlıkları felaket değil, veri olarak değerlendirin.",
+      "duration": "70 dk",
+      "learningObjectives": [
+        "Ekiplerde psikolojik güvenlik oluşturmak",
+        "'Hızlı başarısız ol, daha hızlı öğren' kültürü inşa etmek",
+        "GROW modeli ile etkili koçluk görüşmeleri yürütmek",
+        "SBI ile performansı artıran geri bildirim vermek"
+      ],
+      "topics": [
+        { "title": "Psikolojik Güvenlik", "description": "Amy Edmondson'ın araştırması: daha fazla hata bildiren ekipler aslında daha yüksek performans gösterir çünkü gizlemiyorlar, öğreniyorlar. Google'ın Project Aristotle araştırması psikolojik güvenliğin yüksek performanslı ekiplerin bir numaralı belirleyicisi olduğunu doğruladı — beceriler, kaynaklar veya stratejiden önce." },
+        { "title": "Hızlı Dene, Hızlı Öğren Kültürü", "description": "Küçük deneyleri hızla yürütmek, başarısızlıklardan açıkça öğrenmek, gerçek geri bildirimle yinelemek, başarısızlıkları veri olarak ele almak ve kötü fikirleri erken durdurmak. Liderler bunu kırılganlık modellemesi, öğrenmeyi kutlama, güvenli alanlar yaratma ve akıllı başarısızlıkları önlenebilir olanlardan ayırma yoluyla sağlar." },
+        { "title": "GROW Koçluk Modeli", "description": "Hedef (Ne başarmak istiyorsunuz?) → Gerçeklik (Şu anda ne oluyor?) → Seçenekler (Ne yapabilirsiniz?) → İrade (Ne yapacaksınız?). İyi sorular soran liderler, iyi cevaplar veren liderlerden daha iyi performans gösterir — koçluk bağımlılık yerine kapasite geliştirir." },
+        { "title": "SBI Geri Bildirim Çerçevesi", "description": "Durum (belirli zaman ve yer) → Davranış (gözlemlenebilir eylemler) → Etki (ekip veya iş üzerindeki etkisi). Hem pekiştirici hem de düzeltici geri bildirim için geçerlidir. İnsanların kim OLDUĞUNA değil, ne YAPTIĞINA odaklanır." }
+      ]
+    },
+    {
+      "id": "strategic",
+      "title": "Stratejik Lider",
+      "subtitle": "Modül 4",
+      "description": "Mutlak Sorumluluk ilkesini benimseyin — liderler kendi dünyalarındaki her şeyin sorumluluğunu üstlenmelidir. Yetenek/İstek matrisi ile etkili delegasyon yapın. RAPID çerçevesini uygulayarak karar haklarını netleştirin. Değişim Denklemi (H×V×İA>D) ile organizasyonel değişimi yönetin.",
+      "keyInsight": "Her şeyin sorumluluğunu üstlenin. Suçlayacak başka kimse yok.",
+      "duration": "65 dk",
+      "learningObjectives": [
+        "Radikal hesap verebilirlik ve sahiplenme zihniyetini benimsemek",
+        "Yetenek/İstek matrisi ile etkili delegasyon yapmak",
+        "RAPID çerçevesiyle yapılandırılmış karar alma uygulamak",
+        "Değişim Denklemi ile organizasyonel değişime liderlik etmek"
+      ],
+      "topics": [
+        { "title": "Mutlak Sorumluluk", "description": "Willink ve Babin'den: liderler kendi dünyalarındaki her şeyin sorumluluğunu üstlenir. Sonucun sahibi olun (sadece görevin değil), mazeret yok, ekibinizin başarısızlıklarına sahip çıkın, koru ve ilerle (diğer ekipleri destekle), yukarı ve aşağı liderlik edin. Hesap verebilirlik ileriye bakar; suçlama geriye bakar." },
+        { "title": "Yetenek/İstek Delegasyon Matrisi", "description": "Delegasyon yaklaşımını eşleştirin: Yönlendir (düşük yetenek, düşük istek — net talimatlar, takip), Motive Et (düşük yetenek, yüksek istek — öğret, koçluk yap, cesaretlendir), Zorla (yüksek yetenek, düşük istek — motivasyon neden düştü bul, esnet), Devret (yüksek yetenek, yüksek istek — özerklik, yöntemleri değil sonuçları tanımla)." },
+        { "title": "RAPID Karar Çerçevesi", "description": "Karar haklarını netleştirin: Öner (veri topla, teklif sun), Onayla (devam etmek için onaylamalı), Uygula (hayata geçir), Görüş Al (perspektif için danışılan), Karar Ver (son sözü söyler). Doğrulama yanlılığı, batık maliyet yanılgısı, grup düşüncesi ve otorite yanlılığına dikkat edin." },
+        { "title": "Değişim Denklemi", "description": "H × V × İA > D — Mevcut durumdan Hoşnutsuzluk × daha iyi geleceğin Vizyonu × ulaşılabilir İlk Adımlar, Dirence üstün gelmelidir. Herhangi bir faktör sıfırsa değişim başarısız olur. Direnç muhalefet değildir — kontrol kaybı, belirsizlik, yetkinlik endişeleri veya geçmiş başarısızlıklar hakkında bilgidir." }
+      ]
+    },
+    {
+      "id": "ai-fluent",
+      "title": "Yapay Zekâ Okuryazarı Lider",
+      "subtitle": "Modül 5",
+      "description": "Pratik yapay zekâ okuryazarlığı geliştirin — karar desteği, iletişim, toplantı hazırlığı ve stratejik düşünme süreçlerinde yapay zekâ araçlarını nasıl kullanacağınızı öğrenin. İzin, Koruma ve Pratik yaklaşımıyla yapay zekâya hazır bir ekip oluşturmayı öğrenin. Yapay zekânın yerini alamayacağı unsurları anlayın: muhakeme, güven, hesap verebilirlik ve etik.",
+      "keyInsight": "Yöneticilerin yerini yapay zekâ almıyor — yapay zekâyı kullanmayı bilen yöneticiler alıyor.",
+      "duration": "35 dk",
+      "learningObjectives": [
+        "YZ araçlarını liderlik görevleri için etkili kullanmak",
+        "YZ'ye hazır ekip kültürü oluşturmak",
+        "YZ'nin yerini alamayacağı insan kapasitelerini anlamak"
+      ],
+      "topics": [
+        { "title": "YZ Destekli Lider", "description": "Pratik YZ uygulamaları: karar desteği (veri özetleme, senaryo modelleme), iletişim (taslak hazırlama, ton ayarlama), toplantı hazırlığı (araştırma sentezi), koçluk desteği (rol yapma görüşmeleri), stratejik düşünme (varsayım testi). %30 Kuralı: herkesin en az %30 YZ okuryazarlığına ihtiyacı var." },
+        { "title": "YZ'ye Hazır Ekipler Oluşturmak", "description": "Liderin üç rolü: İzin (ekibinize YZ kullanmanın uygun olduğunu açıkça söyleyin), Koruma (gizli veriler ve insan incelemesi için koruma bariyerleri), Pratik (deneme süresi ayırın). Ekibinizi benimseme eğrisinde haritalayın: Öncüler (%10), Pragmatistler (%60), Şüpheciler (%30)." },
+        { "title": "İnsani Üstünlük", "description": "YZ'nin yerini alamayacağı şeyler: Belirsizlikte muhakeme (YZ seçenekler sunar, liderler değerlere göre seçer), İlişkisel güven (insanlar insanları takip eder), Hesap verebilirlik (sonuçların sahibi insanlardır), Etik navigasyon ('verimli' olan 'doğru' olmadığında)." }
+      ]
+    }
+  ],
+  "frameworks": [
+    { "name": "Teknik vs. Uyarlanabilir (Heifetz)", "application": "Zorlukların doğasını teşhis etme" },
+    { "name": "Balkon ve Dans Pisti", "application": "Sistem kalıplarını görmek için perspektif değiştirme" },
+    { "name": "Güven Denklemi (Maister/Green/Galford)", "application": "Güvenilirlik ve tutarlılık üzerinden etki oluşturma" },
+    { "name": "Paydaş Analiz Matrisi", "application": "İlişkileri haritalama ve önceliklendirme" },
+    { "name": "Yukarı Yönetim İlkeleri", "application": "Yöneticinizle ilişkiyi yönetme" },
+    { "name": "Psikolojik Güvenlik (Edmondson)", "application": "Ekip performansı için gerekli ortamı oluşturma" },
+    { "name": "Hızlı Dene, Hızlı Yanıl", "application": "İnovasyon kültürü inşa etme" },
+    { "name": "GROW Modeli", "application": "Koçluk görüşmelerini yapılandırma" },
+    { "name": "SBI Geri Bildirim", "application": "Net ve uygulanabilir geri bildirim verme" },
+    { "name": "Mutlak Sorumluluk (Willink)", "application": "Sonuçların tam sorumluluğunu üstlenme" },
+    { "name": "Yetenek/İstek Delegasyon Matrisi", "application": "Delegasyon tarzını kişiye göre uyarlama" },
+    { "name": "RAPID", "application": "Karar haklarını netleştirme" },
+    { "name": "Değişim Denklemi (H×V×İA>D)", "application": "Başarılı değişim için gerekli koşulları anlama" },
+    { "name": "Yapay Zekâ Okuryazarlık Çerçevesi", "application": "İnsan-yapay zekâ iş birliğini yönetme" }
+  ],
+  "pluginModules": [
+    { "name": "Liderlik Aracı Olarak Çatışma", "bestFor": "Yüksek çatışmalı ortamlar; yeni yöneticiler" },
+    { "name": "Hibrit ve Uzaktan Ekiplere Liderlik", "bestFor": "Dağıtık ekipler; pandemi sonrası organizasyonlar" },
+    { "name": "Yukarı ve Çapraz Yönetim", "bestFor": "Matris organizasyonlar; orta düzey yöneticiler" },
+    { "name": "Liderlik Hattınızı İnşa Etmek", "bestFor": "Üst düzey liderler; yedekleme planlaması" },
+    { "name": "Pratikte Duygusal Zekâ", "bestFor": "Yüksek stresli ortamlar; öz düzenleme ihtiyaçları" }
+  ],
+  "designHighlights": [
+    "Gerçek vaka çalışmaları ve simülasyonlar",
+    "İkili ve üçlü grup koçluk egzersizleri",
+    "Kişisel inisiyatifler üzerinden paydaş haritalama",
+    "Çeşitli kolaylaştırma yöntemleri: galeri yürüyüşleri, akvaryum tartışmaları, yapışkan not kümeleme",
+    "Bireysel düşünme ve eylem planlaması",
+    "Kişisel 100 günlük eylem planı ve hesap verebilirlik ortağı"
+  ],
+  "practicePercentage": 70,
+  "facilitatorBio": "Cihat Tombak, küresel çok uluslu şirketlerde 15 yılı aşkın yazılım geliştirme liderliği deneyimine sahiptir. Mühendislik yönetimi geçmişi, yaklaşımlarını modernize etmek isteyen kurumsal liderlere yerel dinamiklere saygı gösteren pratik ve sistematik çerçeveler sunar.",
+  "logistics": {
+    "time": "08:30 – 17:00 (molalar dahil 8 saat)",
+    "breaks": "Toplam 1,5 saat mola",
+    "format": "6-10 kişilik masalarda interaktif atölye",
+    "materials": "Katılımcı çalışma kitabı, eylem planı çalışma sayfaları, paydaş haritalama şablonları, delegasyon matrisi şablonu"
+  }
+}

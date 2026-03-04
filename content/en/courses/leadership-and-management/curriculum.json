@@ -1,0 +1,249 @@
+{
+  "title": "Leadership & Management Training — Full Curriculum",
+  "subtitle": "Comprehensive program content, frameworks, and methodologies",
+  "totalDuration": "8:30 – 17:00 (8 hours including breaks)",
+  "sections": [
+    {
+      "id": "opening",
+      "title": "Opening Session",
+      "subtitle": "Connection, Context & Leadership Crucibles",
+      "duration": "40 min",
+      "overview": "Establish connection between participants, set the frame for the day, and surface collective leadership wisdom through shared experiences.",
+      "topics": [
+        {
+          "title": "The 2026 Leadership Landscape",
+          "content": "71% of leaders report increased stress, 40% have considered stepping back from leadership, and 75% report burnout symptoms. Organizations are flattening—fewer layers, wider spans. Leaders' influence extends 3x further than a decade ago. Positional authority matters less while relational capital matters more. AI is reshaping decision-making while human connection becomes more critical.",
+          "keyQuote": "In our culture, the leader is often seen as the 'parent' who has all the answers. Today, we look at why the best global leaders don't have all the answers—they have the best questions."
+        },
+        {
+          "title": "Leadership Crucibles",
+          "content": "Participants share formative leadership experiences—the failures, conflicts, crises, and situations that defined their leadership journey. These crucible moments reveal that leadership isn't learned in classrooms—it's forged in difficulty. The session surfaces collective themes about what leadership truly requires."
+        }
+      ]
+    },
+    {
+      "id": "module1",
+      "title": "Module 1: The Adaptive Leader",
+      "subtitle": "Diagnosing Context, Energy & Self-Awareness",
+      "duration": "75 min",
+      "overview": "This module combines two essential capabilities: (1) accurately diagnosing whether you're facing a technical problem or an adaptive challenge, and (2) managing yourself as the foundation for leading others.",
+      "learningObjectives": [
+        "Distinguish technical problems from adaptive challenges",
+        "Apply the 'balcony and dance floor' perspective",
+        "Identify your default leadership patterns and blind spots",
+        "Master energy management as a leadership discipline"
+      ],
+      "topics": [
+        {
+          "title": "Technical Problems vs. Adaptive Challenges — The Heifetz Framework",
+          "content": "Ronald Heifetz at Harvard identifies two fundamentally different types of challenges. Technical problems are clear with known solutions and existing expertise. Adaptive challenges are unclear, require learning, and demand that people change beliefs, habits, or priorities. Examples in institutional settings: Low morale isn't solved by a team-building event when trust has eroded. Missed deadlines aren't fixed by better software when workload exceeds capacity. Change resistance isn't overcome by more communication when people's identities feel threatened.",
+          "frameworks": [
+            {"name": "Technical vs. Adaptive", "description": "Technical: clear, known solutions, existing expertise sufficient, can be implemented by authority. Adaptive: unclear, requires learning, people must change beliefs/habits/priorities, no expert has the answer."}
+          ],
+          "keyQuote": "The single biggest failure of leadership is to treat adaptive challenges like technical problems."
+        },
+        {
+          "title": "The Balcony and the Dance Floor",
+          "content": "On the dance floor, you're engaged in action, responding to immediate demands, seeing what's right in front of you. On the balcony, you're observing the whole system, noticing invisible patterns, seeing how pieces connect, understanding the bigger picture. Great leaders develop the capacity to move between both. Diagnostic questions from the balcony: What's the real problem? Who's in the system? What are the competing commitments? What's the history? What's my role in this system? What would need to change?",
+          "keyQuote": "Great leaders develop the capacity to move between dance floor and balcony—staying engaged while maintaining perspective."
+        },
+        {
+          "title": "Self-Awareness: Your Leadership Defaults",
+          "content": "Leaders tend to have default orientations under pressure. The Analyst sees complexity, gathers data, thinks systemically—but can over-analyze and miss emotional dynamics. The Driver is decisive and action-oriented—but can move too fast and create resistance. The Harmonizer builds consensus and reads people—but can avoid conflict and delay difficult decisions. The Visionary sees possibilities and inspires—but can miss details and frustrate pragmatists.",
+          "frameworks": [
+            {"name": "Four Leadership Orientations", "description": "Analyst (systematic, may over-analyze), Driver (decisive, may miss stakeholders), Harmonizer (consensus, may avoid conflict), Visionary (possibilities, may miss details). All valuable—the goal is developing range."}
+          ],
+          "keyQuote": "All four orientations are valuable. The question is whether you have the range to flex when the situation requires a different approach."
+        },
+        {
+          "title": "Energy Management & The Five Practices of Adaptive Leadership",
+          "content": "Leadership starts with self-regulation. If you can't manage your own triggers and energy, you can't manage a department. Based on Heifetz's work, adaptive leaders consistently practice five disciplines: (1) Get on the balcony—step back to see the system, (2) Identify the adaptive challenge—distinguish technical fixes from people change, (3) Regulate distress—keep people in productive discomfort, (4) Maintain disciplined attention—keep focus on difficult work, (5) Give the work back—resist providing all answers and develop others' capacity.",
+          "frameworks": [
+            {"name": "Five Practices of Adaptive Leadership", "description": "Get on the balcony, Identify the adaptive challenge, Regulate distress, Maintain disciplined attention, Give the work back."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module2",
+      "title": "Module 2: The Relational Leader",
+      "subtitle": "Influence, Stakeholder Mastery & Managing Up",
+      "duration": "70 min",
+      "overview": "In flattening organizations, positional authority matters less. The ability to influence without formal power—through relationships, credibility, and strategic communication—becomes essential.",
+      "learningObjectives": [
+        "Build influence through trust and credibility rather than authority",
+        "Map stakeholder landscapes and develop engagement strategies",
+        "Navigate political dynamics and competing interests",
+        "Communicate strategically to different audiences",
+        "Manage upward effectively to build trust with senior leadership"
+      ],
+      "topics": [
+        {
+          "title": "The Trust Equation & Relational Capital",
+          "content": "From David Maister, Charles Green & Robert Galford's research: Trust = (Credibility + Reliability + Intimacy) / Self-Orientation. Credibility comes from expertise and track record. Reliability from consistency and follow-through. Intimacy from safety, discretion, and empathy. Self-Orientation is the denominator—it amplifies or diminishes everything else. You can be highly credible and reliable but still not trusted if people sense you're primarily in it for yourself.",
+          "frameworks": [
+            {"name": "The Trust Equation", "description": "Trust = (Credibility + Reliability + Intimacy) / Self-Orientation. Self-orientation is the denominator—high self-orientation kills trust regardless of other factors."}
+          ],
+          "keyQuote": "You can be highly credible and reliable but still not trusted if people sense you're primarily in it for yourself."
+        },
+        {
+          "title": "Stakeholder Mapping & Engagement",
+          "content": "For any initiative: identify who is directly affected, who has decision-making authority, who has informal influence, who controls resources, and who could block progress. Analyze each stakeholder's interests, current position, concerns, and influence level. Map them on the Influence/Engagement Grid to determine your engagement strategy: Partner (high influence, high engagement), Involve (high influence, low engagement), Show Consideration (low influence, high engagement), Monitor (low influence, low engagement).",
+          "frameworks": [
+            {"name": "Stakeholder Analysis Grid", "description": "Map stakeholders on Influence vs. Engagement: Partner (collaborate), Involve (consult), Show Consideration, Monitor (inform)."}
+          ]
+        },
+        {
+          "title": "Navigating Political Dynamics",
+          "content": "Politics isn't a dirty word—it's how decisions get made and resources get allocated. Principles for ethical political navigation: understand the game but stay true to your values, build alliances based on shared interests, don't make permanent enemies, manage your political capital wisely, and build coalitions before you need them."
+        },
+        {
+          "title": "Strategic Communication & Managing Up",
+          "content": "Adapt communication to your audience: Analytical (data, logic, evidence), Driver (results, bottom line, timeline), Expressive (vision, possibilities, stories), Amiable (impact on people, collaboration). Managing up means taking ownership of the relationship with your boss: understand their pressures and priorities, provide no surprises (bad news doesn't improve with age), speak their language, bring solutions not just problems, and make them look good—their success is your success.",
+          "frameworks": [
+            {"name": "Audience Adaptation Grid", "description": "Analytical (lead with data), Driver (lead with results), Expressive (lead with vision), Amiable (lead with impact on people)."},
+            {"name": "Managing Up Principles", "description": "Understand their world, No surprises, Speak their language, Bring solutions, Make them look good."}
+          ],
+          "keyQuote": "The leader who waits to be asked isn't leading—they're following. Manage up proactively."
+        }
+      ]
+    },
+    {
+      "id": "module3",
+      "title": "Module 3: The Growth Leader",
+      "subtitle": "Coaching, Psychological Safety & Fail-Fast Culture",
+      "duration": "70 min",
+      "overview": "Leadership happens in conversations. The quality of your conversations—coaching, feedback, navigating conflict—determines your effectiveness.",
+      "learningObjectives": [
+        "Create psychological safety in teams",
+        "Build a 'fail-fast, learn-faster' culture",
+        "Conduct effective coaching conversations using GROW",
+        "Give feedback that improves performance using SBI"
+      ],
+      "topics": [
+        {
+          "title": "Psychological Safety & the Fail-Fast Culture",
+          "content": "Amy Edmondson's research: teams that report more mistakes are actually higher-performing—because they're learning, not hiding. Google's Project Aristotle found psychological safety was the #1 predictor of high-performing teams. Fear kills innovation, drives information underground, and creates compliance rather than commitment. The Fail-Fast, Learn-Faster mindset means running small experiments quickly, learning from failures openly, iterating based on real feedback, treating failures as data, and stopping bad ideas early. Leaders enable this by modeling their own failures, celebrating learning not just success, creating safe zones, and separating 'intelligent failures' from 'preventable failures.'",
+          "frameworks": [
+            {"name": "Psychological Safety (Edmondson)", "description": "#1 predictor of team performance. Teams that report more mistakes perform better because they're learning, not hiding."},
+            {"name": "Fail-Fast Culture Elements", "description": "Run small experiments, learn from failures openly, iterate on feedback, treat failures as data, stop bad ideas early."}
+          ],
+          "keyQuote": "People don't follow leaders they fear—they simply comply until they find an exit."
+        },
+        {
+          "title": "The Coaching Habit — The GROW Model",
+          "content": "In the old model, leaders had answers. In the new model, leaders who ask good questions outperform those who give good answers. The GROW Model: Goal (What do you want to achieve?), Reality (What's happening now? What have you tried?), Options (What could you do? What else?), Will (What will you do? When? How can I support you?). Coaching develops capability rather than dependency—questions activate ownership while answers create passivity.",
+          "frameworks": [
+            {"name": "GROW Coaching Model", "description": "Goal → Reality → Options → Will. A structured approach to coaching that develops capability through questions rather than answers."}
+          ],
+          "keyQuote": "Leaders who ask good questions outperform those who give good answers."
+        },
+        {
+          "title": "Feedback That Works — The SBI Framework",
+          "content": "Most people want more feedback yet dread receiving it and avoid giving it. Poorly delivered feedback feels like attack and triggers identity concerns. The SBI Framework works for both corrective AND reinforcing feedback: Situation (specific time and place—grounds in reality), Behavior (observable actions—focuses on what they DID, not who they ARE), Impact (effect on you, team, or work—explains why it matters). Adding a fourth element: share your intent and invite their perspective.",
+          "frameworks": [
+            {"name": "SBI Feedback", "description": "Situation (when/where) → Behavior (what they did, observable) → Impact (the effect). Works for both positive reinforcement and corrective feedback."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module4",
+      "title": "Module 4: The Strategic Leader",
+      "subtitle": "Ownership, Delegation, Decision-Making & Change",
+      "duration": "65 min",
+      "overview": "Accountability, ownership, and effective delegation are the foundation of effective leadership. This module addresses how leaders take full responsibility for outcomes, delegate to develop capability, make decisions in complexity, and drive change.",
+      "learningObjectives": [
+        "Embrace radical accountability and ownership",
+        "Delegate effectively using the Skill/Will matrix",
+        "Apply structured decision-making frameworks",
+        "Lead organizational change effectively"
+      ],
+      "topics": [
+        {
+          "title": "Extreme Ownership & Accountability",
+          "content": "From Jocko Willink & Leif Babin: Leaders must own everything in their world. There is no one else to blame. The Ownership Mindset: 'What could I have done differently?' vs. 'It wasn't my fault.' 'I'm responsible for the outcome' vs. 'I did my part.' 'How can I enable my team to succeed?' vs. 'My team let me down.' What it looks like: own the outcome not just the task, no excuses, own your team's failures, support other teams, and lead both up and down. Critical distinction: Accountability is forward-looking ('How do we fix this?'), blame is backward-looking ('Whose fault is this?').",
+          "frameworks": [
+            {"name": "Extreme Ownership", "description": "Own the outcome, no excuses, own team failures, cover and move, lead up and down. Accountability builds trust; blame erodes it."}
+          ],
+          "keyQuote": "The more you own, the more you grow. The more you blame, the more you stay stuck."
+        },
+        {
+          "title": "The Delegating Leader — Skill/Will Matrix",
+          "content": "Leaders fail to delegate for predictable reasons: 'It's faster if I do it myself,' 'No one can do it as well as me,' 'I don't want to overload my team.' The cost: you become the bottleneck, your team doesn't grow, you burn out. Match delegation approach to the person: Direct (low skill/will—clear instructions, monitoring), Motivate (low skill, high will—teach, coach, encourage), Challenge (high skill, low will—investigate, stretch), Delegate (high skill, high will—autonomy, outcomes not methods). The delegation conversation: What (clear outcome), Why (purpose), Boundaries (authority), Support (resources), Check-in (follow-up, not micromanagement).",
+          "frameworks": [
+            {"name": "Skill/Will Delegation Matrix", "description": "Direct (low/low), Motivate (low skill/high will), Challenge (high skill/low will), Delegate (high/high). Match your approach to where the person is."}
+          ]
+        },
+        {
+          "title": "Strategic Decision-Making — The RAPID Framework",
+          "content": "One common failure: unclear decision rights. RAPID clarifies roles: Recommend (gather data, analyze, propose), Agree (must agree for decision to proceed), Perform (implement the decision), Input (consulted, provide perspective), Decide (makes the final call). Key biases to watch: Confirmation Bias (seek disconfirming evidence), Sunk Cost Fallacy (evaluate future value only), Groupthink (assign devil's advocate), Authority Bias (create safe challenge culture).",
+          "frameworks": [
+            {"name": "RAPID Decision Framework", "description": "Recommend, Agree, Perform, Input, Decide. Clarifies who does what in complex decisions."}
+          ]
+        },
+        {
+          "title": "Leading Change in Institutions",
+          "content": "The Change Equation: D × V × F > R. Dissatisfaction with status quo × Vision of a better future × First achievable steps must exceed Resistance. If any factor is zero, change fails. Understanding resistance: it's not opposition—it's information. Sources include loss of control ('This is happening TO me'), uncertainty ('What does this mean for me?'), competence concerns ('I'm not sure I can do this'), and past failures ('We've been burned before'). Coalition building: start with the 'movable middle,' find champions with credibility, create early wins, address skeptics directly.",
+          "frameworks": [
+            {"name": "Change Equation", "description": "D × V × F > R. Dissatisfaction × Vision × First steps must exceed Resistance. All three positive factors must be present."}
+          ],
+          "keyQuote": "Resistance isn't opposition—it's information."
+        }
+      ]
+    },
+    {
+      "id": "module5",
+      "title": "Module 5: The AI-Fluent Leader",
+      "subtitle": "Leading in the Age of AI",
+      "duration": "35 min",
+      "overview": "AI fluency is now a core leadership competency, not an optional add-on. Leaders who can leverage AI for themselves and enable their teams to do the same will outperform those who can't.",
+      "learningObjectives": [
+        "Leverage AI tools for leadership tasks",
+        "Build an AI-ready team culture",
+        "Understand the human capabilities AI cannot replace"
+      ],
+      "topics": [
+        {
+          "title": "The AI-Enabled Leader",
+          "content": "How leaders can use AI today: Decision Support (summarizing data, scenario modeling), Communication (drafting, translation, tone adjustment), Meeting Prep (research synthesis, agenda generation), Coaching Support (role-playing difficult conversations), Strategic Thinking (devil's advocate, assumption testing). The 30% Rule: everyone needs at least 30% AI fluency—enough to use tools, ask good questions, interpret outputs, and redesign work.",
+          "frameworks": [
+            {"name": "AI Leadership Applications", "description": "Decision support, Communication, Meeting prep, Coaching support, Strategic thinking. Everyone needs 30% AI fluency."}
+          ],
+          "keyQuote": "Managers aren't being replaced by AI; they are being replaced by managers who know how to use AI."
+        },
+        {
+          "title": "Building an AI-Ready Team",
+          "content": "The leader's three roles: Permission (explicitly tell your team it's OK to use AI—many fear 'cheating' stigma), Protection (create guardrails—what's off-limits: confidential data, final decisions without human review), Practice (allocate experimentation time: 'Spend 30 minutes this week trying AI on one repetitive task'). The Adoption Curve: Pioneers (10%—make them internal champions), Pragmatists (60%—give specific use cases, pair with pioneers), Skeptics (30%—address concerns, show 'AI + Human' examples).",
+          "frameworks": [
+            {"name": "AI Team Readiness", "description": "Permission (it's OK to use AI), Protection (guardrails for safety), Practice (experimentation time). Map team on adoption curve: Pioneers, Pragmatists, Skeptics."}
+          ]
+        },
+        {
+          "title": "The Human Edge",
+          "content": "What AI cannot replace: Judgment in Ambiguity (AI gives options; leaders choose based on values), Relational Trust (people follow people who see them, not algorithms), Accountability (AI suggests; humans own outcomes), Ethical Navigation (when 'efficient' isn't 'right')."
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "title": "Closing Session",
+      "subtitle": "Integration & 100-Day Action Plan",
+      "duration": "50 min",
+      "overview": "Integrate the day's learning into a concrete, personal action plan with accountability structures for follow-through.",
+      "topics": [
+        {
+          "title": "Personal Action Planning",
+          "content": "The Leadership Action Plan covers: Key Insight (the most important learning from today), I Will Start (one new practice this week), I Will Stop (one habit that isn't serving me), I Will Continue (one strength to leverage more intentionally), I Will Delegate (one thing to hand off—and to whom), My First Action (specific thing in the next 48 hours), My Accountability Partner (who will hold me accountable), and My 30-Day Check-In (when and how to review progress).",
+          "frameworks": [
+            {"name": "100-Day Action Plan", "description": "Start/Stop/Continue framework with specific first action, delegation commitment, accountability partner, and 30-day check-in."}
+          ]
+        },
+        {
+          "title": "Key Takeaway Sharing & Commitment",
+          "content": "Participants share their top insight and first action with the group. The session closes with a reflection on the day's journey and a commitment to applying the frameworks in practice."
+        }
+      ]
+    }
+  ]
+}

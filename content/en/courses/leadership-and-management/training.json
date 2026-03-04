@@ -1,0 +1,166 @@
+{
+  "tagline": "From Authority to Influence: Building a High-Performance Culture",
+  "duration": "Full Day (8 Hours)",
+  "audience": "Mid-Senior Leaders & Emerging Managers",
+  "facilitator": "Cihat Tombak",
+  "overview": "This program bridges traditional hierarchical management with the adaptive, influence-based leadership required in today's organizations. Drawing on frameworks from Harvard Business School, McKinsey, Center for Creative Leadership, Ronald Heifetz's adaptive leadership research, and Maister/Green/Galford's trust framework, participants gain practical tools they can apply immediately.\n\nThe training brings a global multinational perspective while addressing the unique dynamics of the Turkish business context—high power distance, collective loyalty, and cyclical economic pressures.",
+  "stats": [
+    "71% of leaders report increased stress; 75% show burnout symptoms",
+    "Organizations are flattening—positional authority matters less",
+    "AI is reshaping work while human connection becomes more critical",
+    "Leaders must own outcomes completely—accountability can't be delegated upward"
+  ],
+  "schedule": [
+    { "session": "Opening", "focus": "Connection, Context & Leadership Crucibles", "duration": "40 min", "startTime": "08:30", "type": "session" },
+    { "session": "Module 1", "focus": "The Adaptive Leader: Diagnosing Context & Self-Awareness", "duration": "75 min", "startTime": "09:10", "type": "session" },
+    { "session": "Break", "focus": "Morning Break", "duration": "15 min", "startTime": "10:25", "type": "break" },
+    { "session": "Module 2", "focus": "The Relational Leader: Influence, Stakeholder Mastery & Managing Up", "duration": "70 min", "startTime": "10:40", "type": "session" },
+    { "session": "Lunch", "focus": "Lunch Break", "duration": "60 min", "startTime": "11:50", "type": "break" },
+    { "session": "Module 3", "focus": "The Growth Leader: Coaching, Psychological Safety & Fail-Fast Culture", "duration": "70 min", "startTime": "12:50", "type": "session" },
+    { "session": "Break", "focus": "Afternoon Break", "duration": "15 min", "startTime": "14:00", "type": "break" },
+    { "session": "Module 4", "focus": "The Strategic Leader: Ownership, Delegation, Decision-Making & Change", "duration": "65 min", "startTime": "14:15", "type": "session" },
+    { "session": "Module 5", "focus": "The AI-Fluent Leader: Leadership in the Age of AI", "duration": "35 min", "startTime": "15:20", "type": "session" },
+    { "session": "Closing", "focus": "Integration & 100-Day Action Plan", "duration": "50 min", "startTime": "15:55", "type": "session" },
+    { "session": "End", "focus": "Networking", "duration": "15 min", "startTime": "16:45", "type": "break" }
+  ],
+  "modules": [
+    {
+      "id": "adaptive",
+      "title": "The Adaptive Leader",
+      "subtitle": "Module 1",
+      "description": "Distinguish between technical problems (clear solutions, existing expertise) and adaptive challenges (require people to change beliefs and habits). Learn to use the \"balcony and dance floor\" perspective to diagnose situations, identify personal leadership patterns, and manage energy effectively.",
+      "keyInsight": "The single biggest failure of leadership is treating adaptive challenges like technical problems.",
+      "duration": "75 min",
+      "learningObjectives": [
+        "Distinguish technical problems from adaptive challenges",
+        "Apply the 'balcony and dance floor' perspective to diagnose situations",
+        "Identify your default leadership patterns and blind spots",
+        "Master energy management as a leadership discipline"
+      ],
+      "topics": [
+        { "title": "The Heifetz Framework", "description": "Ronald Heifetz at Harvard identifies two types of challenges. Technical problems have known solutions; adaptive challenges require people to change beliefs, habits, or priorities. The biggest leadership failure is treating adaptive challenges like technical problems." },
+        { "title": "Balcony & Dance Floor", "description": "Great leaders develop the capacity to move between engagement (dance floor) and systemic perspective (balcony). Diagnostic questions help you see the real problem, all stakeholders, competing commitments, and your own role in the system." },
+        { "title": "Four Leadership Orientations", "description": "Default patterns under pressure: The Analyst (sees complexity, may over-analyze), The Driver (decisive, may miss stakeholders), The Harmonizer (builds consensus, may avoid conflict), The Visionary (sees possibilities, may miss details). The goal is developing range." },
+        { "title": "Energy Management & Five Practices", "description": "Adaptive leaders: get on the balcony, identify the adaptive challenge, regulate distress (productive discomfort without shutdown), maintain disciplined attention, and give the work back to develop others' capacity." }
+      ]
+    },
+    {
+      "id": "relational",
+      "title": "The Relational Leader",
+      "subtitle": "Module 2",
+      "description": "Build influence through trust and credibility using the Trust Equation framework (Maister, Green & Galford). Map stakeholder landscapes, develop engagement strategies, and navigate political dynamics ethically. Learn to adapt communication style to different audiences and manage up effectively—building trust with senior leadership.",
+      "keyInsight": "Positional authority is declining. Relational capital is your currency.",
+      "duration": "70 min",
+      "learningObjectives": [
+        "Build influence through trust and credibility rather than authority",
+        "Map stakeholder landscapes and develop engagement strategies",
+        "Navigate political dynamics and competing interests ethically",
+        "Communicate strategically to different audiences",
+        "Manage upward effectively to build trust with senior leadership"
+      ],
+      "topics": [
+        { "title": "The Trust Equation", "description": "Trust = (Credibility + Reliability + Intimacy) / Self-Orientation. From Maister, Green & Galford's research. You can be highly credible and reliable but still not trusted if people sense you're primarily in it for yourself." },
+        { "title": "Stakeholder Mapping & Engagement", "description": "Systematic analysis using the Influence/Engagement Grid. Identify who is affected, who has authority, who has informal influence, who controls resources, and who could block progress. Then map engagement strategies accordingly." },
+        { "title": "Navigating Political Dynamics", "description": "Politics isn't a dirty word—it's how decisions get made. Principles: understand the game but stay true to values, build alliances on shared interests, don't make permanent enemies, manage political capital wisely, build coalitions before you need them." },
+        { "title": "Strategic Communication & Managing Up", "description": "Adapt communication to audience type (Analytical, Driver, Expressive, Amiable). Managing up means understanding your boss's pressures, giving no surprises, speaking their language, bringing solutions not just problems, and making them look good." }
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "The Growth Leader",
+      "subtitle": "Module 3",
+      "description": "Create psychological safety—the #1 predictor of high-performing teams (Google's Project Aristotle). Build a fail-fast, learn-faster culture that accelerates innovation. Practice coaching conversations using the GROW model and deliver effective feedback using SBI (Situation-Behavior-Impact).",
+      "keyInsight": "Fail fast, learn faster—treat failures as data, not disasters.",
+      "duration": "70 min",
+      "learningObjectives": [
+        "Create psychological safety in teams",
+        "Build a 'fail-fast, learn-faster' culture",
+        "Conduct effective coaching conversations using the GROW model",
+        "Give feedback that improves performance using SBI"
+      ],
+      "topics": [
+        { "title": "Psychological Safety", "description": "Amy Edmondson's research: teams that report more mistakes are actually higher-performing because they're learning, not hiding. Google's Project Aristotle confirmed psychological safety as the #1 predictor of high-performing teams—ahead of skills, resources, or strategy." },
+        { "title": "Fail-Fast, Learn-Faster Culture", "description": "Running small experiments quickly, learning from failures openly, iterating on real feedback, treating failures as data, and stopping bad ideas early. Leaders enable this by modeling vulnerability, celebrating learning, creating safe zones, and separating intelligent failures from preventable ones." },
+        { "title": "The GROW Coaching Model", "description": "Goal (What do you want to achieve?) → Reality (What's happening now?) → Options (What could you do?) → Will (What will you do?). Leaders who ask good questions outperform those who give good answers—coaching develops capability rather than dependency." },
+        { "title": "SBI Feedback Framework", "description": "Situation (specific time and place) → Behavior (observable actions) → Impact (effect on team or work). Works for both reinforcing and corrective feedback. Focuses on what people DID, not who they ARE." }
+      ]
+    },
+    {
+      "id": "strategic",
+      "title": "The Strategic Leader",
+      "subtitle": "Module 4",
+      "description": "Embrace Extreme Ownership—leaders must own everything in their world. Delegate effectively using the Skill/Will matrix to develop team capability while maintaining accountability. Apply the RAPID framework to clarify decision rights. Lead organizational change using the Change Equation (D×V×F>R).",
+      "keyInsight": "Own everything. There is no one else to blame.",
+      "duration": "65 min",
+      "learningObjectives": [
+        "Embrace radical accountability and the ownership mindset",
+        "Delegate effectively using the Skill/Will matrix",
+        "Apply structured decision-making using the RAPID framework",
+        "Lead organizational change using the Change Equation"
+      ],
+      "topics": [
+        { "title": "Extreme Ownership", "description": "From Willink & Babin: leaders own everything in their world. Own the outcome (not just the task), no excuses, own your team's failures, cover and move (support other teams), and lead up and down. Accountability is forward-looking; blame is backward-looking." },
+        { "title": "Skill/Will Delegation Matrix", "description": "Match delegation approach: Direct (low skill, low will—clear instructions, monitoring), Motivate (low skill, high will—teach, coach, encourage), Challenge (high skill, low will—find why motivation dropped, stretch), Delegate (high skill, high will—autonomy, define outcomes not methods)." },
+        { "title": "RAPID Decision Framework", "description": "Clarify decision rights: Recommend (gather data, propose), Agree (must agree to proceed), Perform (implement), Input (consulted for perspective), Decide (makes final call). Watch for confirmation bias, sunk cost fallacy, groupthink, and authority bias." },
+        { "title": "The Change Equation", "description": "D × V × F > R — Dissatisfaction with status quo × Vision of better future × achievable First steps must exceed Resistance. If any factor is zero, change fails. Resistance isn't opposition—it's information about loss of control, uncertainty, competence concerns, or past failures." }
+      ]
+    },
+    {
+      "id": "ai-fluent",
+      "title": "The AI-Fluent Leader",
+      "subtitle": "Module 5",
+      "description": "Develop practical AI fluency—understanding how to use AI tools for decision support, communication, meeting preparation, and strategic thinking. Learn how to build an AI-ready team through Permission, Protection, and Practice. Understand what AI cannot replace: judgment, trust, accountability, and ethics.",
+      "keyInsight": "Managers aren't being replaced by AI—they're being replaced by managers who know how to use AI.",
+      "duration": "35 min",
+      "learningObjectives": [
+        "Leverage AI tools for leadership tasks effectively",
+        "Build an AI-ready team culture",
+        "Understand the human capabilities AI cannot replace"
+      ],
+      "topics": [
+        { "title": "The AI-Enabled Leader", "description": "Practical AI applications: decision support (summarizing data, scenario modeling), communication (drafting, tone adjustment), meeting prep (research synthesis), coaching support (role-playing conversations), strategic thinking (assumption testing). The 30% Rule: everyone needs at least 30% AI fluency." },
+        { "title": "Building AI-Ready Teams", "description": "The leader's three roles: Permission (explicitly tell your team it's OK to use AI), Protection (guardrails for confidential data and human review), Practice (allocate experimentation time). Map your team on the adoption curve: Pioneers (10%), Pragmatists (60%), Skeptics (30%)." },
+        { "title": "The Human Edge", "description": "What AI cannot replace: Judgment in ambiguity (AI gives options, leaders choose based on values), Relational trust (people follow people), Accountability (humans own outcomes), Ethical navigation (when 'efficient' isn't 'right')." }
+      ]
+    }
+  ],
+  "frameworks": [
+    { "name": "Technical vs. Adaptive (Heifetz)", "application": "Diagnosing the nature of challenges" },
+    { "name": "Balcony & Dance Floor", "application": "Shifting perspective to see system patterns" },
+    { "name": "Trust Equation (Maister/Green/Galford)", "application": "Building influence through credibility and reliability" },
+    { "name": "Stakeholder Analysis Grid", "application": "Mapping and prioritizing relationships" },
+    { "name": "Managing Up Principles", "application": "Leading the relationship with your boss" },
+    { "name": "Psychological Safety (Edmondson)", "application": "Creating conditions for team performance" },
+    { "name": "Fail-Fast, Learn-Faster", "application": "Building an innovation culture" },
+    { "name": "GROW Model", "application": "Structuring coaching conversations" },
+    { "name": "SBI Feedback", "application": "Delivering clear, actionable feedback" },
+    { "name": "Extreme Ownership (Willink)", "application": "Taking full accountability for outcomes" },
+    { "name": "Skill/Will Delegation Matrix", "application": "Matching delegation style to the person" },
+    { "name": "RAPID", "application": "Clarifying decision rights" },
+    { "name": "Change Equation (D×V×F>R)", "application": "Understanding conditions for successful change" },
+    { "name": "AI Fluency Framework", "application": "Leading human-AI collaboration" }
+  ],
+  "pluginModules": [
+    { "name": "Conflict as a Leadership Tool", "bestFor": "High-conflict environments; new managers" },
+    { "name": "Leading Hybrid & Remote Teams", "bestFor": "Distributed teams; post-pandemic organizations" },
+    { "name": "Managing Up & Across", "bestFor": "Matrixed organizations; mid-level managers" },
+    { "name": "Building Your Leadership Pipeline", "bestFor": "Senior leaders; succession planning" },
+    { "name": "Emotional Intelligence in Practice", "bestFor": "High-stress environments; self-regulation needs" }
+  ],
+  "designHighlights": [
+    "Real case studies and simulations",
+    "Peer coaching exercises in pairs and trios",
+    "Stakeholder mapping with personal initiatives",
+    "Varied facilitation: gallery walks, fishbowl discussions, sticky note clustering",
+    "Individual reflection and action planning",
+    "Personal 100-day action plan and accountability partner"
+  ],
+  "practicePercentage": 70,
+  "facilitatorBio": "Cihat Tombak brings over 15 years of experience in software development leadership at global multinational companies. His engineering management background provides practical, rigorous frameworks for institutional leaders seeking to modernize their approach while respecting local dynamics.",
+  "logistics": {
+    "time": "08:30 – 17:00 (8 hours including 1.5 hours of breaks)",
+    "breaks": "1.5 hours total",
+    "format": "Interactive workshop with tables of 6-10 participants",
+    "materials": "Participant workbook, action planning worksheets, stakeholder mapping templates, delegation matrix template"
+  }
+}
