@@ -234,13 +234,10 @@ export async function TrainingPitchPage({
           ))}
           <Link
             href={`/${locale}/courses/${course.slug}/plugins`}
-            className="group flex flex-col items-center justify-center rounded-xl border border-dashed border-violet-500/30 bg-violet-500/[0.04] p-5 text-center transition-all hover:border-violet-500/50 hover:bg-violet-500/[0.08]"
+            className="group flex items-center justify-center gap-2 rounded-xl border border-dashed border-violet-500/30 bg-violet-500/[0.04] p-5 text-center transition-all hover:border-violet-500/50 hover:bg-violet-500/[0.08]"
           >
-            <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-full bg-violet-500/10 ring-1 ring-violet-500/20">
-              <ArrowRight className="h-4 w-4 text-violet-400 transition-transform group-hover:translate-x-0.5" aria-hidden />
-            </div>
+            <ArrowRight className="h-4 w-4 text-violet-400 transition-transform group-hover:translate-x-0.5" aria-hidden />
             <span className="text-sm font-semibold text-violet-400">{t("seeAll")}</span>
-            <span className="mt-1 text-xs text-zinc-500">{t("seeAllDesc")}</span>
           </Link>
         </div>
       </section>
@@ -342,6 +339,7 @@ export async function TrainingPitchPage({
           </div>
         </div>
       </section>
+
     </div>
   );
 }

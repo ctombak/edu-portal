@@ -1,0 +1,359 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "title": "General Plug-In Modules",
+      "description": "Self-contained modules (30–45 min each) that can be swapped into the main program based on audience needs.",
+      "modules": [
+        {
+          "id": "A",
+          "title": "Cloud Migration & Multi-Cloud Strategy",
+          "duration": "40 min",
+          "purpose": "Most enterprise products today involve a cloud component—whether migrating from on-premise, adopting cloud-native, or managing multi-cloud complexity. This module provides frameworks for making cloud strategy decisions and executing migrations safely.",
+          "bestFor": "Organizations moving from on-premise to cloud or managing multi-cloud environments",
+          "learningObjectives": [
+            "Evaluate cloud deployment models (IaaS, PaaS, SaaS, hybrid)",
+            "Apply the 6 Rs of cloud migration to your application portfolio",
+            "Design multi-cloud strategies that avoid vendor lock-in",
+            "Plan cloud migrations with minimal disruption to operations"
+          ],
+          "keyTopics": [
+            {
+              "title": "The 6 Rs of Cloud Migration",
+              "description": "Rehost (lift-and-shift), Replatform (lift-and-optimize), Refactor (re-architect for cloud-native), Repurchase (switch to SaaS), Retire (decommission), Retain (keep on-premise). Each application in your portfolio may follow a different R."
+            },
+            {
+              "title": "Multi-Cloud Strategy",
+              "description": "Best-of-breed vs. single-provider. Avoiding lock-in through abstraction layers and portable architectures. Cost optimization through workload placement. The operational complexity tax of multi-cloud."
+            },
+            {
+              "title": "Migration Execution",
+              "description": "Application dependency mapping, migration wave planning, cutover strategies, rollback procedures, and post-migration validation. The importance of landing zones and governance guardrails."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Legacy Modernization & Strangler Fig Pattern",
+          "duration": "40 min",
+          "purpose": "Most enterprises don't build greenfield—they modernize legacy systems while keeping the business running. This module covers proven patterns for incremental modernization without big-bang risk.",
+          "bestFor": "Teams maintaining legacy systems while building modern replacements",
+          "learningObjectives": [
+            "Assess legacy systems for modernization readiness",
+            "Apply the Strangler Fig pattern for incremental modernization",
+            "Manage the dual operating model during transition",
+            "Avoid common modernization anti-patterns"
+          ],
+          "keyTopics": [
+            {
+              "title": "Legacy Assessment Framework",
+              "description": "Evaluate legacy systems on business value vs. technical health. High value + poor health = modernize. Low value + poor health = retire. High value + good health = maintain. Low value + good health = candidate for replacement with SaaS."
+            },
+            {
+              "title": "The Strangler Fig Pattern",
+              "description": "Named after trees that gradually envelop their host. Route new functionality to modern system while legacy handles existing features. Gradually migrate features until legacy can be decommissioned. No big-bang cutover—risk is spread over time."
+            },
+            {
+              "title": "Data Migration Strategies",
+              "description": "Dual-write, change data capture (CDC), ETL pipelines, and event sourcing as data migration approaches. Maintaining consistency during the transition period. Hardware: migrating from legacy industrial controllers to modern edge computing platforms."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Regulatory Compliance Deep-Dive",
+          "duration": "45 min",
+          "purpose": "For organizations operating in regulated industries, compliance isn't optional—it shapes architecture, process, and vendor selection. This module dives deep into the most impactful regulatory frameworks.",
+          "bestFor": "Regulated industries: finance (SOX), healthcare (HIPAA), EU operations (GDPR), government",
+          "learningObjectives": [
+            "Map regulatory requirements to technical architecture decisions",
+            "Design data handling practices for GDPR, HIPAA, and SOX compliance",
+            "Build audit-ready systems with continuous evidence collection",
+            "Navigate the intersection of multiple regulatory frameworks"
+          ],
+          "keyTopics": [
+            {
+              "title": "GDPR Technical Requirements",
+              "description": "Data protection by design and by default, data subject rights (access, erasure, portability), data processing agreements, cross-border data transfer mechanisms (adequacy decisions, SCCs), and breach notification within 72 hours."
+            },
+            {
+              "title": "SOX & Financial Controls",
+              "description": "IT general controls (access management, change management, operations), automated controls within applications, audit trail requirements, and segregation of duties in system design."
+            },
+            {
+              "title": "HIPAA & Healthcare Data",
+              "description": "Protected Health Information (PHI) handling, BAA (Business Associate Agreement) requirements, minimum necessary principle, encryption requirements at rest and in transit, and access logging requirements."
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "title": "AI/ML Product Integration",
+          "duration": "40 min",
+          "purpose": "Integrating AI/ML into enterprise products introduces unique lifecycle challenges: data pipelines, model training, evaluation, deployment, monitoring for drift, and ethical considerations. This module bridges ML engineering and product management.",
+          "bestFor": "Teams integrating AI/ML capabilities into enterprise products",
+          "learningObjectives": [
+            "Understand the ML product lifecycle from data to deployment",
+            "Design MLOps pipelines for model training, evaluation, and deployment",
+            "Monitor models in production for performance drift",
+            "Navigate ethical and bias considerations in AI-powered products"
+          ],
+          "keyTopics": [
+            {
+              "title": "The ML Product Lifecycle",
+              "description": "Data collection and labeling → Feature engineering → Model training and evaluation → Deployment → Monitoring → Retraining. Each phase has unique quality gates, unlike traditional software. Models degrade over time as data distributions shift."
+            },
+            {
+              "title": "MLOps Pipeline Design",
+              "description": "CI/CD for ML: version data and models (not just code), automate training pipelines, A/B test model versions, canary deploy new models, and monitor prediction quality. The challenge: reproducibility requires tracking data, code, hyperparameters, and environment."
+            },
+            {
+              "title": "AI Ethics & Bias",
+              "description": "Bias in training data leads to biased predictions. Fairness metrics and bias testing as part of the ML quality gate. Explainability requirements for regulated industries. The human-in-the-loop principle for high-stakes decisions."
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "title": "Product Analytics & Data-Driven Decisions",
+          "duration": "35 min",
+          "purpose": "Building the product is only half the job—understanding how it's used and whether it delivers value requires systematic product analytics. This module bridges product management and engineering with data-driven practices.",
+          "bestFor": "Product teams seeking to improve data-driven product management",
+          "learningObjectives": [
+            "Define and instrument key product metrics",
+            "Design analytics architectures for product insight",
+            "Apply experimentation (A/B testing) to product decisions",
+            "Build a data-driven product culture"
+          ],
+          "keyTopics": [
+            {
+              "title": "Product Metrics Framework",
+              "description": "North Star Metric (the one metric that best captures the value you deliver), HEART framework (Happiness, Engagement, Adoption, Retention, Task success), and pirate metrics (AARRR: Acquisition, Activation, Retention, Revenue, Referral)."
+            },
+            {
+              "title": "Instrumentation & Analytics Architecture",
+              "description": "Event tracking strategy, data pipeline design (collection → processing → storage → analysis), real-time vs. batch analytics, and data governance (privacy, consent, retention)."
+            },
+            {
+              "title": "Experimentation & A/B Testing",
+              "description": "Hypothesis-driven product development. A/B test design: sample size, statistical significance, guardrail metrics. Common pitfalls: peeking at results too early, testing too many variants, ignoring long-term effects."
+            }
+          ]
+        },
+        {
+          "id": "F",
+          "title": "API Strategy & Platform Thinking",
+          "duration": "35 min",
+          "purpose": "Many enterprise products evolve into platforms that others build upon. This module covers the strategic shift from product to platform thinking, with API design as the enabling foundation.",
+          "bestFor": "Organizations building platforms, marketplaces, or extensible products",
+          "learningObjectives": [
+            "Distinguish product thinking from platform thinking",
+            "Design APIs as strategic business assets",
+            "Build developer experience (DX) as a competitive advantage",
+            "Plan API governance and lifecycle management"
+          ],
+          "keyTopics": [
+            {
+              "title": "Product to Platform Evolution",
+              "description": "The platform shift: from building all capabilities yourself to enabling others to build on your foundation. Network effects, ecosystem dynamics, and the flywheel of platform value creation."
+            },
+            {
+              "title": "API as Business Asset",
+              "description": "APIs as products with their own lifecycle: design, versioning, deprecation, sunsetting. Developer experience (DX): documentation, SDKs, sandbox environments, and developer portals."
+            },
+            {
+              "title": "API Governance",
+              "description": "Design standards (naming conventions, pagination, error handling), rate limiting and monetization, breaking change policies, and API versioning strategies (URL path, header, content negotiation)."
+            }
+          ]
+        },
+        {
+          "id": "G",
+          "title": "Hardware-Software Co-Design",
+          "duration": "40 min",
+          "purpose": "For products that span the hardware-software boundary—IoT devices, embedded systems, edge computing—coordinating hardware and software development is a unique challenge. This module expands the hardware examples from the core program into a dedicated deep-dive.",
+          "bestFor": "Teams building products with hardware and software components; IoT and embedded systems",
+          "learningObjectives": [
+            "Coordinate hardware and software development timelines",
+            "Design hardware abstraction layers for flexibility",
+            "Manage the hardware prototype-to-production transition",
+            "Navigate certification and compliance for physical products"
+          ],
+          "keyTopics": [
+            {
+              "title": "Hardware-Software Timeline Alignment",
+              "description": "Hardware has long lead times (weeks-months) while software sprints in days-weeks. Strategies: hardware abstraction layers, emulators, FPGA prototyping, and modular hardware design that accommodates software evolution."
+            },
+            {
+              "title": "Prototype to Production",
+              "description": "The valley between working prototype and production hardware: Design for Manufacturing (DFM), Design for Test (DFT), component sourcing and supply chain, manufacturing yield optimization, and production line bring-up."
+            },
+            {
+              "title": "Certification & Compliance",
+              "description": "Navigating FCC (electromagnetic emissions), CE (European conformity), UL (safety), RoHS (hazardous substances), and industry-specific certifications. Pre-compliance testing to avoid expensive re-spins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-management",
+      "title": "Product Management Track",
+      "description": "Designed for product managers and product owners navigating enterprise product delivery.",
+      "modules": [
+        {
+          "id": "PM1",
+          "title": "Stakeholder Management for Product Managers",
+          "duration": "35 min",
+          "purpose": "Product managers sit at the intersection of business, technology, and user experience. This module builds the stakeholder management skills specific to the PM role in enterprise contexts.",
+          "bestFor": "Product managers navigating complex stakeholder landscapes",
+          "learningObjectives": [
+            "Map and manage enterprise stakeholder landscapes",
+            "Navigate competing priorities between business units",
+            "Communicate product decisions effectively to diverse audiences",
+            "Build credibility as the voice of the customer"
+          ],
+          "keyTopics": [
+            {
+              "title": "Enterprise Stakeholder Mapping for PMs",
+              "description": "Identifying decision-makers, influencers, and blockers. Building on Module 3's RACI: how PMs establish authority without positional power."
+            },
+            {
+              "title": "Prioritization Under Pressure",
+              "description": "When every stakeholder's request is 'critical': using impact-effort matrices, weighted scoring, and transparent prioritization frameworks to make defensible decisions."
+            }
+          ]
+        },
+        {
+          "id": "PM2",
+          "title": "Product Roadmap Governance",
+          "duration": "35 min",
+          "purpose": "Enterprise product roadmaps are political artifacts as much as strategic ones. This module covers how to build, communicate, and defend a roadmap that balances all stakeholders.",
+          "bestFor": "Product managers responsible for strategic roadmaps",
+          "learningObjectives": [
+            "Build outcome-based roadmaps rather than feature lists",
+            "Balance competing investment categories in the roadmap",
+            "Communicate roadmap changes without losing stakeholder trust",
+            "Align product roadmap with business strategy"
+          ],
+          "keyTopics": [
+            {
+              "title": "Outcome-Based Roadmapping",
+              "description": "Shift from feature lists (what we'll build) to outcome goals (what we'll achieve). Timeframes: Now (committed), Next (planned), Later (exploratory). Preserves strategic flexibility."
+            },
+            {
+              "title": "Roadmap Communication",
+              "description": "Different versions for different audiences: executive (strategic themes), engineering (technical scope), customers (value delivery). Managing expectations when plans change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-track",
+      "title": "Engineering Track",
+      "description": "Designed for engineering leads and architects deepening their enterprise product delivery skills.",
+      "modules": [
+        {
+          "id": "ENG1",
+          "title": "Technical Debt as Strategic Investment",
+          "duration": "40 min",
+          "purpose": "Technical debt isn't inherently bad—it's a strategic tool when managed deliberately. This module reframes debt from 'mess we made' to 'investment decision we track.'",
+          "bestFor": "Engineering leads managing debt alongside feature delivery",
+          "learningObjectives": [
+            "Classify technical debt by type and business impact",
+            "Communicate debt in business terms to stakeholders",
+            "Build a systematic debt management practice",
+            "Balance debt reduction with feature delivery"
+          ],
+          "keyTopics": [
+            {
+              "title": "Technical Debt Taxonomy",
+              "description": "Deliberate vs. accidental debt. Prudent vs. reckless debt. The debt quadrant: Deliberate/Prudent ('We know this shortcut and we'll fix it'), Deliberate/Reckless ('We don't have time for design'), Accidental/Prudent ('Now we know how we should have done it'), Accidental/Reckless ('What's layered architecture?')."
+            },
+            {
+              "title": "Debt Communication Framework",
+              "description": "Translating technical debt into business language: risk of outage, cost of delayed features, developer productivity impact, and security vulnerability exposure. Making the invisible visible."
+            }
+          ]
+        },
+        {
+          "id": "ENG2",
+          "title": "Production Excellence & SRE Practices",
+          "duration": "40 min",
+          "purpose": "Expands Module 5's operations content for engineering teams responsible for production systems. Deep-dive into SRE practices, error budgets, and toil reduction.",
+          "bestFor": "Engineering teams operating production systems",
+          "learningObjectives": [
+            "Implement SRE practices within engineering teams",
+            "Define and manage error budgets",
+            "Identify and reduce operational toil",
+            "Build production excellence as a team discipline"
+          ],
+          "keyTopics": [
+            {
+              "title": "Error Budgets",
+              "description": "If your SLO is 99.95% availability, your error budget is 0.05%. Spend it on feature velocity (accepting some risk) or save it for stability. When the budget is exhausted, freeze features and focus on reliability."
+            },
+            {
+              "title": "Toil Reduction",
+              "description": "Toil is repetitive, manual, automatable work that scales linearly with system growth. Google's SRE principle: no more than 50% of an SRE's time should be toil. Identify, measure, and systematically automate away toil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operations-track",
+      "title": "Operations & Procurement Track",
+      "description": "Designed for operations teams, IT procurement, and vendor management professionals.",
+      "modules": [
+        {
+          "id": "OPS1",
+          "title": "Vendor Relationship Management",
+          "duration": "35 min",
+          "purpose": "Vendor selection is just the beginning. This module covers the ongoing discipline of managing vendor relationships for sustained value delivery.",
+          "bestFor": "IT procurement and vendor management professionals",
+          "learningObjectives": [
+            "Build effective ongoing vendor relationships",
+            "Conduct structured vendor performance reviews",
+            "Manage contract renewals and negotiations",
+            "Plan for vendor transitions and exit strategies"
+          ],
+          "keyTopics": [
+            {
+              "title": "Vendor Performance Management",
+              "description": "Quarterly business reviews (QBRs): structure, metrics, escalation. SLA compliance tracking and trend analysis. Building a vendor performance scorecard."
+            },
+            {
+              "title": "Exit Planning & Vendor Transitions",
+              "description": "Every vendor relationship should have an exit plan before you need one. Data portability, knowledge transfer, transition timelines, and parallel running periods."
+            }
+          ]
+        },
+        {
+          "id": "OPS2",
+          "title": "IT Service Management & ITIL Integration",
+          "duration": "35 min",
+          "purpose": "Enterprise products don't exist in isolation—they operate within ITSM frameworks. This module bridges product delivery with operational service management.",
+          "bestFor": "Operations teams integrating new products into existing IT service management",
+          "learningObjectives": [
+            "Integrate new products into existing ITSM frameworks",
+            "Design service catalogs and support models",
+            "Bridge DevOps and ITSM practices",
+            "Plan for operational readiness and handoff"
+          ],
+          "keyTopics": [
+            {
+              "title": "ITIL and DevOps Coexistence",
+              "description": "ITIL and DevOps aren't enemies—they address different concerns. ITIL provides governance and service orientation; DevOps provides speed and automation. Bridging the gap for enterprise teams."
+            },
+            {
+              "title": "Operational Readiness Handoff",
+              "description": "The handoff from project team to operations team is where many products stumble. Knowledge transfer, runbook creation, training, and the 'hypercare' period after launch."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

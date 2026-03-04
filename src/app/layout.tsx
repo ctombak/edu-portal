@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Training Portal",
-  description: "Course training portal",
+  title: "Atlantic Learning — Better Managers. Better Business.",
+  description:
+    "Expert-led training programs that bridge global best practices with local business dynamics. Practical tools your leaders can apply from day one.",
 };
 
 const THEME_INIT_SCRIPT = `(function(){try{var t=localStorage.getItem('theme')||'auto';var r=t==='auto'?(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t;document.documentElement.setAttribute('data-theme',r)}catch(e){document.documentElement.setAttribute('data-theme','dark')}})()`;

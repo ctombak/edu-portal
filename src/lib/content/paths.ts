@@ -18,11 +18,3 @@ export function getCourseDir(locale: string, courseSlug: string): string {
   return path.join(getCoursesContentDir(locale), courseSlug);
 }
 
-/** Absolute path to one module folder: content/<locale>/courses/<courseSlug>/<moduleSlug>. */
-export function getModuleDir(
-  locale: string,
-  courseSlug: string,
-  moduleSlug: string
-): string {
-  return path.join(getCourseDir(locale, courseSlug), moduleSlug);
-}

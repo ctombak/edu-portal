@@ -1,0 +1,272 @@
+{
+  "title": "Enterprise Product Lifecycle — Full Curriculum",
+  "subtitle": "Comprehensive program content, frameworks, and methodologies",
+  "totalDuration": "8:30 – 17:00 (8 hours including breaks)",
+  "sections": [
+    {
+      "id": "opening",
+      "title": "Opening Session",
+      "subtitle": "Connection, Context & Product Lifecycle Failures",
+      "duration": "40 min",
+      "overview": "Establish connection between participants, set the frame for the day, and surface collective wisdom through shared product delivery experiences—both successes and spectacular failures.",
+      "topics": [
+        {
+          "title": "The Enterprise Product Reality in 2026",
+          "content": "70% of enterprise IT projects experience significant scope creep. Only 29% are completed on time, on budget, and with required features. The average enterprise manages 300+ applications, with integration complexity growing exponentially. Products increasingly span hardware and software boundaries—IoT, edge computing, and embedded systems are becoming mainstream enterprise concerns. Yet most organizations still treat product delivery as a linear, purely-software exercise.",
+          "keyQuote": "The biggest risk in enterprise product delivery isn't technical failure—it's building the wrong thing well."
+        },
+        {
+          "title": "Product Delivery War Stories",
+          "content": "Participants share formative product delivery experiences—the projects that went sideways, the vendors that under-delivered, the architectures that couldn't scale, and the launches that succeeded against the odds. These stories reveal patterns: the same failure modes repeat across industries, technologies, and decades. The session surfaces collective themes about what separates successful enterprise products from expensive failures."
+        }
+      ]
+    },
+    {
+      "id": "module1",
+      "title": "Module 1: The Discovery Phase",
+      "subtitle": "Requirements, RFI & Build-vs-Buy",
+      "duration": "75 min",
+      "overview": "This module covers the critical first phase of the product lifecycle: understanding what you need, determining how to get it, and making the fundamental build-or-buy decision that shapes everything that follows.",
+      "learningObjectives": [
+        "Map the enterprise product lifecycle and identify common failure modes",
+        "Translate stakeholder needs into structured, traceable requirements",
+        "Navigate the RFI/RFP/RFQ procurement process effectively",
+        "Apply a structured Build-vs-Buy decision framework"
+      ],
+      "topics": [
+        {
+          "title": "The Enterprise Product Lifecycle Map",
+          "content": "The lifecycle spans six phases: Discovery (what do we need?), Evaluation (who can deliver it?), Planning (how will we deliver it?), Build (making it real), Launch (going live), and Operate (keeping it running and evolving). Each phase has specific inputs, outputs, quality gates, and decision points. The lifecycle isn't linear—it's iterative with feedback loops. A discovery insight can reshape architecture; a build constraint can redefine requirements. Organizations that treat this as a waterfall from phase to phase consistently underperform.",
+          "frameworks": [
+            {"name": "Product Lifecycle Phases", "description": "Discovery → Evaluation → Planning → Build → Launch → Operate. Each phase has defined inputs, outputs, quality gates, and feedback loops to earlier phases."}
+          ],
+          "keyQuote": "The lifecycle isn't a conveyor belt—it's a conversation between phases. The best teams maintain feedback loops at every stage."
+        },
+        {
+          "title": "Requirements Engineering — From Needs to Specifications",
+          "content": "Requirements exist at three levels: Business Requirements (why—strategic goals), User Requirements (what—capabilities needed), and Functional/Technical Requirements (how—specific behaviors and constraints). The MoSCoW method prioritizes ruthlessly: Must have (the product fails without it), Should have (important but not critical for launch), Could have (nice to have if budget allows), Won't have (explicitly out of scope—equally important to define). The Requirements Traceability Matrix links every requirement back to its business justification and forward to its test case. Hardware example: embedded system requirements must specify operating temperature ranges (-40°C to +85°C for industrial), power consumption budgets (mW for battery-powered IoT), physical dimensions, weight constraints, and EMC compliance alongside functional specifications.",
+          "frameworks": [
+            {"name": "MoSCoW Prioritization", "description": "Must have (critical), Should have (important), Could have (desirable), Won't have (explicit exclusion). Forces difficult prioritization conversations early."},
+            {"name": "Requirements Traceability Matrix", "description": "Links each requirement to its business justification, design component, and validation test case. Ensures nothing is built without reason and nothing is untested."}
+          ]
+        },
+        {
+          "title": "The RFI/RFP/RFQ Procurement Framework",
+          "content": "Three instruments for three purposes: RFI (Request for Information) is for market scanning—you know your problem but not who can solve it. It's broad, exploratory, and non-committal. RFP (Request for Proposal) is for solution evaluation—you know what you need and want vendors to propose their approach and pricing. It's detailed, structured, and comparative. RFQ (Request for Quote) is for price negotiation—you know exactly what you want and need the best price. It's specification-driven and price-focused. Sequencing matters: RFI narrows the market from 20 vendors to 5; RFP evaluates the 5 and selects 2-3 finalists; RFQ (or final negotiation) determines the winner. SOC example: procuring a SOC-as-a-Service platform—the RFI explores which vendors offer integrated SIEM, SOAR, and threat intelligence. The RFP specifies required detection rules, mean-time-to-detect SLAs, log source coverage, and analyst staffing models. The RFQ finalizes pricing per log volume tier.",
+          "frameworks": [
+            {"name": "RFI/RFP/RFQ Framework", "description": "RFI (explore the market), RFP (evaluate solutions), RFQ (negotiate pricing). Sequential narrowing from broad discovery to specific commitment."}
+          ],
+          "keyQuote": "A well-written RFP does half the evaluation work for you—it forces vendors to address your real requirements, not their marketing talking points."
+        },
+        {
+          "title": "Build vs. Buy Decision Framework",
+          "content": "The decision hinges on two axes: Strategic Differentiation (does this capability give you competitive advantage?) and Organizational Capability (can you build and maintain this better than the market?). Build when the capability is core to your value proposition and you have (or can attract) the talent. Buy when the capability is commodity and the market offers mature, well-supported options. The hidden costs of building: ongoing maintenance, talent retention, opportunity cost. The hidden costs of buying: integration, customization limitations, vendor lock-in, license escalation. Total Cost of Ownership (TCO) analysis over 3-5 years, including Year 0 (implementation) through Year 5 (ongoing operations and evolution). Hardware considerations: COTS (Commercial Off-The-Shelf) vs. custom hardware design. COTS is faster and cheaper upfront but may not meet exact performance, form factor, or certification needs. Custom design gives full control but requires NRE (Non-Recurring Engineering) investment and longer time-to-market.",
+          "frameworks": [
+            {"name": "Build vs. Buy Matrix", "description": "Plot capabilities on Strategic Differentiation vs. Organizational Capability. Build for high differentiation + high capability; buy for commodity + lower capability."},
+            {"name": "TCO Analysis", "description": "Total Cost of Ownership over 3-5 years: implementation, integration, customization, maintenance, training, license escalation, and opportunity cost."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module2",
+      "title": "Module 2: Vendor Evaluation & Architecture Design",
+      "subtitle": "From Shortlist to Blueprint",
+      "duration": "70 min",
+      "overview": "Once you know what you need and whether to build or buy (or both), this module covers how to evaluate vendors objectively, design architectures that last, plan integrations that scale, and embed security from the start.",
+      "learningObjectives": [
+        "Evaluate vendors using structured scoring and POC methodology",
+        "Select appropriate architecture patterns for enterprise contexts",
+        "Design integration strategies and API contracts",
+        "Embed security and compliance into architecture decisions"
+      ],
+      "topics": [
+        {
+          "title": "Vendor Evaluation Methodology",
+          "content": "Move beyond gut feel and sales demos to structured evaluation. The weighted scoring matrix defines criteria (technical fit, scalability, vendor viability, support model, integration capability, total cost), assigns weights reflecting your priorities, and scores each vendor objectively. Proof of Concept (POC) validates technical feasibility: can the vendor's product actually do what they claim in your environment? Proof of Value (POV) goes further—does it deliver measurable business value? Reference checks: talk to customers who are similar to you in scale and complexity, not just the vendor's cherry-picked references. Financial due diligence: will this vendor exist in 3 years? SOC example: evaluating SIEM vendors—score on detection rule coverage (MITRE ATT&CK mapping), false positive rates at your log volume, log ingestion throughput, SOAR integration depth, and analyst workflow efficiency.",
+          "frameworks": [
+            {"name": "Weighted Vendor Scoring Matrix", "description": "Define criteria, assign weights, score objectively. Categories: technical fit, scalability, vendor viability, support, integration, total cost. Enables apples-to-apples comparison."},
+            {"name": "POC vs. POV", "description": "POC validates 'can it work?' POV validates 'does it deliver value?' Always define success criteria before starting either."}
+          ],
+          "keyQuote": "Never let a vendor define your evaluation criteria. Their criteria are designed to make them win."
+        },
+        {
+          "title": "Enterprise Architecture Patterns",
+          "content": "Architecture is about trade-offs, not best practices. Monolith: simple to develop and deploy, harder to scale and evolve independently. Microservices: independently deployable, scalable per service, but operationally complex and requiring mature DevOps. Modular monolith: the pragmatic middle ground—logically separated modules in a single deployable unit, with the option to extract services later. Event-driven architecture: decoupled producers and consumers communicating through events—ideal for real-time processing, audit trails, and system integration. Data architecture: data mesh (domain teams own their data products), data lake (centralized raw storage for analytics), data warehouse (structured, curated for reporting). The Architecture Decision Record (ADR) practice: document the decision, the context, the options considered, and the rationale. Future you will thank present you. Hardware parallel: SoC architecture involves similar trade-offs—selecting IP cores (ARM Cortex vs. RISC-V), bus architecture (AMBA AHB vs. AXI for bandwidth needs), memory hierarchy (SRAM vs. DRAM vs. Flash tradeoffs), and the build-vs-license decision for silicon IP blocks.",
+          "frameworks": [
+            {"name": "Architecture Decision Record (ADR)", "description": "Title, Context, Decision, Status, Consequences. Documents why an architecture choice was made, not just what was chosen."}
+          ]
+        },
+        {
+          "title": "Integration Strategy & API Design",
+          "content": "Enterprise products don't exist in isolation—they must integrate with existing systems, data sources, and workflows. API-first design: define the contract before building the implementation. This enables parallel development and clear boundaries between systems. Integration patterns: Point-to-point (simple for 2-3 connections, becomes spaghetti at scale), ESB/Integration Platform (centralized routing and transformation), Event Bus/Message Broker (decoupled, scalable, resilient). Protocol selection by context: REST for standard CRUD operations and external APIs, GraphQL for flexible client-driven queries, gRPC for high-performance internal service communication. Versioning strategy: how to evolve APIs without breaking consumers. Hardware protocols: MQTT and CoAP for IoT device communication (low bandwidth, unreliable networks); CAN bus for automotive and industrial control; SPI and I2C for board-level chip-to-chip communication; Modbus for industrial equipment integration.",
+          "frameworks": [
+            {"name": "API-First Design", "description": "Define the contract (OpenAPI/AsyncAPI) before implementation. Enables parallel development, clear boundaries, and consumer-driven design."}
+          ]
+        },
+        {
+          "title": "Security Architecture & Compliance by Design",
+          "content": "Security bolted on after the fact is expensive, incomplete, and fragile. Security designed into the architecture is a competitive advantage. Threat modeling with STRIDE: for each component and data flow, identify threats across six categories—Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege. Security architecture patterns: Zero Trust (never trust, always verify—regardless of network location), Defense in Depth (multiple layers of security controls), Least Privilege (minimum permissions necessary). Compliance frameworks as architecture requirements: SOC 2 Type II (trust service criteria: security, availability, processing integrity, confidentiality, privacy), ISO 27001 (information security management system), GDPR (data protection by design and default). Hardware security: Hardware Security Modules (HSM) for key management, secure boot chains to prevent firmware tampering, Trusted Platform Modules (TPM) for hardware-rooted trust, and physical tamper detection mechanisms.",
+          "frameworks": [
+            {"name": "STRIDE Threat Model", "description": "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege. Systematic threat identification for each component and data flow."},
+            {"name": "Zero Trust Architecture", "description": "Never trust, always verify. Authenticate and authorize every request regardless of network location. Microsegmentation and continuous validation."}
+          ],
+          "keyQuote": "Security isn't a feature you add—it's a property of your architecture. You either design it in or you bolt it on at 10x the cost."
+        }
+      ]
+    },
+    {
+      "id": "module3",
+      "title": "Module 3: Planning & Governance",
+      "subtitle": "From Contract to Kickoff",
+      "duration": "70 min",
+      "overview": "Good architecture with bad governance fails. This module covers the organizational and procedural foundations that determine whether your product initiative succeeds: contracts, methodologies, risk management, and team structure.",
+      "learningObjectives": [
+        "Negotiate contracts with clear scope, milestones, and SLA definitions",
+        "Select delivery methodologies appropriate to project context",
+        "Apply structured risk identification and mitigation frameworks",
+        "Define clear roles and responsibilities using the RACI model"
+      ],
+      "topics": [
+        {
+          "title": "Contract Negotiation & SLAs",
+          "content": "The contract is the foundation of vendor relationships. Key elements: precise scope definition (what's included AND what's excluded), milestone-based payment schedules (tied to deliverables, not calendar dates), acceptance criteria (objective, measurable, testable), intellectual property ownership (who owns what, especially for custom development), change management procedures (how scope changes are requested, evaluated, and priced), and exit clauses (your escape plan if things go wrong). SLA design requires understanding the cost of downtime: 99.9% availability allows 8.7 hours of downtime per year; 99.99% allows only 52.6 minutes. Each additional nine roughly 10x the infrastructure cost. Response time tiers: P1 (critical—30 min response, 4 hour resolution), P2 (high—2 hour response, 8 hour resolution), P3/P4 (lower urgency). Penalty and incentive structures that align vendor behavior with your outcomes. Hardware considerations: warranty terms (how long, what's covered), MTTR commitments for replacement hardware, spare parts stocking agreements, and end-of-life notification periods (minimum 24 months advance notice).",
+          "frameworks": [
+            {"name": "SLA Design Framework", "description": "Define SLIs (what to measure), set SLOs (internal targets with margin), formalize SLAs (external commitments with consequences). Always set SLOs tighter than SLAs."}
+          ],
+          "keyQuote": "The best contract is one that both parties hope they never need to reference—because the governance makes collaboration natural."
+        },
+        {
+          "title": "Delivery Methodology Selection",
+          "content": "No methodology is universally superior—each serves different contexts. Agile (Scrum/Kanban): best for products with evolving requirements, where fast feedback loops and iterative delivery create competitive advantage. SAFe (Scaled Agile Framework): coordinates multiple agile teams delivering a single product or platform—adds structure for large-scale alignment. Waterfall: appropriate for regulatory-heavy deliverables, fixed-scope contracts, or hardware-dependent timelines where late changes are prohibitively expensive. Hybrid approaches: Agile for software development sprints within a Waterfall-governed overall program—common in enterprises with hardware-software products. The methodology should serve the product, not the other way around. If your team spends more time on process ceremonies than on building product, something is wrong. Hardware-specific: V-Model for systems requiring hardware-software co-design—requirements flow down the left side, validation flows up the right. Stage-gate for physical product development: concept, design, prototype, pilot, production. Manufacturing readiness reviews at each gate.",
+          "frameworks": [
+            {"name": "Methodology Selection Matrix", "description": "Match methodology to context: Agile (evolving requirements, fast feedback), SAFe (multi-team coordination), Waterfall (regulatory/hardware), Hybrid (mixed constraints). No one-size-fits-all."},
+            {"name": "V-Model", "description": "Left side: requirements → design → implementation (decomposition). Right side: unit test → integration test → system test → acceptance test (validation). Each right-side phase validates its left-side counterpart."}
+          ]
+        },
+        {
+          "title": "Risk Management & Mitigation",
+          "content": "Hope is not a strategy. Every product initiative carries risks—the question is whether you identify and manage them proactively or discover them as crises. Risk identification techniques: Pre-mortem analysis (imagine the project has failed—what went wrong?), Risk taxonomy review (technical, organizational, external, schedule, budget categories), Lessons learned from similar projects. The Impact × Probability matrix prioritizes risks into four quadrants: High impact × High probability (immediate action required), High impact × Low probability (contingency plans ready), Low impact × High probability (monitor and mitigate routinely), Low impact × Low probability (accept and move on). Four mitigation strategies: Avoid (change the plan to eliminate the risk), Transfer (shift risk to another party—insurance, contractual allocation), Mitigate (reduce probability or impact through specific actions), Accept (conscious decision with contingency budget and plan). SOC example: risk assessment for security platform migration. What happens if the new SIEM misses a critical detection during cutover? Mitigation: run both platforms in parallel for 30 days, with the legacy system as fallback. What if the vendor's log ingestion can't handle peak volume? Mitigation: conduct load testing at 2x projected peak before contract signing.",
+          "frameworks": [
+            {"name": "Pre-Mortem Analysis", "description": "Imagine the project has failed. Work backward: what went wrong? Surfaces risks that optimism bias would otherwise hide."},
+            {"name": "Impact × Probability Matrix", "description": "Plot risks on severity vs. likelihood. Focus mitigation effort on high-impact risks regardless of probability."}
+          ],
+          "keyQuote": "Hope is not a risk mitigation strategy. The pre-mortem is the most underused tool in project management."
+        },
+        {
+          "title": "Team Structure & RACI",
+          "content": "Clear accountability is the foundation of cross-functional delivery. RACI defines four roles for every decision and deliverable: Responsible (the person or team doing the work), Accountable (the single person who owns the outcome—there can be only one), Consulted (people whose input is sought before a decision), Informed (people who are notified after a decision). Common RACI mistakes: too many people Accountable (nobody is), confusing Consulted with Informed (slows everything down), not including vendors in the matrix. Cross-functional team design: Product (what to build and why), Engineering (how to build it), QA (whether it works), Security (whether it's safe), Operations (whether it runs). Vendor-client integration models: Embedded (vendor team members sit within client teams), Liaison (dedicated integration managers bridge the gap), Independent (vendor works autonomously with defined interfaces). Scaling team structure: Conway's Law states that your system architecture will mirror your team communication structure. The inverse Conway maneuver: design your team structure to produce the architecture you want.",
+          "frameworks": [
+            {"name": "RACI Matrix", "description": "Responsible (does the work), Accountable (owns the outcome—only one), Consulted (provides input before), Informed (notified after). Prevents accountability gaps and decision paralysis."},
+            {"name": "Conway's Law", "description": "System architecture mirrors team communication structure. Use the inverse Conway maneuver: design teams to produce the architecture you want."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module4",
+      "title": "Module 4: Build & Quality",
+      "subtitle": "Development Through Validation",
+      "duration": "65 min",
+      "overview": "This module covers the execution phase—turning plans and architectures into working, tested, secure, performant software (and hardware). Quality is not a phase at the end; it's a discipline woven through every stage.",
+      "learningObjectives": [
+        "Design CI/CD pipelines and environment strategies",
+        "Implement quality gates using the test pyramid",
+        "Integrate security scanning into the development workflow",
+        "Plan and execute performance engineering from the start"
+      ],
+      "topics": [
+        {
+          "title": "Development Lifecycle Management",
+          "content": "Effective development requires automation, clear environments, and controlled releases. CI/CD pipeline design: every code commit triggers build → unit test → static analysis → security scan → integration test → deployment to staging. No manual steps between commit and staging—automation eliminates human error and ensures consistency. Environment strategy: Development (developer experimentation, unstable), Integration (team code merges, semi-stable), Staging (production mirror, stable), Pre-production (final validation with production-like data), Production (live). Each environment has clear promotion criteria and data policies (no production data in dev/staging without anonymization). Feature flags enable progressive delivery: deploy code to production without exposing it to users, then gradually enable for subsets—reducing blast radius and enabling rapid rollback. Hardware considerations: firmware development workflows require hardware-in-the-loop (HIL) testing where software runs against actual hardware or high-fidelity simulators. FPGA prototyping accelerates hardware-software co-development. The challenge: hardware lead times (weeks to months) alongside agile software sprints (days to weeks). Solution: decouple hardware and software delivery with well-defined hardware abstraction layers.",
+          "frameworks": [
+            {"name": "CI/CD Pipeline", "description": "Commit → Build → Test → Scan → Deploy. Fully automated, no manual gates between commit and staging. Every stage provides fast feedback."},
+            {"name": "Environment Promotion Strategy", "description": "Dev → Integration → Staging → Pre-prod → Production. Clear promotion criteria, data policies, and ownership at each level."}
+          ]
+        },
+        {
+          "title": "Quality Gates & Testing Strategy",
+          "content": "The test pyramid provides the strategic framework: Unit tests (many, fast, cheap—test individual components in isolation), Integration tests (moderate number—test interactions between components), End-to-end tests (few, slow, expensive—test complete user workflows). Invert the pyramid and you get slow feedback, flaky tests, and frustrated developers. Quality gates at each lifecycle phase ensure defects are caught early when they're cheap to fix: Code review (every change reviewed by at least one peer), Static analysis (automated code quality and style enforcement), Test coverage thresholds (not 100%—but coverage of critical paths), Performance benchmarks (no regression from established baselines), Security scan clean (no critical or high vulnerabilities). Definition of Done as a team contract: code complete, tests pass, documentation updated, security scan clean, performance validated, peer reviewed. Hardware parallel: environmental testing validates operation across temperature, vibration, humidity, and altitude ranges. Reliability testing calculates MTBF (Mean Time Between Failures) and MTTF (Mean Time To Failure). Compliance testing ensures FCC (electromagnetic emissions), CE (European conformity), and UL (safety) certification requirements are met before production.",
+          "frameworks": [
+            {"name": "Test Pyramid", "description": "Many unit tests (fast, cheap), fewer integration tests (medium), few E2E tests (slow, expensive). Inverted pyramids indicate testing strategy problems."},
+            {"name": "Quality Gate Checklist", "description": "Code reviewed, static analysis passed, tests green, coverage thresholds met, security scan clean, performance benchmarks met, documentation updated."}
+          ],
+          "keyQuote": "The cost of fixing a defect increases 10x at each lifecycle phase. A bug caught in requirements costs $1; the same bug in production costs $10,000."
+        },
+        {
+          "title": "Security Validation & Compliance",
+          "content": "Security testing is not a phase—it's integrated into the development workflow. SAST (Static Application Security Testing): analyzes source code for vulnerabilities without executing it. Fast, catches common patterns (SQL injection, XSS, buffer overflows), runs on every commit. DAST (Dynamic Application Security Testing): tests the running application by simulating attacks. Catches runtime vulnerabilities that SAST misses (authentication flaws, configuration errors). SCA (Software Composition Analysis): identifies known vulnerabilities in third-party dependencies. Critical because 80% of modern codebases are open-source dependencies. Penetration testing: periodic manual testing by security experts simulating real attackers. Quarterly for critical systems, annually for others. SOC 2 audit preparation is an ongoing discipline, not a last-minute scramble: continuous evidence collection (automated wherever possible), control documentation (what you do and why), gap identification and remediation (address before the auditor finds them). Hardware security: HSMs protect cryptographic keys in tamper-resistant hardware. Secure boot ensures only signed, verified firmware runs on the device. Firmware signing prevents unauthorized modifications. Physical tamper detection (mesh sensors, epoxy coating) protects against hardware attacks.",
+          "frameworks": [
+            {"name": "Security Testing Integration", "description": "SAST on every commit, SCA on every build, DAST on staging deployments, penetration testing quarterly. Shift security left without slowing development."}
+          ]
+        },
+        {
+          "title": "Performance Engineering",
+          "content": "Performance is a feature, not an afterthought. By the time users complain, you've already lost them. Performance testing types: Load testing (expected traffic patterns—does it meet SLAs?), Stress testing (beyond expected limits—where does it break?), Endurance testing (sustained load over hours/days—are there memory leaks or resource exhaustion?), Spike testing (sudden traffic bursts—does auto-scaling respond fast enough?). Capacity planning: size infrastructure based on projected growth curves and peak scenarios (Black Friday, year-end processing, product launches). Build in headroom—running at 80% capacity means one unexpected spike triggers degradation. Benchmarking establishes baselines so you can detect performance regression before users do. Every release should be compared against the baseline. Observability-driven development: instrument your code before you ship. You can't optimize what you can't measure. Hardware performance engineering: thermal throttling analysis (does the processor reduce clock speed under sustained load?), power consumption profiling under various workloads (critical for battery-powered devices), signal integrity testing at operating frequency (does the PCB design support the data rates?), EMI compliance under actual operating conditions (not just on the bench).",
+          "frameworks": [
+            {"name": "Performance Test Strategy", "description": "Load (expected), Stress (beyond limits), Endurance (sustained), Spike (bursts). Each test type answers a different question about system behavior."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module5",
+      "title": "Module 5: Go-Live & Production Operations",
+      "subtitle": "Deployment, Reliability & Continuous Improvement",
+      "duration": "35 min",
+      "overview": "Launch day isn't the finish line—it's the starting line. This module covers how to deploy safely, operate reliably, respond to incidents effectively, and continuously improve the product.",
+      "learningObjectives": [
+        "Select and execute appropriate deployment strategies",
+        "Conduct production readiness reviews",
+        "Build observability and incident management practices",
+        "Establish continuous improvement and product evolution loops"
+      ],
+      "topics": [
+        {
+          "title": "Deployment Strategies & Production Readiness",
+          "content": "Safe deployment is about controlling blast radius and enabling fast rollback. Blue-green deployment: maintain two identical production environments. Deploy to the inactive one, verify, then switch traffic. Instant rollback by switching back. Canary releases: deploy to a small subset of users (1-5%), monitor key metrics, gradually increase if healthy. Rolling deployments: update instances one-by-one, maintaining service availability throughout. Production Readiness Review (PRR) checklist: runbooks documented and tested, monitoring and alerting configured, on-call rotation staffed and trained, rollback procedure verified, capacity headroom confirmed, security scan results clean. Go/no-go decision criteria: all quality gates passed, performance benchmarks met, security validation complete, rollback tested, stakeholder sign-off received. Hardware: phased hardware rollouts by site (pilot → regional → global), pilot site selection based on risk tolerance and support proximity, field upgrade procedures for firmware updates, and rollback mechanisms (dual firmware partitions with fallback boot).",
+          "frameworks": [
+            {"name": "Deployment Strategy Selection", "description": "Blue-green (instant switch, full rollback), Canary (gradual rollout, metric-driven), Rolling (incremental, zero-downtime). Choose based on risk tolerance and infrastructure capabilities."},
+            {"name": "Production Readiness Review", "description": "Runbooks, monitoring, alerting, on-call, rollback, capacity, security. All must be verified before go-live. No exceptions."}
+          ],
+          "keyQuote": "Launch day isn't the finish line—it's the starting line. The best products are built by teams that operate what they build."
+        },
+        {
+          "title": "Observability & Incident Management",
+          "content": "You can't fix what you can't see. The three pillars of observability: Metrics (what's happening—request rates, error rates, latencies, resource utilization), Logs (why it happened—structured event records with correlation IDs), Traces (where it happened—request flow across services with timing). The SLO/SLI/SLA hierarchy: SLIs (Service Level Indicators) measure specific behaviors (e.g., 95th percentile latency), SLOs (Service Level Objectives) set internal targets with margin (e.g., 99.95% availability), SLAs (Service Level Agreements) formalize external commitments with consequences (e.g., credits if below 99.9%). Always set SLOs tighter than SLAs to create an error budget. Alerting strategy: alert on user-facing symptoms (high error rate) not internal causes (CPU at 80%). Reduce alert noise to prevent fatigue. Every alert should be actionable—if there's nothing to do, it shouldn't page someone at 3 AM. Incident management lifecycle: Detect (automated monitoring catches it), Triage (assess severity and impact), Mitigate (stop the bleeding—restoration over root cause), Resolve (fix the underlying issue), Review (blameless post-mortem focused on system improvement).",
+          "frameworks": [
+            {"name": "Three Pillars of Observability", "description": "Metrics (what), Logs (why), Traces (where). All three together give you the complete picture. Any one alone is insufficient."},
+            {"name": "Blameless Post-Mortem", "description": "Timeline, impact, root causes, contributing factors, action items. Focus on system improvement, not individual blame. Assume good intent."}
+          ]
+        },
+        {
+          "title": "Continuous Improvement & Product Evolution",
+          "content": "Products that stop evolving start dying. Multiple feedback loops drive continuous improvement: user analytics (how people actually use the product vs. how you expected), support ticket analysis (patterns reveal systematic issues), NPS and customer satisfaction surveys (sentiment trends), customer advisory boards (deep qualitative insight from key accounts). Technical debt management is an ongoing discipline: maintain a visible tech debt register, prioritize by business impact (not just engineering preference), allocate a consistent percentage of capacity (typically 15-20%) to debt reduction. Product roadmap governance balances three investment categories: New features (grow the product), Technical health (maintain the platform), Operational improvements (reduce toil and risk). End-of-life planning is part of the lifecycle: data migration paths, customer communication timelines, graceful deprecation of APIs with sunset headers, and archival strategies. The product is never 'done'—it evolves or it dies.",
+          "frameworks": [
+            {"name": "Three Investment Categories", "description": "New features (growth), Technical health (sustainability), Operational improvements (efficiency). Healthy products balance all three in their roadmap."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "title": "Closing Session",
+      "subtitle": "Integration & Lifecycle Action Plan",
+      "duration": "50 min",
+      "overview": "Integrate the day's learning into a concrete, personal action plan that maps directly to participants' current product initiatives.",
+      "topics": [
+        {
+          "title": "Product Lifecycle Action Planning",
+          "content": "The Product Lifecycle Action Plan maps to your current reality: Current Phase (where is your product in the lifecycle right now?), Biggest Gap (which framework or practice from today would have the highest impact?), Quick Win (one thing you can implement in the next 48 hours), Process Improvement (one workflow or governance change to propose this month), Team Capability (one skill or practice to develop in your team this quarter), Risk to Address (one risk you've been ignoring that needs a mitigation plan), Accountability Partner (a colleague from today who will check in at 30 days).",
+          "frameworks": [
+            {"name": "Product Lifecycle Action Plan", "description": "Current Phase, Biggest Gap, Quick Win (48 hours), Process Improvement (this month), Team Capability (this quarter), Risk to Address, Accountability Partner."}
+          ]
+        },
+        {
+          "title": "Key Takeaway Sharing & Commitment",
+          "content": "Participants share their top insight and first action with the group. The session closes with a reflection on the full lifecycle journey covered during the day and a commitment to applying the frameworks in their current product initiatives."
+        }
+      ]
+    }
+  ]
+}

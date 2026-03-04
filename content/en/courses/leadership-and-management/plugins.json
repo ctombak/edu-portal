@@ -221,6 +221,10 @@
             {
               "title": "The Credibility Equation for HR",
               "description": "Shift from 'HR says we have to...' to 'Here's the business risk if we don't...' Build trust through business language and strategic framing."
+            },
+            {
+              "title": "Coaching Without Authority",
+              "description": "Practical techniques for influencing and developing managers who don't report to you—building trust through questions, not directives, and earning a seat at the table through impact."
             }
           ]
         },
@@ -244,6 +248,10 @@
             {
               "title": "Change Architecture",
               "description": "Building on Module 4's change equation, specific strategies for HR-led transformations: restructurings, culture changes, and AI-driven role redesign."
+            },
+            {
+              "title": "Self-Care in Change Leadership",
+              "description": "Who supports HR during change? Building resilience practices and peer support structures when you're simultaneously designing and enduring transformation."
             }
           ]
         },
@@ -267,6 +275,10 @@
             {
               "title": "The Culture Stack",
               "description": "Connecting psychological safety (Module 3) and change management (Module 4) to systematic culture architecture."
+            },
+            {
+              "title": "Measuring Culture",
+              "description": "Moving beyond engagement surveys to track culture health: behavioral indicators, decision pattern analysis, and leading indicators that predict cultural drift before it becomes crisis."
             }
           ]
         },
@@ -290,6 +302,10 @@
             {
               "title": "People Analytics for Influence",
               "description": "Using data to gain disproportionate influence—connecting directly to Module 2's influence and stakeholder mastery frameworks."
+            },
+            {
+              "title": "The Metrics That Matter",
+              "description": "Not all data is created equal. Identifying the 3–5 people metrics that directly connect to your organization's strategic priorities—and having the discipline to ignore the rest."
             }
           ]
         },
@@ -313,6 +329,10 @@
             {
               "title": "Decision Navigation",
               "description": "Connecting Module 1's adaptive leadership framework to HR's most complex decisions: when to advocate, when to partner, when to push back."
+            },
+            {
+              "title": "Building Trust on Both Sides",
+              "description": "Practical strategies for maintaining credibility with employees and business leaders simultaneously—even when decisions appear to favor one over the other."
             }
           ]
         }
@@ -343,6 +363,10 @@
             {
               "title": "Strategic Communication for Finance",
               "description": "Building on Module 2's influence frameworks: how to present financial data to different audiences in ways that drive strategic decisions."
+            },
+            {
+              "title": "The Visual Argument",
+              "description": "Designing financial presentations that drive decisions: simplify complex data, highlight the 'so what,' and create visual narratives that executives remember and act on."
             }
           ]
         },
@@ -366,6 +390,10 @@
             {
               "title": "Building Partnership Trust",
               "description": "Using the Trust Equation from Module 2 to transform finance's relationship with business stakeholders."
+            },
+            {
+              "title": "Proactive Business Engagement",
+              "description": "Moving from waiting to be asked to anticipating business needs. The shift from reactive reporting to proactive strategic insight that positions finance as an indispensable partner."
             }
           ]
         },
@@ -389,6 +417,10 @@
             {
               "title": "Communicating Difficult Decisions",
               "description": "Building on Module 4's ownership framework: how to deliver hard messages with accountability and empathy."
+            },
+            {
+              "title": "Team Resilience Under Constraint",
+              "description": "Maintaining team morale and engagement when the message is 'do more with less.' Practical tools for protecting motivation and preventing cynicism during austerity."
             }
           ]
         },
@@ -412,6 +444,10 @@
             {
               "title": "Future-Ready Development",
               "description": "Connecting to Plug-in D (Leadership Pipeline) and Module 5 (AI Fluency) for finance-specific team building."
+            },
+            {
+              "title": "AI Fluency in Finance",
+              "description": "Building practical AI literacy across finance teams—from automated reconciliation to predictive analytics—without losing the human judgment that makes finance valuable."
             }
           ]
         },
@@ -435,6 +471,10 @@
             {
               "title": "Scenario Modeling & Decision Frameworks",
               "description": "Extending Module 4's RAPID and bias mitigation frameworks into finance-specific strategic contexts."
+            },
+            {
+              "title": "Communicating Uncertainty",
+              "description": "How to present incomplete information without undermining confidence. The art of saying 'we don't know yet' while still providing leadership, direction, and decision frameworks."
             }
           ]
         }
@@ -465,6 +505,10 @@
             {
               "title": "New Engineering Manager Traps",
               "description": "The hero coding trap, the 'just let me do it' instinct, measuring productivity by code output instead of team output. Building on Module 1's self-awareness."
+            },
+            {
+              "title": "Redefining Productivity",
+              "description": "Your output is no longer code—it's the team's output. Practical frameworks for measuring your impact through team velocity, capability growth, and unblocking others rather than personal contribution."
             }
           ]
         },
@@ -488,6 +532,10 @@
             {
               "title": "Influence Through Translation",
               "description": "Extending Module 2's influence frameworks: how to communicate engineering reality to executives, product, and business teams."
+            },
+            {
+              "title": "The Business Case Toolkit",
+              "description": "Practical templates for framing engineering investments: ROI of reliability, cost of delay, risk quantification. Turn 'we need to refactor' into 'this reduces outage risk by 40% and saves €2M annually.'"
             }
           ]
         },
@@ -511,6 +559,10 @@
             {
               "title": "Sustainable Pace Tools",
               "description": "Practical monitoring and maintenance tools for engineering managers facing the burnout crisis."
+            },
+            {
+              "title": "Navigating AI Anxiety",
+              "description": "AI is reshaping the engineering profession in real time. Addressing team fears about obsolescence, reframing AI as an amplifier of engineering judgment, and creating psychological safety around adoption and experimentation."
             }
           ]
         },
@@ -534,6 +586,10 @@
             {
               "title": "The Debt Prioritization Framework",
               "description": "Connecting Module 1's Heifetz framework, Module 2's influence skills, and Module 4's ownership tools to technical debt decisions."
+            },
+            {
+              "title": "Communicating Debt to Non-Technical Stakeholders",
+              "description": "Translating technical debt into business language: 'Every sprint we spend 30% on workarounds' becomes 'we're losing a third of our capacity to deliver new features.' Making the invisible visible to drive action."
             }
           ]
         },
@@ -557,6 +613,10 @@
             {
               "title": "Engineering-Specific AI Strategy",
               "description": "Extending Module 5's AI fluency into the specific challenges of AI-assisted coding, quality concerns, and team adoption in engineering."
+            },
+            {
+              "title": "Managing the Expectations Gap",
+              "description": "Executives hear '10x productivity' while engineers experience debugging AI-generated code. Building credibility by setting realistic milestones, demonstrating incremental wins, and honest reporting on what AI can and can't do today."
             }
           ]
         },
@@ -580,6 +640,10 @@
             {
               "title": "Managing Managers",
               "description": "A fundamentally different job from managing ICs—connecting to Plug-in D (Leadership Pipeline) and Module 3's coaching framework."
+            },
+            {
+              "title": "Retention & Growth Across Both Tracks",
+              "description": "Top ICs leave when the only path to recognition is management. Top managers burn out without peer support. Designing equitable compensation, visibility, and growth opportunities that retain talent on both tracks."
             }
           ]
         }

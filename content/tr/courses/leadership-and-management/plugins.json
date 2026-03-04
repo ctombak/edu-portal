@@ -221,6 +221,10 @@
             {
               "title": "İK İçin Güvenilirlik Denklemi",
               "description": "'İK bunu yapmamız gerektiğini söylüyor...' yerine 'Yapmazsak iş riski şudur...' yaklaşımına geçiş. İş dili ve stratejik çerçeveleme yoluyla güven inşa etmek."
+            },
+            {
+              "title": "Otoritesiz Koçluk",
+              "description": "Size bağlı olmayan yöneticileri etkileme ve geliştirme için pratik teknikler—yönergeler yerine sorularla güven inşa etmek ve etki yoluyla masada yer kazanmak."
             }
           ]
         },
@@ -244,6 +248,10 @@
             {
               "title": "Değişim Mimarisi",
               "description": "Modül 4'ün değişim denklemini temel alarak, İK liderliğindeki dönüşümler için özel stratejiler: yeniden yapılanmalar, kültür değişiklikleri ve yapay zekâ odaklı rol yeniden tasarımı."
+            },
+            {
+              "title": "Değişim Liderliğinde Öz Bakım",
+              "description": "Değişim sırasında İK'yı kim destekler? Dönüşümü aynı anda hem tasarlayıp hem yaşarken dayanıklılık uygulamaları ve akran destek yapıları oluşturmak."
             }
           ]
         },
@@ -267,6 +275,10 @@
             {
               "title": "Kültür Yığını",
               "description": "Psikolojik güvenlik (Modül 3) ve değişim yönetimini (Modül 4) sistematik kültür mimarisine bağlamak."
+            },
+            {
+              "title": "Kültürü Ölçmek",
+              "description": "Bağlılık anketlerinin ötesine geçerek kültür sağlığını izlemek: davranışsal göstergeler, karar kalıbı analizi ve kültürel sapmayı krize dönüşmeden önce tahmin eden öncü göstergeler."
             }
           ]
         },
@@ -290,6 +302,10 @@
             {
               "title": "Etki İçin İnsan Analitiği",
               "description": "Orantısız etki elde etmek için veri kullanmak—doğrudan Modül 2'nin etki ve paydaş ustalığı çerçevelerine bağlanır."
+            },
+            {
+              "title": "Önemli Olan Metrikler",
+              "description": "Tüm veriler eşit yaratılmamıştır. Organizasyonunuzun stratejik öncelikleriyle doğrudan bağlantılı 3–5 insan metriğini belirlemek—ve gerisini göz ardı etme disiplinini göstermek."
             }
           ]
         },
@@ -313,6 +329,10 @@
             {
               "title": "Karar Navigasyonu",
               "description": "Modül 1'in uyarlanabilir liderlik çerçevesini İK'nın en karmaşık kararlarına bağlamak: ne zaman savunuculuk yapmalı, ne zaman ortaklık etmeli, ne zaman itiraz etmeli."
+            },
+            {
+              "title": "Her İki Tarafta Güven İnşası",
+              "description": "Kararlar bir tarafı kayırıyor gibi görünse bile çalışanlar ve iş liderleri nezdinde aynı anda güvenilirliği sürdürmek için pratik stratejiler."
             }
           ]
         }
@@ -343,6 +363,10 @@
             {
               "title": "Finans İçin Stratejik İletişim",
               "description": "Modül 2'nin etki çerçevelerini temel alarak: finansal veriyi farklı kitlelere stratejik kararları yönlendirecek şekilde nasıl sunulur."
+            },
+            {
+              "title": "Görsel Argüman",
+              "description": "Karar yönlendiren finansal sunumlar tasarlamak: karmaşık veriyi sadeleştirmek, 'peki ne olmuş?' sorusunu vurgulamak ve yöneticilerin hatırlayıp harekete geçeceği görsel anlatılar oluşturmak."
             }
           ]
         },
@@ -366,6 +390,10 @@
             {
               "title": "Ortaklık Güveni İnşa Etmek",
               "description": "Modül 2'deki Güven Denklemini kullanarak finansın iş paydaşlarıyla ilişkisini dönüştürmek."
+            },
+            {
+              "title": "Proaktif İş Etkileşimi",
+              "description": "Sorulmasını beklemekten iş ihtiyaçlarını önceden tahmin etmeye geçiş. Reaktif raporlamadan, finansı vazgeçilmez bir ortak konumuna taşıyan proaktif stratejik içgörüye dönüşüm."
             }
           ]
         },
@@ -389,6 +417,10 @@
             {
               "title": "Zor Kararları İletmek",
               "description": "Modül 4'ün sahiplik çerçevesini temel alarak: zor mesajları hesap verebilirlik ve empatiyle nasıl iletilir."
+            },
+            {
+              "title": "Kısıtlama Altında Ekip Dayanıklılığı",
+              "description": "Mesaj 'daha azıyla daha fazla yapın' olduğunda ekip moralini ve bağlılığını sürdürmek. Kemer sıkma dönemlerinde motivasyonu korumak ve sinizmi önlemek için pratik araçlar."
             }
           ]
         },
@@ -412,6 +444,10 @@
             {
               "title": "Geleceğe Hazır Gelişim",
               "description": "Finansa özel ekip oluşturma için Eklenti D (Liderlik Hattı) ve Modül 5'e (Yapay Zekâ Okuryazarlığı) bağlanır."
+            },
+            {
+              "title": "Finansta Yapay Zekâ Okuryazarlığı",
+              "description": "Finans ekiplerinde pratik yapay zekâ okuryazarlığı inşa etmek—otomatik mutabakattan tahmine dayalı analitiğe—finansı değerli kılan insan muhakemesini kaybetmeden."
             }
           ]
         },
@@ -435,6 +471,10 @@
             {
               "title": "Senaryo Modelleme ve Karar Çerçeveleri",
               "description": "Modül 4'ün RAPID ve önyargı azaltma çerçevelerini finansa özel stratejik bağlamlara genişletmek."
+            },
+            {
+              "title": "Belirsizliği İletmek",
+              "description": "Güveni sarsmadan eksik bilgiyi nasıl sunulur. 'Henüz bilmiyoruz' derken yine de liderlik, yön ve karar çerçeveleri sunma sanatı."
             }
           ]
         }
@@ -465,6 +505,10 @@
             {
               "title": "Yeni Mühendislik Yöneticisi Tuzakları",
               "description": "Kahraman kodlama tuzağı, 'bırak ben yapayım' içgüdüsü, üretkenliği kod çıktısıyla ölçme alışkanlığı. Modül 1'in öz farkındalık temelini geliştirir."
+            },
+            {
+              "title": "Üretkenliği Yeniden Tanımlamak",
+              "description": "Artık çıktınız kod değil—ekibin çıktısıdır. Kişisel katkı yerine ekip hızı, yetenek gelişimi ve engelleri kaldırma üzerinden etkinizi ölçmek için pratik çerçeveler."
             }
           ]
         },
@@ -488,6 +532,10 @@
             {
               "title": "Çeviri Yoluyla Etki",
               "description": "Modül 2'nin etki çerçevelerini genişleterek: mühendislik gerçekliğini yöneticilere, ürün ekiplerine ve iş birimlerine nasıl iletilir."
+            },
+            {
+              "title": "İş Gerekçesi Araç Seti",
+              "description": "Mühendislik yatırımlarını çerçevelemek için pratik şablonlar: güvenilirliğin yatırım getirisi, gecikme maliyeti, risk ölçümlendirmesi. 'Yeniden düzenlememiz gerekiyor' ifadesini 'bu, kesinti riskini %40 azaltır ve yıllık 2M€ tasarruf sağlar' ifadesine dönüştürmek."
             }
           ]
         },
@@ -511,6 +559,10 @@
             {
               "title": "Sürdürülebilir Tempo Araçları",
               "description": "Tükenmişlik kriziyle karşı karşıya olan mühendislik yöneticileri için pratik izleme ve bakım araçları."
+            },
+            {
+              "title": "Yapay Zekâ Kaygısını Yönetmek",
+              "description": "Yapay zekâ mühendislik mesleğini gerçek zamanlı olarak yeniden şekillendiriyor. Demode olma korkularını ele almak, yapay zekâyı mühendislik muhakemesinin güçlendiricisi olarak yeniden çerçevelemek ve benimseme ile deneyim konusunda psikolojik güvenlik yaratmak."
             }
           ]
         },
@@ -534,6 +586,10 @@
             {
               "title": "Borç Önceliklendirme Çerçevesi",
               "description": "Modül 1'in Heifetz çerçevesini, Modül 2'nin etki becerilerini ve Modül 4'ün sahiplik araçlarını teknik borç kararlarına bağlamak."
+            },
+            {
+              "title": "Teknik Olmayan Paydaşlara Borcu İletmek",
+              "description": "Teknik borcu iş diline çevirmek: 'Her sprintte zamanımızın %30'unu geçici çözümlere harcıyoruz' ifadesi 'yeni özellik sunma kapasitemizin üçte birini kaybediyoruz' olur. Görünmezi görünür kılarak harekete geçirmek."
             }
           ]
         },
@@ -557,6 +613,10 @@
             {
               "title": "Mühendisliğe Özel Yapay Zekâ Stratejisi",
               "description": "Modül 5'in yapay zekâ okuryazarlığını, yapay zekâ destekli kodlama, kalite endişeleri ve mühendislikte ekip benimsemesinin spesifik zorluklarına genişletmek."
+            },
+            {
+              "title": "Beklenti Açığını Yönetmek",
+              "description": "Yöneticiler '10 kat verimlilik' duyarken mühendisler yapay zekâ üretimi kodun hatalarını ayıklıyor. Gerçekçi kilometre taşları belirleyerek, kademeli kazanımları göstererek ve yapay zekânın bugün neler yapıp neler yapamadığını dürüstçe raporlayarak güvenilirlik inşa etmek."
             }
           ]
         },
@@ -580,6 +640,10 @@
             {
               "title": "Yöneticileri Yönetmek",
               "description": "Bireysel katkıcıları yönetmekten temelden farklı bir iş—Eklenti D (Liderlik Hattı) ve Modül 3'ün koçluk çerçevesine bağlanır."
+            },
+            {
+              "title": "Her İki Yolda Elde Tutma ve Gelişim",
+              "description": "En iyi bireysel katkıcılar, tek tanınma yolu yöneticilik olduğunda ayrılır. En iyi yöneticiler akran desteği olmadan tükenir. Her iki yolda da yetenekleri elde tutmak için adil ücretlendirme, görünürlük ve büyüme fırsatları tasarlamak."
             }
           ]
         }

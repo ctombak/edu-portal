@@ -1,0 +1,124 @@
+{
+  "intro": "Use this guide to select plug-in modules based on audience profile and team function. The core program (Modules 1-5) provides the foundation; plug-in modules customize the experience for specific audiences.",
+  "generalTitle": "General Audience Selection",
+  "generalRows": [
+    { "profile": "Product managers & product owners", "recommended": "PM1 (Stakeholder Mgmt), PM2 (Roadmap Governance)", "swapOut": "Module 4 (Build & Quality) if time needed" },
+    { "profile": "Engineering leads & architects", "recommended": "ENG1 (Tech Debt), ENG2 (Production Excellence)", "swapOut": "Compress Module 1 discovery section" },
+    { "profile": "IT procurement & vendor management", "recommended": "OPS1 (Vendor Relationship), C (Compliance)", "swapOut": "Module 4 (Build & Quality); compress Module 5" },
+    { "profile": "Teams building cloud-native products", "recommended": "A (Cloud Migration), ENG2 (Production Excellence)", "swapOut": "Hardware examples from core modules" },
+    { "profile": "Teams with hardware-software products", "recommended": "G (HW-SW Co-Design), B (Legacy Modernization)", "swapOut": "Module 5 compressed; hardware deep-dive replaces some software focus" },
+    { "profile": "Regulated industry teams", "recommended": "C (Compliance Deep-Dive), OPS2 (ITIL Integration)", "swapOut": "Compress Module 2 architecture section" },
+    { "profile": "Teams integrating AI/ML capabilities", "recommended": "D (AI/ML Integration), E (Product Analytics)", "swapOut": "Add as follow-up sessions" }
+  ],
+  "teams": [
+    {
+      "id": "product-management",
+      "title": "Product Management Team Training",
+      "description": "Core program (Modules 1-5) + recommended Product Management plug-ins",
+      "priorities": [
+        { "priority": "Must-Have", "module": "PM1: Stakeholder Management for PMs", "why": "The defining challenge for enterprise PMs—influence without authority" },
+        { "priority": "Must-Have", "module": "PM2: Product Roadmap Governance", "why": "Roadmap is the PM's primary strategic artifact" },
+        { "priority": "High Value", "module": "E: Product Analytics & Data-Driven Decisions", "why": "Data-driven PMs make better prioritization decisions" },
+        { "priority": "High Value", "module": "D: AI/ML Product Integration", "why": "Every PM needs to understand ML product lifecycle" },
+        { "priority": "Recommended", "module": "C: Regulatory Compliance Deep-Dive", "why": "Compliance shapes product scope in regulated industries" },
+        { "priority": "Recommended", "module": "F: API Strategy & Platform Thinking", "why": "Platform evolution is the growth path for many enterprise products" },
+        { "priority": "Optional", "module": "A: Cloud Migration & Multi-Cloud", "why": "Relevant when managing cloud transition products" },
+        { "priority": "Optional", "module": "B: Legacy Modernization", "why": "Context for PMs managing modernization initiatives" }
+      ],
+      "schedule": [
+        { "session": "Opening", "content": "Connection, Context & Product Lifecycle Failures", "duration": "40 min" },
+        { "session": "Module 1", "content": "The Discovery Phase (core)", "duration": "75 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "Module 2", "content": "Vendor Evaluation & Architecture (core)", "duration": "70 min" },
+        { "session": "Lunch", "content": "", "duration": "60 min" },
+        { "session": "Module 3", "content": "Planning & Governance (core)", "duration": "70 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "PM1", "content": "Stakeholder Management for PMs", "duration": "35 min" },
+        { "session": "PM2", "content": "Product Roadmap Governance", "duration": "35 min" },
+        { "session": "Closing", "content": "Integration & Action Plan", "duration": "40 min" }
+      ],
+      "scheduleNote": "Module 4 (Build & Quality) and Module 5 (Go-Live) are replaced by PM1 and PM2. Core quality and operations concepts are referenced within PM2 roadmap governance discussions."
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering Team Training",
+      "description": "Core program (Modules 1-5) + recommended Engineering plug-ins",
+      "priorities": [
+        { "priority": "Must-Have", "module": "ENG1: Technical Debt as Strategic Investment", "why": "The defining challenge for engineering leads—managing debt while delivering features" },
+        { "priority": "Must-Have", "module": "ENG2: Production Excellence & SRE Practices", "why": "You build it, you run it—production excellence is an engineering discipline" },
+        { "priority": "High Value", "module": "A: Cloud Migration & Multi-Cloud Strategy", "why": "Cloud architecture decisions shape engineering work for years" },
+        { "priority": "High Value", "module": "B: Legacy Modernization", "why": "Most engineering teams modernize more than they build greenfield" },
+        { "priority": "Recommended", "module": "D: AI/ML Product Integration", "why": "ML engineering is increasingly part of product delivery" },
+        { "priority": "Recommended", "module": "G: Hardware-Software Co-Design", "why": "Essential for IoT and embedded product teams" },
+        { "priority": "Optional", "module": "F: API Strategy & Platform Thinking", "why": "Relevant for teams building platform products" },
+        { "priority": "Optional", "module": "E: Product Analytics", "why": "Engineering ownership of instrumentation and analytics infrastructure" }
+      ],
+      "schedule": [
+        { "session": "Opening", "content": "Connection, Context & Product Lifecycle Failures", "duration": "40 min" },
+        { "session": "Module 1", "content": "The Discovery Phase (core)", "duration": "75 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "Module 2", "content": "Vendor Evaluation & Architecture (core)", "duration": "70 min" },
+        { "session": "Lunch", "content": "", "duration": "60 min" },
+        { "session": "Module 4", "content": "Build & Quality (core)", "duration": "65 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "ENG1", "content": "Technical Debt as Strategic Investment", "duration": "40 min" },
+        { "session": "ENG2", "content": "Production Excellence & SRE Practices", "duration": "40 min" },
+        { "session": "Closing", "content": "Integration & Action Plan", "duration": "40 min" }
+      ],
+      "scheduleNote": "Module 3 (Planning & Governance) and Module 5 (Go-Live) are replaced by ENG1 and ENG2. Contract and governance topics from Module 3 are referenced within the context of technical decision-making.",
+      "altTitle": "Alternative: Architecture-Focused Track",
+      "altSchedule": [
+        { "session": "Opening", "content": "Connection, Context & Product Lifecycle Failures", "duration": "40 min" },
+        { "session": "Module 1", "content": "The Discovery Phase (core)", "duration": "75 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "Module 2", "content": "Vendor Evaluation & Architecture (core—extended)", "duration": "70 min" },
+        { "session": "Lunch", "content": "", "duration": "60 min" },
+        { "session": "A", "content": "Cloud Migration & Multi-Cloud Strategy", "duration": "40 min" },
+        { "session": "B", "content": "Legacy Modernization & Strangler Fig", "duration": "40 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "G", "content": "Hardware-Software Co-Design", "duration": "40 min" },
+        { "session": "Closing", "content": "Integration & Action Plan", "duration": "40 min" }
+      ],
+      "altNote": "For senior architects and tech leads. Skips Build & Quality basics (they know this) in favor of deep architecture and modernization content."
+    },
+    {
+      "id": "operations",
+      "title": "Operations & Procurement Team Training",
+      "description": "Core program (Modules 1-5) + recommended Operations & Procurement plug-ins",
+      "priorities": [
+        { "priority": "Must-Have", "module": "OPS1: Vendor Relationship Management", "why": "Ongoing vendor management is where procurement delivers long-term value" },
+        { "priority": "Must-Have", "module": "OPS2: IT Service Management & ITIL Integration", "why": "New products must integrate into existing ITSM frameworks" },
+        { "priority": "High Value", "module": "C: Regulatory Compliance Deep-Dive", "why": "Compliance drives procurement requirements in regulated industries" },
+        { "priority": "High Value", "module": "A: Cloud Migration & Multi-Cloud Strategy", "why": "Cloud transitions are major operational undertakings" },
+        { "priority": "Recommended", "module": "B: Legacy Modernization", "why": "Operations teams manage legacy systems during modernization" },
+        { "priority": "Recommended", "module": "E: Product Analytics", "why": "Operations teams benefit from data-driven capacity planning" },
+        { "priority": "Optional", "module": "F: API Strategy & Platform Thinking", "why": "Understanding platform dynamics helps evaluate vendor ecosystems" },
+        { "priority": "Optional", "module": "G: Hardware-Software Co-Design", "why": "Relevant for operations teams managing hardware fleet" }
+      ],
+      "schedule": [
+        { "session": "Opening", "content": "Connection, Context & Product Lifecycle Failures", "duration": "40 min" },
+        { "session": "Module 1", "content": "The Discovery Phase (core)", "duration": "75 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "Module 2", "content": "Vendor Evaluation & Architecture (core)", "duration": "70 min" },
+        { "session": "Lunch", "content": "", "duration": "60 min" },
+        { "session": "Module 3", "content": "Planning & Governance (core)", "duration": "70 min" },
+        { "session": "Break", "content": "", "duration": "15 min" },
+        { "session": "OPS1", "content": "Vendor Relationship Management", "duration": "35 min" },
+        { "session": "OPS2", "content": "IT Service Management & ITIL Integration", "duration": "35 min" },
+        { "session": "Closing", "content": "Integration & Action Plan", "duration": "40 min" }
+      ],
+      "scheduleNote": "Module 4 (Build & Quality) and Module 5 (Go-Live) are replaced by OPS1 and OPS2. Operations-relevant concepts from Module 5 are integrated into OPS2's ITIL discussion."
+    }
+  ],
+  "discussionTitle": "Meeting Preparation: Discussion Guide",
+  "discussionIntro": "Use this guide when meeting with each team to determine the final module selection.",
+  "questions": [
+    "Where is your team in the product lifecycle right now? What phase are you about to enter?",
+    "What has gone wrong in past product deliveries? Where did things break down?",
+    "Do you primarily build, buy, or integrate? What's the mix?",
+    "How mature is your vendor evaluation and management process?",
+    "What would make this training a success? What should people walk away able to do differently?"
+  ],
+  "decisionMatrixTitle": "Decision Matrix",
+  "decisionMatrixDesc": "For each plug-in module, rate with the team: Relevance (1-5) and Urgency (1-5). Select the top 2-3 modules by total score. Ensure at least one 'Must-Have' is included."
+}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { BookOpen, ArrowRight, Users, Clock } from "lucide-react";
-import { getCourses, getModules } from "@/lib/courses";
+import { ArrowRight, Users, Clock } from "lucide-react";
+import { getCourses } from "@/lib/courses";
 
 const CARD_ACCENTS = [
   { bg: "bg-violet-500/10", text: "text-violet-400", ring: "ring-violet-500/25" },
@@ -20,22 +20,13 @@ export default async function CoursesPage({
   const courses = await getCourses(locale);
   const t = await getTranslations("courses");
 
-  const coursesWithModuleCount = await Promise.all(
-    courses.map(async (course) => {
-      const modules = await getModules(locale, course.slug);
-      return { ...course, moduleCount: modules.length };
-    })
-  );
-
   return (
     <div className="relative">
-      {/* Background */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/3 h-[600px] w-[600px] rounded-full bg-violet-600/[0.06] blur-[120px]" />
         <div className="absolute -right-20 top-[40%] h-[350px] w-[350px] rounded-full bg-sky-600/[0.04] blur-[100px]" />
       </div>
 
-      {/* Header */}
       <div className="mx-auto max-w-5xl px-6 pt-16 pb-12 sm:pt-24 sm:pb-16">
         <p className="text-sm font-semibold tracking-[0.2em] uppercase text-violet-400">
           {t("tagline")}
@@ -50,13 +41,11 @@ export default async function CoursesPage({
         </p>
       </div>
 
-      {/* Grid */}
       <div className="mx-auto max-w-5xl px-6 pb-20">
-        {coursesWithModuleCount.length > 0 ? (
+        {courses.length > 0 ? (
           <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-            {coursesWithModuleCount.map((course, i) => {
+            {courses.map((course, i) => {
               const accent = CARD_ACCENTS[i % CARD_ACCENTS.length];
-              const isTraining = course.type === "training";
               return (
                 <Link
                   key={course.slug}
@@ -67,11 +56,7 @@ export default async function CoursesPage({
                     <div
                       className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-lg ${accent.bg} ring-1 ${accent.ring}`}
                     >
-                      {isTraining ? (
-                        <Users className={`h-5 w-5 ${accent.text}`} aria-hidden />
-                      ) : (
-                        <BookOpen className={`h-5 w-5 ${accent.text}`} aria-hidden />
-                      )}
+                      <Users className={`h-5 w-5 ${accent.text}`} aria-hidden />
                     </div>
                     <span className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-zinc-700 bg-zinc-800/70 text-zinc-300 opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
                       <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
@@ -86,17 +71,10 @@ export default async function CoursesPage({
                   </p>
 
                   <div className="mt-5 flex flex-wrap items-center gap-2">
-                    {isTraining ? (
-                      <span className="flex items-center gap-1.5 rounded-md bg-violet-500/10 px-2.5 py-1 text-xs font-medium text-violet-400">
-                        <Clock className="h-3 w-3" aria-hidden />
-                        Full Day Workshop
-                      </span>
-                    ) : (
-                      <span className="rounded-md bg-zinc-800/80 px-2.5 py-1 text-xs font-medium text-zinc-400">
-                        {course.moduleCount}{" "}
-                        {course.moduleCount === 1 ? "module" : "modules"}
-                      </span>
-                    )}
+                    <span className="flex items-center gap-1.5 rounded-md bg-violet-500/10 px-2.5 py-1 text-xs font-medium text-violet-400">
+                      <Clock className="h-3 w-3" aria-hidden />
+                      Full Day Workshop
+                    </span>
                   </div>
                 </Link>
               );

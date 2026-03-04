@@ -6,7 +6,8 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Cihat Tombak",
+    "title": "Atlantic Learning",
+    "slogan": "Better Managers. Better Business.",
     "tagline": "Training & Development",
     "heroLine1": "Invest in Your Leaders.",
     "heroLine2": "Transform Your Organization.",
@@ -42,7 +43,8 @@
     "interest": "Area of Interest",
     "interestPlaceholder": "Select an area",
     "interestLeadership": "Leadership & Management Training",
-    "interestTech": "Technical Training (React, TypeScript, etc.)",
+    "interestProductLifecycle": "Enterprise Product Lifecycle Training",
+    "interestTech": "Technical Training",
     "interestCustom": "Custom Program",
     "interestOther": "Other",
     "message": "Tell me about your needs",
@@ -55,15 +57,9 @@
   "courses": {
     "tagline": "Service Catalog",
     "title": "Training Programs",
-    "subtitle": "Expert-led programs designed to develop your organization's leaders and technical teams.",
+    "subtitle": "Expert-led programs designed to develop your organization's leaders.",
     "backToCourses": "All Programs",
     "noCourses": "No programs available yet.",
-    "modules": "Modules",
-    "noModules": "No modules in this course yet.",
-    "lessons": "Lessons",
-    "noLessons": "No lessons in this module yet.",
-    "openModule": "Open module",
-    "startLearning": "Start learning",
     "learnMore": "Learn More"
   },
   "training": {

@@ -1,0 +1,166 @@
+{
+  "tagline": "Keşiften Teslimata: Kurumsal Ürün Yolculuğunda Ustalık",
+  "duration": "Tam Gün (8 Saat)",
+  "audience": "Ürün Yöneticileri, Mühendislik Liderleri, Mimarlar ve Teknik Karar Vericiler",
+  "facilitator": "Cihat Tombak",
+  "overview": "Bu program, kurumsal ürün teslimatının uçtan uca kapsamlı bir görünümünü sunar — ilk RFI'dan kararlı bir üretim sistemine kadar. IIBA, SEI/CMMI, TOGAF, ITIL ve Google SRE uygulamalarından kanıtlanmış çerçevelerden yararlanılarak hazırlanan içerik, katılımcılara ürün yaşam döngüsünün her aşaması için pratik araçlar sunmaktadır.\n\nBirincil odak yazılım ürünleri olmakla birlikte, eğitim boyunca donanım, firmware ve SOC (System-on-Chip) örnekleri entegre edilmektedir — çünkü modern kurumsal ürünler giderek artan biçimde donanım-yazılım sınırını aşmaktadır. Katılımcılar, bir sonraki ürün girişimlerinde hemen uygulayabilecekleri eyleme dönüştürülebilir çerçevelerle ayrılır.",
+  "stats": [
+    "Kurumsal BT projelerinin %70'i önemli kapsam kayması yaşıyor; %45'i bütçeyi aşıyor",
+    "Projelerin yalnızca %29'u zamanında, bütçe dahilinde ve gerekli özelliklerle tamamlanıyor",
+    "Gereksinim mühendisliğine yatırım yapan organizasyonlar yeniden çalışmayı %50'ye kadar azaltıyor",
+    "Olgun tedarikçi değerlendirme süreçlerine sahip şirketler toplam sahip olma maliyetinden %15–30 tasarruf sağlıyor"
+  ],
+  "schedule": [
+    { "session": "Açılış", "focus": "Bağ Kurma, Bağlam ve Ürün Yaşam Döngüsü Başarısızlıkları", "duration": "40 dk", "startTime": "08:30", "type": "session" },
+    { "session": "Modül 1", "focus": "Keşif Aşaması: Gereksinimler, RFI ve Yap-veya-Satın Al", "duration": "75 dk", "startTime": "09:10", "type": "session" },
+    { "session": "Mola", "focus": "Sabah Molası", "duration": "15 dk", "startTime": "10:25", "type": "break" },
+    { "session": "Modül 2", "focus": "Tedarikçi Değerlendirmesi ve Mimari Tasarımı", "duration": "70 dk", "startTime": "10:40", "type": "session" },
+    { "session": "Öğle Yemeği", "focus": "Öğle Molası", "duration": "60 dk", "startTime": "11:50", "type": "break" },
+    { "session": "Modül 3", "focus": "Planlama ve Yönetişim: Sözleşmeden Başlangıca", "duration": "70 dk", "startTime": "12:50", "type": "session" },
+    { "session": "Mola", "focus": "Öğleden Sonra Molası", "duration": "15 dk", "startTime": "14:00", "type": "break" },
+    { "session": "Modül 4", "focus": "Geliştirme ve Kalite: Geliştirmeden Doğrulamaya", "duration": "65 dk", "startTime": "14:15", "type": "session" },
+    { "session": "Modül 5", "focus": "Canlıya Geçiş ve Üretim Operasyonları", "duration": "35 dk", "startTime": "15:20", "type": "session" },
+    { "session": "Kapanış", "focus": "Entegrasyon ve Yaşam Döngüsü Eylem Planı", "duration": "50 dk", "startTime": "15:55", "type": "session" },
+    { "session": "Bitiş", "focus": "Networking", "duration": "15 dk", "startTime": "16:45", "type": "break" }
+  ],
+  "modules": [
+    {
+      "id": "discovery",
+      "title": "Keşif Aşaması",
+      "subtitle": "Modül 1",
+      "description": "Kurumsal ürün yaşam döngüsünün tamamını haritalayın ve projelerin nerede başarısız olduğunu anlayın. İhtiyaçları gereksinimlerden ayırt etmeyi, MoSCoW önceliklendirme yöntemini uygulamayı ve RFI/RFP/RFQ tedarik hiyerarşisinde yol almayı öğrenin. Toplam Sahip Olma Maliyeti analiziyle bilinçli Yap-veya-Satın Al kararları verin.",
+      "keyInsight": "Ürün başarısızlıklarının %70'i kötü mühendislikten değil, yetersiz gereksinimlerden ve belirsiz keşif süreçlerinden kaynaklanır.",
+      "duration": "75 dk",
+      "learningObjectives": [
+        "Kurumsal ürün yaşam döngüsünü haritalamak ve yaygın başarısızlık modlarını belirlemek",
+        "Paydaş ihtiyaçlarını yapılandırılmış, izlenebilir gereksinimlere dönüştürmek",
+        "RFI/RFP/RFQ tedarik sürecinde etkili şekilde yol almak",
+        "Yapılandırılmış bir Yap-veya-Satın Al karar çerçevesi uygulamak"
+      ],
+      "topics": [
+        { "title": "Kurumsal Ürün Yaşam Döngüsü Haritası", "description": "İhtiyaç belirlenmesinden üretim operasyonlarına kadar tam yolculuğun genel görünümü. Yaygın başarısızlık modları: kapsam kayması, uyumsuz beklentiler, tedarikçi bağımlılığı ve mimari sapma. Yaşam döngüsü doğrusal değildir — her aşamada geri bildirim döngüleri olan yinelemeli bir süreçtir. Donanım paraleli: donanım-yazılım entegrasyonu olan sistemler için V-Model yaşam döngüsü." },
+        { "title": "Gereksinim Mühendisliği", "description": "Fonksiyonel ve fonksiyonel olmayan gereksinimler. MoSCoW önceliklendirme yöntemi (Olmazsa Olmaz, Olmalı, Olabilir, Olmayacak). Gereksinim izlenebilirlik matrisi — her gereksinimin iş ihtiyacı ve test senaryosuyla bağlantılandırılması. Donanım örneği: gömülü sistem gereksinimleri, fonksiyonel özelliklerle birlikte çalışma sıcaklık aralıklarını, güç tüketimini, fiziksel boyutları ve EMC uyumluluğunu belirtmelidir." },
+        { "title": "RFI/RFP/RFQ Çerçevesi", "description": "RFI (Bilgi Talebi): pazar taraması ve yetenek keşfi. RFP (Teklif Talebi): teknik yaklaşım ve fiyatlandırma içeren ayrıntılı çözüm teklifleri. RFQ (Fiyat Talebi): iyi tanımlanmış spesifikasyonlar için fiyat odaklı tedarik. Her birinin ne zaman kullanılacağı ve nasıl yapılandırılacağı. SOC örneği: SOC-as-a-Service tedarikinde, RFI tedarikçinin SIEM yeteneklerini ve tehdit istihbaratı kaynaklarını araştırırken, RFP tespit kurallarını, yanıt SLA'larını ve entegrasyon gereksinimlerini belirtir." },
+        { "title": "Yap veya Satın Al Karar Çerçevesi", "description": "Toplam Sahip Olma Maliyeti analizi: lisans/geliştirme maliyetleri, entegrasyon, özelleştirme, bakım, eğitim, fırsat maliyeti. Stratejik ve standart yetenekler — farklılaşma için yap, standardizasyon için satın al. Her iki yolun gizli maliyetleri. Donanım değerlendirmeleri: COTS (Ticari Hazır Ürün) ve özel donanım tasarımı — sensörler, kontrolörler ve uç cihazlar için hangisinin ne zaman mantıklı olduğu." }
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": "Tedarikçi Değerlendirmesi ve Mimari Tasarımı",
+      "subtitle": "Modül 2",
+      "description": "Ağırlıklı puanlama matrisleri ve Kavram Kanıtı protokolleri kullanarak tedarikçileri sistematik şekilde değerlendirin. Mevcut ihtiyaçlarla gelecekteki ölçeklenebilirliği dengeleyen kurumsal mimariler tasarlayın. Entegrasyon stratejileri ve API sözleşmeleri tanımlayın. Güvenlik ve uyumluluğu ilk günden mimariye dahil edin.",
+      "keyInsight": "Bir projenin ilk %10'unda alınan mimari kararlar, uzun vadeli maliyet ve esnekliğinin %90'ını belirler.",
+      "duration": "70 dk",
+      "learningObjectives": [
+        "Yapılandırılmış puanlama ve POC metodolojisi ile tedarikçileri değerlendirmek",
+        "Kurumsal bağlamlar için uygun mimari kalıpları seçmek",
+        "Entegrasyon stratejileri ve API sözleşmeleri tasarlamak",
+        "Güvenlik ve uyumluluğu mimari kararlara yerleştirmek"
+      ],
+      "topics": [
+        { "title": "Tedarikçi Değerlendirme Metodolojisi", "description": "Kriterlerle ağırlıklı puanlama matrisleri: teknik uyum, ölçeklenebilirlik, tedarikçi yaşayabilirliği, destek kalitesi, entegrasyon kapasitesi ve toplam maliyet. Kavram Kanıtı (POC) ve Değer Kanıtı (POV) — hem teknik fizibiliteyi hem iş etkisini doğrulamak. Referans kontrolleri, finansal durum tespiti ve çıkış maddesi planlaması. SOC örneği: SIEM tedarikçilerinin tespit kapsamı, yanlış pozitif oranları, log alma kapasitesi ve SOAR entegrasyonu üzerinden değerlendirilmesi." },
+        { "title": "Kurumsal Mimari Kalıpları", "description": "Monolit vs. mikro hizmetler vs. modüler monolit — her birinin ne zaman uygun olduğu. Gerçek zamanlı işleme için olay güdümlü mimari. Veri mimarisi kalıpları: alan sahipliği için data mesh, analitik için data lake, raporlama için data warehouse. Mimari karar kaydı (ADR) uygulaması. Donanım paraleli: System-on-Chip (SoC) mimari kararları — IP çekirdek seçimi, bus mimarisi (AMBA, AXI), bellek hiyerarşisi ve silikon IP için yap-veya-lisansla değiş tokuşu." },
+        { "title": "Entegrasyon Stratejisi ve API Tasarımı", "description": "Kurumsal sistemler için API-first tasarım prensipleri. Entegrasyon kalıpları: noktadan noktaya (basit ama kırılgan), ESB/entegrasyon platformu (merkezi), olay veri yolu (gevşek bağlı, ölçeklenebilir). Veri format standartları: CRUD için REST, esnek sorgular için GraphQL, yüksek performanslı dahili iletişim için gRPC. Donanım protokolleri: IoT cihaz iletişimi için MQTT ve CoAP; gömülü sistem entegrasyonu için CAN bus, SPI, I2C." },
+        { "title": "Güvenlik Mimarisi ve Tasarımda Uyumluluk", "description": "STRIDE kullanarak tehdit modelleme (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege). Güvenlik mimarisi kalıpları: sıfır güven, derinlemesine savunma, en az yetki. Uyumluluk çerçeveleri: SOC 2 Tip II (güven hizmeti kriterleri), ISO 27001 (bilgi güvenliği yönetimi), GDPR (veri koruma). Güvenliği sonradan eklemek yerine mimariye baştan dahil etmek." }
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "Planlama ve Yönetişim",
+      "subtitle": "Modül 3",
+      "description": "Sözleşme müzakerelerini güvenle yönetin — kapsam, kilometre taşları, SLA'lar ve fikri mülkiyet sahipliğini tanımlayın. Bağlamınıza uygun teslimat metodolojisini seçin. Riskleri sistematik olarak belirleyin, değerlendirin ve azaltın. Çapraz fonksiyonlu teslimat için RACI matrisleriyle net ekip yapıları tanımlayın.",
+      "keyInsight": "En iyi sözleşme, her iki tarafın da hiç başvurmak zorunda kalmamayı umduğu sözleşmedir — çünkü yönetişim yapısı iş birliğini doğal kılar.",
+      "duration": "70 dk",
+      "learningObjectives": [
+        "Net kapsam, kilometre taşları ve SLA tanımlarıyla sözleşme müzakere etmek",
+        "Proje bağlamına uygun teslimat metodolojileri seçmek",
+        "Yapılandırılmış risk belirleme ve azaltma çerçeveleri uygulamak",
+        "RACI modeli kullanarak net rol ve sorumluluklar tanımlamak"
+      ],
+      "topics": [
+        { "title": "Sözleşme Müzakeresi ve SLA'lar", "description": "Temel sözleşme unsurları: kapsam tanımı, kilometre taşı bazlı ödemeler, kabul kriterleri, fikri mülkiyet sahipliği, değişiklik yönetimi prosedürleri ve çıkış maddeleri. SLA tasarımı: erişilebilirlik hedefleri (%99,9 ile %99,99 ve farkın ne anlama geldiği), yanıt süresi kademeleri, eskalasyon yolları ve ceza/teşvik yapıları. Donanım: garanti koşulları, ortalama onarım süresi (MTTR) taahhütleri, yedek parça anlaşmaları ve kullanım ömrü sonu bildirim süreleri." },
+        { "title": "Teslimat Metodolojisi Seçimi", "description": "Hızlı geri bildirimle yinelemeli keşif için Agile (Scrum/Kanban). Birden fazla ekip arasında büyük ölçekli koordinasyon için SAFe. Düzenleyici ağırlıklı veya donanım bağımlı teslimler için Waterfall. Her birinin en iyi yanlarını birleştiren hibrit yaklaşımlar. Metodoloji ürüne hizmet etmelidir, tersi değil. Donanım: donanım-yazılım ortak tasarımı gerektiren sistemler için V-Model; üretim değerlendirmelerini içeren fiziksel ürün geliştirme için aşama-kapı süreci." },
+        { "title": "Risk Yönetimi ve Azaltma", "description": "Ön-mortem analizi ve risk taksonomisi kullanarak risk belirleme. Önceliklendirme için Etki × Olasılık matrisi. Dört azaltma stratejisi: Kaçınma (risk kaynağını ortadan kaldırma), Devretme (sigorta, sözleşmesel dağıtım), Azaltma (olasılığı veya etkiyi düşürme), Kabullenme (acil durum planıyla bilinçli karar). SOC örneği: güvenlik aracı geçişi için risk değerlendirmesi — geçiş sırasında SIEM çökerse ne olur? Geçiş penceresi boyunca tehdit tespit kapasitesi nasıl korunur?" },
+        { "title": "Ekip Yapısı ve RACI", "description": "RACI matrisi: Sorumlu (işi yapar), Hesap Verebilir (sonucun sahibi), Danışılan (öncesinde görüş alınan), Bilgilendirilen (sonrasında haberdar edilen). Çapraz fonksiyonlu ekip tasarımı: ürün, mühendislik, kalite güvence, güvenlik, operasyonlar. Tedarikçi-müşteri ekip entegrasyon modelleri: gömülü, irtibat, bağımsız. Ölçekleme ilkeleri: ölçekte iki pizza ekibi, Conway Yasası (mimariniz ekip yapınızı yansıtır) ve ters Conway manevrası." }
+      ]
+    },
+    {
+      "id": "build-quality",
+      "title": "Geliştirme ve Kalite",
+      "subtitle": "Modül 4",
+      "description": "Net ortam stratejileriyle etkili CI/CD boru hatları tasarlayın. Test piramidi kullanarak yaşam döngüsünün her aşamasında kalite kapıları uygulayın. Güvenlik doğrulamasını (SAST, DAST, SCA) geliştirme iş akışına entegre edin. Sistematik yük testi ve kapasite planlaması ile performansı en başından planlayın.",
+      "keyInsight": "Kalite bir aşama değildir — yaşam döngüsünün her evresinde süren bir disiplindir.",
+      "duration": "65 dk",
+      "learningObjectives": [
+        "CI/CD boru hatları ve ortam stratejileri tasarlamak",
+        "Test piramidi kullanarak kalite kapıları uygulamak",
+        "Güvenlik taramalarını geliştirme iş akışına entegre etmek",
+        "Performans mühendisliğini en başından planlamak ve uygulamak"
+      ],
+      "topics": [
+        { "title": "Geliştirme Yaşam Döngüsü Yönetimi", "description": "Sprint/iterasyon planlaması ve backlog düzenleme. CI/CD boru hattı tasarımı: derleme, test, tarama, dağıtım otomatik aşamalar olarak. Ortam stratejisi: geliştirme, entegrasyon, hazırlık, ön üretim, üretim — her biri net amaç ve veri politikalarıyla. Kademeli teslimat ve güvenli deneyler için feature flag kullanımı. Donanım: donanım-döngü-içi (HIL) test ile firmware geliştirme iş akışları, FPGA prototipleme döngüleri ve çevik yazılım sprintlerinin yanında uzun donanım tedarik sürelerinin yarattığı zorluk." },
+        { "title": "Kalite Kapıları ve Test Stratejisi", "description": "Test piramidi: çok sayıda birim testi (hızlı, ucuz), daha az entegrasyon testi (orta), daha az uçtan uca test (yavaş, pahalı). Her yaşam döngüsü aşamasında kalite kapıları: kod inceleme, statik analiz, test kapsam eşikleri, performans kıyaslamaları. Kabul kriterleri ve Tamamlanma Tanımı ekip sözleşmeleri olarak. Donanım: çevresel testler (termal döngü, titreşim, nem), güvenilirlik testleri (MTBF/MTTF hesaplamaları), uyumluluk testleri (FCC, CE işaretleme, UL sertifikasyonu)." },
+        { "title": "Güvenlik Doğrulaması ve Uyumluluk", "description": "SAST (Statik Uygulama Güvenlik Testi): kaynak kodunda güvenlik açıklarını bulma. DAST (Dinamik Uygulama Güvenlik Testi): çalışan uygulamaları test etme. SCA (Yazılım Bileşim Analizi): savunmasız bağımlılıkları belirleme. Sızma testi takvimi ve kapsamı. SOC 2 denetim hazırlığı: kanıt toplama, kontrol dokümantasyonu, açık giderme. Donanım: donanım güvenlik modülleri (HSM), güvenli önyükleme zincirleri, firmware imzalama ve müdahale tespit mekanizmaları." },
+        { "title": "Performans Mühendisliği", "description": "Performans testi türleri: yük (beklenen trafik), stres (sınırların ötesi), dayanıklılık (sürdürülen yük), ani artış (anlık patlamalar). Kapasite planlaması: öngörülen büyüme ve zirve senaryolarına göre altyapı boyutlandırma. Regresyon tespiti için kıyaslama ve başlangıç noktası belirleme. Gözlemlenebilirlik odaklı geliştirme: göndermeden önce ölçümlendirin. Donanım: termal kısılma analizi, yük altında güç tüketimi profili, hızda sinyal bütünlüğü testi ve çalışma koşullarında EMI uyumluluğu." }
+      ]
+    },
+    {
+      "id": "go-live",
+      "title": "Canlıya Geçiş ve Üretim Operasyonları",
+      "subtitle": "Modül 5",
+      "description": "Blue-green, canary ve rolling stratejileri kullanarak dağıtımları güvenle gerçekleştirin. Net geç/geçme kriterleriyle üretim hazırlık incelemeleri yapın. Gözlemlenebilirlik ve olay yönetimi pratikleri oluşturun. Ürün evrimini yönlendiren sürekli iyileştirme döngüleri kurun.",
+      "keyInsight": "Lansman günü bitiş çizgisi değildir — başlangıç çizgisidir. En iyi ürünler, inşa ettiklerini işleten ekipler tarafından geliştirilir.",
+      "duration": "35 dk",
+      "learningObjectives": [
+        "Uygun dağıtım stratejilerini seçmek ve uygulamak",
+        "Üretim hazırlık incelemeleri yürütmek",
+        "Gözlemlenebilirlik ve olay yönetimi pratikleri oluşturmak",
+        "Sürekli iyileştirme ve ürün evrim döngüleri kurmak"
+      ],
+      "topics": [
+        { "title": "Dağıtım Stratejileri ve Üretim Hazırlığı", "description": "Blue-green dağıtım: iki özdeş ortam, anında geri dönüş. Canary sürümleri: kullanıcı alt kümesine kademeli yayılım. Rolling dağıtımlar: örnek bazında kademeli güncellemeler. Üretim Hazırlık İncelemesi (PRR): çalışma kitapları, izleme, uyarı, geri alma prosedürleri ve nöbet rotasyonu. Geç/geçme kriterleri: tüm kalite kapıları geçilmiş, performans kıyaslamaları karşılanmış, güvenlik taraması temiz, dokümantasyon tamamlanmış. Donanım: lokasyon bazında aşamalı donanım yayılımları, pilot saha seçim kriterleri, saha güncelleme prosedürleri ve firmware geri alma mekanizmaları." },
+        { "title": "Gözlemlenebilirlik ve Olay Yönetimi", "description": "Gözlemlenebilirliğin üç sütunu: metrikler (ne oluyor), loglar (neden oldu), izler (nerede oldu). SLO/SLI/SLA hiyerarşisi: SLI'lar davranışı ölçer, SLO'lar hedef belirler, SLA'lar sözleşme oluşturur. Uyarı stratejisi: nedenlere değil belirtilere göre uyarı verin, uyarı yorgunluğundan kaçının. Olay yönetimi: tespit, önceliklendirme, hafifletme, çözüm, olay sonrası analiz. Bireysel suçlama yerine sistem iyileştirmesine odaklanan suçlama-dışı olay sonrası analizler." },
+        { "title": "Sürekli İyileştirme ve Ürün Evrimi", "description": "Geri bildirim döngüleri: kullanıcı analitiği, destek talebi analizi, NPS puanları, müşteri danışma kurulları. Teknik borç yönetimi: borç takibi, önceliklendirme ve borç azaltma için kapasite ayırma. Ürün yol haritası yönetişimi: yeni özellikler, teknik sağlık ve operasyonel iyileştirmeler arasında denge. Kullanım ömrü sonu planlaması: veri göçü, müşteri iletişimi ve kademeli kullanımdan kaldırma. Ürün asla 'tamamlanmış' değildir — ya evrilir ya da ölür." }
+      ]
+    }
+  ],
+  "frameworks": [
+    { "name": "Gereksinim İzlenebilirlik Matrisi", "application": "Gereksinimleri iş ihtiyaçlarına ve test senaryolarına bağlama" },
+    { "name": "MoSCoW Önceliklendirme", "application": "Gereksinimleri kritiklik düzeyine göre önceliklendirme" },
+    { "name": "RFI/RFP/RFQ Hiyerarşisi", "application": "Tedarik süreçlerini yapılandırma" },
+    { "name": "Yap vs. Satın Al TCO Analizi", "application": "Bilinçli yap-veya-satın al kararları verme" },
+    { "name": "Ağırlıklı Tedarikçi Puanlama Matrisi", "application": "Objektif tedarikçi değerlendirmesi ve karşılaştırma" },
+    { "name": "Mimari Karar Kayıtları (ADR)", "application": "Mimari seçimleri belgeleme ve iletme" },
+    { "name": "STRIDE Tehdit Modeli", "application": "Sistematik güvenlik tehdidi belirleme" },
+    { "name": "RACI Matrisi", "application": "Çapraz fonksiyonlu ekiplerde rol ve sorumlulukları netleştirme" },
+    { "name": "Etki × Olasılık Risk Matrisi", "application": "Proje risklerini önceliklendirme ve yönetme" },
+    { "name": "V-Model Yaşam Döngüsü", "application": "Donanım-yazılım ortak tasarım doğrulamasını yönetme" },
+    { "name": "Test Piramidi", "application": "Test kapsamını yürütme hızıyla dengeleme" },
+    { "name": "CI/CD Boru Hattı Tasarımı", "application": "Derleme, test ve dağıtım iş akışlarını otomatikleştirme" },
+    { "name": "SLO/SLI/SLA Hiyerarşisi", "application": "Üretim güvenilirliğini tanımlama ve ölçme" },
+    { "name": "Suçlama-Dışı Olay Sonrası Analiz", "application": "Olaylardan öğrenerek sistemleri iyileştirme" }
+  ],
+  "pluginModules": [
+    { "name": "Bulut Göçü ve Çoklu Bulut Stratejisi", "bestFor": "Yerelden buluta geçiş yapan veya çoklu bulut yöneten organizasyonlar" },
+    { "name": "Eski Sistem Modernizasyonu ve Strangler Fig Deseni", "bestFor": "Modern yenileme yaparken eski sistemleri sürdüren ekipler" },
+    { "name": "Düzenleyici Uyumluluk Derinlemesine İnceleme (GDPR, SOX, HIPAA)", "bestFor": "Düzenlemeye tabi sektörler: finans, sağlık, kamu" },
+    { "name": "AI/ML Ürün Entegrasyonu", "bestFor": "Kurumsal ürünlere AI/ML yetenekleri entegre eden ekipler" },
+    { "name": "Ürün Analitiği ve Veri Odaklı Kararlar", "bestFor": "Veri odaklı ürün yönetimini geliştirmek isteyen ürün ekipleri" }
+  ],
+  "designHighlights": [
+    "Kurumsal ürün teslimatlarından gerçek vaka çalışmaları",
+    "Gerçekçi senaryolarla uygulamalı RFI/RFP değerlendirme egzersizleri",
+    "Değiş tokuş analiziyle mimari tasarım atölyeleri",
+    "Risk belirleme ön-mortem simülasyonları",
+    "Tedarikçi puanlama ve müzakere rol yapma oyunları",
+    "Önceliklendirilmiş sonraki adımlarla kişisel ürün yaşam döngüsü eylem planı"
+  ],
+  "practicePercentage": 65,
+  "facilitatorBio": "Cihat Tombak, küresel çok uluslu şirketlerde 15 yılı aşkın yazılım geliştirme liderliği deneyimine sahiptir. Sıfırdan geliştirmelerden karmaşık tedarikçi entegrasyonlarına ve eski sistem modernizasyonlarına kadar düzinelerce kurumsal ürün teslimatına liderlik etmiş olup, ürün yaşam döngüsünün tamamında yol almak için pratik, savaşta test edilmiş çerçeveler sunmaktadır.",
+  "logistics": {
+    "time": "08:30 – 17:00 (molalar dahil 8 saat)",
+    "breaks": "Toplam 1,5 saat mola",
+    "format": "6-10 kişilik masalarda interaktif atölye",
+    "materials": "Katılımcı çalışma kitabı, RFI/RFP şablonları, tedarikçi puan kartı şablonu, mimari karar kaydı şablonu, risk kayıt defteri şablonu"
+  }
+}

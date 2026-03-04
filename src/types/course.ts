@@ -6,26 +6,7 @@ export interface CourseMeta {
   type?: "training" | "course";
 }
 
-export interface ModuleMeta {
-  title: string;
-  description: string;
-  order: number;
-}
-
-export interface LessonMeta {
-  title: string;
-  order: number;
-}
-
 export interface Course extends CourseMeta {
-  slug: string;
-}
-
-export interface Module extends ModuleMeta {
-  slug: string;
-}
-
-export interface Lesson extends LessonMeta {
   slug: string;
 }
 

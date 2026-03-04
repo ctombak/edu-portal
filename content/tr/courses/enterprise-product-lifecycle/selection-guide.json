@@ -1,0 +1,124 @@
+{
+  "intro": "Hedef kitle profili ve ekip fonksiyonuna göre eklenti modüllerini seçmek için bu kılavuzu kullanın. Çekirdek program (Modül 1-5) temeli oluşturur; eklenti modüller deneyimi belirli hedef kitleler için özelleştirir.",
+  "generalTitle": "Genel Hedef Kitle Seçimi",
+  "generalRows": [
+    { "profile": "Ürün yöneticileri ve ürün sahipleri", "recommended": "PM1 (Paydaş Yönetimi), PM2 (Yol Haritası Yönetişimi)", "swapOut": "Zaman gerekirse Modül 4 (İnşa ve Kalite)" },
+    { "profile": "Mühendislik liderleri ve mimarlar", "recommended": "ENG1 (Teknik Borç), ENG2 (Üretim Mükemmelliği)", "swapOut": "Modül 1 keşif bölümünü sıkıştırın" },
+    { "profile": "BT tedarik ve tedarikçi yönetimi", "recommended": "OPS1 (Tedarikçi İlişkisi), C (Uyum)", "swapOut": "Modül 4 (İnşa ve Kalite); Modül 5'i sıkıştırın" },
+    { "profile": "Bulut tabanlı ürünler geliştiren ekipler", "recommended": "A (Buluta Geçiş), ENG2 (Üretim Mükemmelliği)", "swapOut": "Çekirdek modüllerden donanım örnekleri" },
+    { "profile": "Donanım-yazılım ürünleri geliştiren ekipler", "recommended": "G (Donanım-Yazılım Ortak Tasarım), B (Eski Sistem Modernizasyonu)", "swapOut": "Modül 5 sıkıştırılır; donanım derinlemesine inceleme bazı yazılım odağının yerini alır" },
+    { "profile": "Düzenlenmiş sektör ekipleri", "recommended": "C (Uyum Derinlemesine İnceleme), OPS2 (ITIL Entegrasyonu)", "swapOut": "Modül 2 mimari bölümünü sıkıştırın" },
+    { "profile": "AI/ML yetenekleri entegre eden ekipler", "recommended": "D (AI/ML Entegrasyonu), E (Ürün Analitiği)", "swapOut": "Takip oturumları olarak ekleyin" }
+  ],
+  "teams": [
+    {
+      "id": "product-management",
+      "title": "Ürün Yönetimi Ekibi Eğitimi",
+      "description": "Çekirdek program (Modül 1-5) + önerilen Ürün Yönetimi eklenti modülleri",
+      "priorities": [
+        { "priority": "Olmazsa Olmaz", "module": "PM1: Ürün Yöneticileri İçin Paydaş Yönetimi", "why": "Kurumsal ürün yöneticilerinin tanımlayıcı zorluğu—otoritesiz etki" },
+        { "priority": "Olmazsa Olmaz", "module": "PM2: Ürün Yol Haritası Yönetişimi", "why": "Yol haritası ürün yöneticisinin birincil stratejik belgesidir" },
+        { "priority": "Yüksek Değer", "module": "E: Ürün Analitiği ve Veri Odaklı Kararlar", "why": "Veri odaklı ürün yöneticileri daha iyi önceliklendirme kararları alır" },
+        { "priority": "Yüksek Değer", "module": "D: AI/ML Ürün Entegrasyonu", "why": "Her ürün yöneticisinin ML ürün yaşam döngüsünü anlaması gerekir" },
+        { "priority": "Önerilen", "module": "C: Mevzuat Uyumu Derinlemesine İnceleme", "why": "Düzenlenmiş sektörlerde uyum, ürün kapsamını şekillendirir" },
+        { "priority": "Önerilen", "module": "F: API Stratejisi ve Platform Düşüncesi", "why": "Platform evrimi birçok kurumsal ürünün büyüme yoludur" },
+        { "priority": "İsteğe Bağlı", "module": "A: Buluta Geçiş ve Çoklu Bulut", "why": "Bulut geçişi ürünlerini yönetirken ilgili" },
+        { "priority": "İsteğe Bağlı", "module": "B: Eski Sistem Modernizasyonu", "why": "Modernizasyon girişimlerini yöneten ürün yöneticileri için bağlam" }
+      ],
+      "schedule": [
+        { "session": "Açılış", "content": "Bağ Kurma, Bağlam ve Ürün Yaşam Döngüsü Başarısızlıkları", "duration": "40 dk" },
+        { "session": "Modül 1", "content": "Keşif Aşaması (çekirdek)", "duration": "75 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "Modül 2", "content": "Tedarikçi Değerlendirmesi ve Mimari (çekirdek)", "duration": "70 dk" },
+        { "session": "Öğle Yemeği", "content": "", "duration": "60 dk" },
+        { "session": "Modül 3", "content": "Planlama ve Yönetişim (çekirdek)", "duration": "70 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "PM1", "content": "Ürün Yöneticileri İçin Paydaş Yönetimi", "duration": "35 dk" },
+        { "session": "PM2", "content": "Ürün Yol Haritası Yönetişimi", "duration": "35 dk" },
+        { "session": "Kapanış", "content": "Entegrasyon ve Eylem Planı", "duration": "40 dk" }
+      ],
+      "scheduleNote": "Modül 4 (İnşa ve Kalite) ve Modül 5 (Canlıya Geçiş), PM1 ve PM2 ile değiştirilir. Çekirdek kalite ve operasyon kavramları, PM2 yol haritası yönetişimi tartışmaları içinde referans verilir."
+    },
+    {
+      "id": "engineering",
+      "title": "Mühendislik Ekibi Eğitimi",
+      "description": "Çekirdek program (Modül 1-5) + önerilen Mühendislik eklenti modülleri",
+      "priorities": [
+        { "priority": "Olmazsa Olmaz", "module": "ENG1: Stratejik Yatırım Olarak Teknik Borç", "why": "Mühendislik liderlerinin tanımlayıcı zorluğu—özellik teslimatı sırasında borcu yönetmek" },
+        { "priority": "Olmazsa Olmaz", "module": "ENG2: Üretim Mükemmelliği ve SRE Pratikleri", "why": "İnşa eden çalıştırır—üretim mükemmelliği bir mühendislik disiplinidir" },
+        { "priority": "Yüksek Değer", "module": "A: Buluta Geçiş ve Çoklu Bulut Stratejisi", "why": "Bulut mimari kararları mühendislik çalışmasını yıllarca şekillendirir" },
+        { "priority": "Yüksek Değer", "module": "B: Eski Sistem Modernizasyonu", "why": "Çoğu mühendislik ekibi sıfırdan inşa etmekten çok modernize eder" },
+        { "priority": "Önerilen", "module": "D: AI/ML Ürün Entegrasyonu", "why": "ML mühendisliği giderek ürün teslimatının bir parçası oluyor" },
+        { "priority": "Önerilen", "module": "G: Donanım-Yazılım Ortak Tasarım", "why": "IoT ve gömülü ürün ekipleri için vazgeçilmez" },
+        { "priority": "İsteğe Bağlı", "module": "F: API Stratejisi ve Platform Düşüncesi", "why": "Platform ürünleri geliştiren ekipler için ilgili" },
+        { "priority": "İsteğe Bağlı", "module": "E: Ürün Analitiği", "why": "Enstrümantasyon ve analitik altyapısının mühendislik sahipliği" }
+      ],
+      "schedule": [
+        { "session": "Açılış", "content": "Bağ Kurma, Bağlam ve Ürün Yaşam Döngüsü Başarısızlıkları", "duration": "40 dk" },
+        { "session": "Modül 1", "content": "Keşif Aşaması (çekirdek)", "duration": "75 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "Modül 2", "content": "Tedarikçi Değerlendirmesi ve Mimari (çekirdek)", "duration": "70 dk" },
+        { "session": "Öğle Yemeği", "content": "", "duration": "60 dk" },
+        { "session": "Modül 4", "content": "İnşa ve Kalite (çekirdek)", "duration": "65 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "ENG1", "content": "Stratejik Yatırım Olarak Teknik Borç", "duration": "40 dk" },
+        { "session": "ENG2", "content": "Üretim Mükemmelliği ve SRE Pratikleri", "duration": "40 dk" },
+        { "session": "Kapanış", "content": "Entegrasyon ve Eylem Planı", "duration": "40 dk" }
+      ],
+      "scheduleNote": "Modül 3 (Planlama ve Yönetişim) ve Modül 5 (Canlıya Geçiş), ENG1 ve ENG2 ile değiştirilir. Modül 3'ün sözleşme ve yönetişim konuları teknik karar alma bağlamında referans verilir.",
+      "altTitle": "Alternatif: Mimari Odaklı Parkur",
+      "altSchedule": [
+        { "session": "Açılış", "content": "Bağ Kurma, Bağlam ve Ürün Yaşam Döngüsü Başarısızlıkları", "duration": "40 dk" },
+        { "session": "Modül 1", "content": "Keşif Aşaması (çekirdek)", "duration": "75 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "Modül 2", "content": "Tedarikçi Değerlendirmesi ve Mimari (çekirdek—genişletilmiş)", "duration": "70 dk" },
+        { "session": "Öğle Yemeği", "content": "", "duration": "60 dk" },
+        { "session": "A", "content": "Buluta Geçiş ve Çoklu Bulut Stratejisi", "duration": "40 dk" },
+        { "session": "B", "content": "Eski Sistem Modernizasyonu ve Strangler Fig", "duration": "40 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "G", "content": "Donanım-Yazılım Ortak Tasarım", "duration": "40 dk" },
+        { "session": "Kapanış", "content": "Entegrasyon ve Eylem Planı", "duration": "40 dk" }
+      ],
+      "altNote": "Kıdemli mimarlar ve teknik liderler için. İnşa ve Kalite temellerini atlar (bunu biliyorlar) ve derin mimari ve modernizasyon içeriğini tercih eder."
+    },
+    {
+      "id": "operations",
+      "title": "Operasyon ve Tedarik Ekibi Eğitimi",
+      "description": "Çekirdek program (Modül 1-5) + önerilen Operasyon ve Tedarik eklenti modülleri",
+      "priorities": [
+        { "priority": "Olmazsa Olmaz", "module": "OPS1: Tedarikçi İlişki Yönetimi", "why": "Süregelen tedarikçi yönetimi, tedarik fonksiyonunun uzun vadeli değer sunduğu yerdir" },
+        { "priority": "Olmazsa Olmaz", "module": "OPS2: BT Hizmet Yönetimi ve ITIL Entegrasyonu", "why": "Yeni ürünler mevcut ITSM çerçevelerine entegre edilmelidir" },
+        { "priority": "Yüksek Değer", "module": "C: Mevzuat Uyumu Derinlemesine İnceleme", "why": "Düzenlenmiş sektörlerde uyum, tedarik gereksinimlerini belirler" },
+        { "priority": "Yüksek Değer", "module": "A: Buluta Geçiş ve Çoklu Bulut Stratejisi", "why": "Bulut geçişleri büyük operasyonel girişimlerdir" },
+        { "priority": "Önerilen", "module": "B: Eski Sistem Modernizasyonu", "why": "Operasyon ekipleri modernizasyon süresince eski sistemleri yönetir" },
+        { "priority": "Önerilen", "module": "E: Ürün Analitiği", "why": "Operasyon ekipleri veri odaklı kapasite planlamasından faydalanır" },
+        { "priority": "İsteğe Bağlı", "module": "F: API Stratejisi ve Platform Düşüncesi", "why": "Platform dinamiklerini anlamak tedarikçi ekosistemlerini değerlendirmeye yardımcı olur" },
+        { "priority": "İsteğe Bağlı", "module": "G: Donanım-Yazılım Ortak Tasarım", "why": "Donanım filosu yöneten operasyon ekipleri için ilgili" }
+      ],
+      "schedule": [
+        { "session": "Açılış", "content": "Bağ Kurma, Bağlam ve Ürün Yaşam Döngüsü Başarısızlıkları", "duration": "40 dk" },
+        { "session": "Modül 1", "content": "Keşif Aşaması (çekirdek)", "duration": "75 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "Modül 2", "content": "Tedarikçi Değerlendirmesi ve Mimari (çekirdek)", "duration": "70 dk" },
+        { "session": "Öğle Yemeği", "content": "", "duration": "60 dk" },
+        { "session": "Modül 3", "content": "Planlama ve Yönetişim (çekirdek)", "duration": "70 dk" },
+        { "session": "Mola", "content": "", "duration": "15 dk" },
+        { "session": "OPS1", "content": "Tedarikçi İlişki Yönetimi", "duration": "35 dk" },
+        { "session": "OPS2", "content": "BT Hizmet Yönetimi ve ITIL Entegrasyonu", "duration": "35 dk" },
+        { "session": "Kapanış", "content": "Entegrasyon ve Eylem Planı", "duration": "40 dk" }
+      ],
+      "scheduleNote": "Modül 4 (İnşa ve Kalite) ve Modül 5 (Canlıya Geçiş), OPS1 ve OPS2 ile değiştirilir. Modül 5'in operasyonla ilgili kavramları OPS2'nin ITIL tartışmasına entegre edilir."
+    }
+  ],
+  "discussionTitle": "Toplantı Hazırlığı: Tartışma Kılavuzu",
+  "discussionIntro": "Son modül seçimini belirlemek için her ekiple toplantı yaparken bu kılavuzu kullanın.",
+  "questions": [
+    "Ekibiniz şu anda ürün yaşam döngüsünün neresinde? Hangi aşamaya girmek üzeresiniz?",
+    "Geçmiş ürün teslimatlarında neler ters gitti? Nerede aksaklık yaşandı?",
+    "Ağırlıklı olarak inşa mı ediyorsunuz, satın mı alıyorsunuz yoksa entegre mi ediyorsunuz? Dağılım nasıl?",
+    "Tedarikçi değerlendirme ve yönetim süreciniz ne kadar olgun?",
+    "Bu eğitimin başarılı olması için ne gerekir? Katılımcılar günlük işlerinde neyi farklı yapabilir hale gelmeli?"
+  ],
+  "decisionMatrixTitle": "Karar Matrisi",
+  "decisionMatrixDesc": "Her eklenti modülü için ekiple birlikte değerlendirin: İlgililik (1-5) ve Aciliyet (1-5). Toplam puana göre en iyi 2-3 modülü seçin. En az bir 'Olmazsa Olmaz' dahil edildiğinden emin olun."
+}

@@ -1,0 +1,359 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "title": "Genel Eklenti Modülleri",
+      "description": "Hedef kitle ihtiyaçlarına göre ana programa eklenebilen bağımsız modüller (her biri 30-45 dk).",
+      "modules": [
+        {
+          "id": "A",
+          "title": "Buluta Geçiş ve Çoklu Bulut Stratejisi",
+          "duration": "40 dk",
+          "purpose": "Günümüzde çoğu kurumsal ürün bir bulut bileşeni içerir—ister şirket içinden geçiş, ister bulut tabanlı mimari benimseme, ister çoklu bulut karmaşıklığını yönetme olsun. Bu modül, bulut stratejisi kararları ve güvenli geçiş yürütmesi için çerçeveler sunar.",
+          "bestFor": "Şirket içinden buluta geçen veya çoklu bulut ortamlarını yöneten organizasyonlar",
+          "learningObjectives": [
+            "Bulut dağıtım modellerini değerlendirmek (IaaS, PaaS, SaaS, hibrit)",
+            "Buluta geçişin 6R yöntemini uygulama portföyünüze uygulamak",
+            "Tedarikçi bağımlılığını önleyen çoklu bulut stratejileri tasarlamak",
+            "Operasyonlarda minimum kesinti ile bulut geçişlerini planlamak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Buluta Geçişin 6R Yöntemi",
+              "description": "Rehost (olduğu gibi taşı), Replatform (optimize ederek taşı), Refactor (bulut tabanlı olarak yeniden tasarla), Repurchase (SaaS'a geç), Retire (kullanımdan kaldır), Retain (şirket içinde tut). Portföyünüzdeki her uygulama farklı bir R izleyebilir."
+            },
+            {
+              "title": "Çoklu Bulut Stratejisi",
+              "description": "En iyi ürün seçimi vs. tek sağlayıcı. Soyutlama katmanları ve taşınabilir mimarilerle bağımlılıktan kaçınma. İş yükü yerleşimi ile maliyet optimizasyonu. Çoklu bulutun operasyonel karmaşıklık maliyeti."
+            },
+            {
+              "title": "Geçiş Yürütmesi",
+              "description": "Uygulama bağımlılık haritalaması, geçiş dalga planlaması, geçiş stratejileri, geri alma prosedürleri ve geçiş sonrası doğrulama. Landing zone'lar ve yönetişim güvenlik bariyerlerinin önemi."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "title": "Eski Sistem Modernizasyonu ve Strangler Fig Deseni",
+          "duration": "40 dk",
+          "purpose": "Çoğu kuruluş sıfırdan inşa etmez—iş sürekliliğini koruyarak eski sistemleri modernize eder. Bu modül, büyük çaplı risk almadan kademeli modernizasyon için kanıtlanmış kalıpları kapsar.",
+          "bestFor": "Modern yenileme sistemleri geliştirirken eski sistemleri sürdüren ekipler",
+          "learningObjectives": [
+            "Eski sistemlerin modernizasyon hazırlığını değerlendirmek",
+            "Kademeli modernizasyon için Strangler Fig desenini uygulamak",
+            "Geçiş süresince ikili çalışma modelini yönetmek",
+            "Yaygın modernizasyon anti-kalıplarından kaçınmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Eski Sistem Değerlendirme Çerçevesi",
+              "description": "Eski sistemleri iş değeri ve teknik sağlık ekseninde değerlendirin. Yüksek değer + zayıf sağlık = modernize et. Düşük değer + zayıf sağlık = kullanımdan kaldır. Yüksek değer + iyi sağlık = koru. Düşük değer + iyi sağlık = SaaS ile değiştirme adayı."
+            },
+            {
+              "title": "Strangler Fig Deseni",
+              "description": "Kademeli olarak ev sahibini saran ağaçlardan esinlenen isim. Yeni işlevselliği modern sisteme yönlendirin, eski sistem mevcut özellikleri karşılamaya devam etsin. Eski sistem kullanımdan kaldırılana kadar özellikleri kademeli olarak geçirin. Büyük çaplı geçiş yok—risk zamana yayılır."
+            },
+            {
+              "title": "Veri Geçiş Stratejileri",
+              "description": "Çift yazma, değişiklik veri yakalama (CDC), ETL pipeline'ları ve event sourcing gibi veri geçiş yaklaşımları. Geçiş döneminde tutarlılığı koruma. Donanım: eski endüstriyel kontrolcülerden modern edge computing platformlarına geçiş."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "title": "Mevzuat Uyumu Derinlemesine İnceleme",
+          "duration": "45 dk",
+          "purpose": "Düzenlenmiş sektörlerde faaliyet gösteren organizasyonlar için uyum isteğe bağlı değildir—mimariyi, süreçleri ve tedarikçi seçimini şekillendirir. Bu modül en etkili düzenleyici çerçevelere derinlemesine iner.",
+          "bestFor": "Düzenlenmiş sektörler: finans (SOX), sağlık (HIPAA), AB operasyonları (GDPR), kamu",
+          "learningObjectives": [
+            "Düzenleyici gereksinimleri teknik mimari kararlarına eşlemek",
+            "GDPR, HIPAA ve SOX uyumu için veri işleme pratikleri tasarlamak",
+            "Sürekli kanıt toplama ile denetime hazır sistemler inşa etmek",
+            "Birden fazla düzenleyici çerçevenin kesişim noktasında gezinmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "GDPR Teknik Gereksinimleri",
+              "description": "Tasarımdan itibaren ve varsayılan olarak veri koruma, veri sahibi hakları (erişim, silme, taşınabilirlik), veri işleme sözleşmeleri, sınır ötesi veri aktarım mekanizmaları (yeterlilik kararları, SCC'ler) ve 72 saat içinde ihlal bildirimi."
+            },
+            {
+              "title": "SOX ve Finansal Kontroller",
+              "description": "BT genel kontrolleri (erişim yönetimi, değişiklik yönetimi, operasyonlar), uygulamalar içindeki otomatik kontroller, denetim izi gereksinimleri ve sistem tasarımında görev ayrılığı."
+            },
+            {
+              "title": "HIPAA ve Sağlık Verileri",
+              "description": "Korunan Sağlık Bilgisi (PHI) yönetimi, BAA (İş Ortağı Sözleşmesi) gereksinimleri, asgari gereklilik ilkesi, durağan ve aktarım halinde şifreleme gereksinimleri ve erişim günlükleme gereksinimleri."
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "title": "AI/ML Ürün Entegrasyonu",
+          "duration": "40 dk",
+          "purpose": "AI/ML'i kurumsal ürünlere entegre etmek benzersiz yaşam döngüsü zorlukları getirir: veri pipeline'ları, model eğitimi, değerlendirme, dağıtım, kayma izleme ve etik hususlar. Bu modül ML mühendisliği ile ürün yönetimi arasında köprü kurar.",
+          "bestFor": "Kurumsal ürünlere AI/ML yetenekleri entegre eden ekipler",
+          "learningObjectives": [
+            "Veriden dağıtıma ML ürün yaşam döngüsünü anlamak",
+            "Model eğitimi, değerlendirme ve dağıtım için MLOps pipeline'ları tasarlamak",
+            "Üretimde performans kayması için modelleri izlemek",
+            "Yapay zekâ destekli ürünlerde etik ve yanlılık hususlarında gezinmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "ML Ürün Yaşam Döngüsü",
+              "description": "Veri toplama ve etiketleme → Özellik mühendisliği → Model eğitimi ve değerlendirme → Dağıtım → İzleme → Yeniden eğitim. Her aşamanın geleneksel yazılımdan farklı olarak kendine özgü kalite kapıları vardır. Veri dağılımları kaydıkça modeller zamanla bozulur."
+            },
+            {
+              "title": "MLOps Pipeline Tasarımı",
+              "description": "ML için CI/CD: veri ve modelleri versiyonla (sadece kodu değil), eğitim pipeline'larını otomatikleştir, model versiyonlarını A/B test et, yeni modelleri canary deploy ile dağıt ve tahmin kalitesini izle. Zorluk: tekrarlanabilirlik için veri, kod, hiperparametreler ve ortam takibi gerekir."
+            },
+            {
+              "title": "Yapay Zekâ Etiği ve Yanlılık",
+              "description": "Eğitim verisindeki yanlılık, yanlı tahminlere yol açar. ML kalite kapısının parçası olarak adillik metrikleri ve yanlılık testi. Düzenlenmiş sektörler için açıklanabilirlik gereksinimleri. Yüksek riskli kararlar için insan denetimi ilkesi."
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "title": "Ürün Analitiği ve Veri Odaklı Kararlar",
+          "duration": "35 dk",
+          "purpose": "Ürünü inşa etmek işin sadece yarısıdır—nasıl kullanıldığını ve değer sunup sunmadığını anlamak sistematik ürün analitiği gerektirir. Bu modül ürün yönetimi ile mühendisliği veri odaklı pratiklerle birleştirir.",
+          "bestFor": "Veri odaklı ürün yönetimini geliştirmek isteyen ürün ekipleri",
+          "learningObjectives": [
+            "Temel ürün metriklerini tanımlamak ve enstrümantasyonunu yapmak",
+            "Ürün içgörüsü için analitik mimarileri tasarlamak",
+            "Ürün kararlarına deneysel yaklaşım (A/B testi) uygulamak",
+            "Veri odaklı ürün kültürü inşa etmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Ürün Metrikleri Çerçevesi",
+              "description": "North Star Metric (sunduğunuz değeri en iyi yakalayan tek metrik), HEART çerçevesi (Happiness, Engagement, Adoption, Retention, Task success) ve korsan metrikleri (AARRR: Acquisition, Activation, Retention, Revenue, Referral)."
+            },
+            {
+              "title": "Enstrümantasyon ve Analitik Mimarisi",
+              "description": "Olay izleme stratejisi, veri pipeline tasarımı (toplama → işleme → depolama → analiz), gerçek zamanlı vs. toplu analitik ve veri yönetişimi (gizlilik, onay, saklama)."
+            },
+            {
+              "title": "Deneysel Yaklaşım ve A/B Testi",
+              "description": "Hipotez odaklı ürün geliştirme. A/B test tasarımı: örneklem büyüklüğü, istatistiksel anlamlılık, koruma metrikleri. Yaygın tuzaklar: sonuçlara çok erken bakmak, çok fazla varyant test etmek, uzun vadeli etkileri göz ardı etmek."
+            }
+          ]
+        },
+        {
+          "id": "F",
+          "title": "API Stratejisi ve Platform Düşüncesi",
+          "duration": "35 dk",
+          "purpose": "Birçok kurumsal ürün, başkalarının üzerine inşa ettiği platformlara dönüşür. Bu modül, API tasarımını temel alan, üründen platform düşüncesine stratejik geçişi kapsar.",
+          "bestFor": "Platform, pazar yeri veya genişletilebilir ürünler geliştiren organizasyonlar",
+          "learningObjectives": [
+            "Ürün düşüncesi ile platform düşüncesini birbirinden ayırt etmek",
+            "API'leri stratejik iş varlıkları olarak tasarlamak",
+            "Geliştirici deneyimini (DX) rekabet avantajı olarak inşa etmek",
+            "API yönetişimi ve yaşam döngüsü yönetimi planlamak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Üründen Platforma Evrim",
+              "description": "Platform dönüşümü: tüm yetenekleri kendiniz inşa etmekten başkalarının temeli üzerine inşa etmesini sağlamaya geçiş. Ağ etkileri, ekosistem dinamikleri ve platform değer yaratma volan etkisi."
+            },
+            {
+              "title": "İş Varlığı Olarak API",
+              "description": "Kendi yaşam döngüsüne sahip ürünler olarak API'ler: tasarım, versiyonlama, kullanımdan kaldırma, sonlandırma. Geliştirici deneyimi (DX): dokümantasyon, SDK'lar, sandbox ortamları ve geliştirici portalları."
+            },
+            {
+              "title": "API Yönetişimi",
+              "description": "Tasarım standartları (adlandırma kuralları, sayfalama, hata yönetimi), hız sınırlama ve gelir modeli, kırıcı değişiklik politikaları ve API versiyonlama stratejileri (URL yolu, başlık, içerik müzakeresi)."
+            }
+          ]
+        },
+        {
+          "id": "G",
+          "title": "Donanım-Yazılım Ortak Tasarım",
+          "duration": "40 dk",
+          "purpose": "Donanım-yazılım sınırını kapsayan ürünler için—IoT cihazları, gömülü sistemler, edge computing—donanım ve yazılım geliştirmeyi koordine etmek benzersiz bir zorluktur. Bu modül, çekirdek programdaki donanım örneklerini özel bir derinlemesine incelemeye dönüştürür.",
+          "bestFor": "Donanım ve yazılım bileşenlerine sahip ürünler geliştiren ekipler; IoT ve gömülü sistemler",
+          "learningObjectives": [
+            "Donanım ve yazılım geliştirme zaman çizelgelerini koordine etmek",
+            "Esneklik için donanım soyutlama katmanları tasarlamak",
+            "Donanım prototipten üretime geçiş sürecini yönetmek",
+            "Fiziksel ürünler için sertifikasyon ve uyumda gezinmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Donanım-Yazılım Zaman Çizelgesi Uyumu",
+              "description": "Donanımın uzun tedarik süreleri vardır (haftalar-aylar), yazılım ise günler-haftalar içinde sprint yapar. Stratejiler: donanım soyutlama katmanları, emülatörler, FPGA prototipleme ve yazılım evrimi barındıran modüler donanım tasarımı."
+            },
+            {
+              "title": "Prototipten Üretime",
+              "description": "Çalışan prototip ile üretim donanımı arasındaki vadi: Üretim İçin Tasarım (DFM), Test İçin Tasarım (DFT), bileşen tedariki ve tedarik zinciri, üretim verimi optimizasyonu ve üretim hattı devreye alma."
+            },
+            {
+              "title": "Sertifikasyon ve Uyum",
+              "description": "FCC (elektromanyetik emisyonlar), CE (Avrupa uygunluğu), UL (güvenlik), RoHS (tehlikeli maddeler) ve sektöre özgü sertifikasyonlarda gezinme. Pahalı yeniden tasarımlardan kaçınmak için ön uyum testleri."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-management",
+      "title": "Ürün Yönetimi Parkuru",
+      "description": "Kurumsal ürün teslimatında gezinen ürün yöneticileri ve ürün sahipleri için tasarlanmıştır.",
+      "modules": [
+        {
+          "id": "PM1",
+          "title": "Ürün Yöneticileri İçin Paydaş Yönetimi",
+          "duration": "35 dk",
+          "purpose": "Ürün yöneticileri iş, teknoloji ve kullanıcı deneyiminin kesişim noktasında yer alır. Bu modül, kurumsal bağlamda ürün yöneticisi rolüne özgü paydaş yönetimi becerilerini geliştirir.",
+          "bestFor": "Karmaşık paydaş ortamlarında gezinen ürün yöneticileri",
+          "learningObjectives": [
+            "Kurumsal paydaş haritalarını çıkarmak ve yönetmek",
+            "İş birimleri arasında rekabet eden önceliklerde gezinmek",
+            "Ürün kararlarını farklı hedef kitlelere etkili şekilde iletmek",
+            "Müşterinin sesi olarak güvenilirlik inşa etmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Ürün Yöneticileri İçin Kurumsal Paydaş Haritalama",
+              "description": "Karar vericileri, etki edenleri ve engelleyicileri belirleme. Modül 3'ün RACI çerçevesini temel alarak: ürün yöneticilerinin pozisyonel güç olmadan otorite kurması."
+            },
+            {
+              "title": "Baskı Altında Önceliklendirme",
+              "description": "Her paydaşın talebi 'kritik' olduğunda: savunulabilir kararlar almak için etki-çaba matrisleri, ağırlıklı puanlama ve şeffaf önceliklendirme çerçeveleri kullanmak."
+            }
+          ]
+        },
+        {
+          "id": "PM2",
+          "title": "Ürün Yol Haritası Yönetişimi",
+          "duration": "35 dk",
+          "purpose": "Kurumsal ürün yol haritaları stratejik olduğu kadar politik belgelerdir. Bu modül, tüm paydaşları dengeleyen bir yol haritasını nasıl oluşturulacağını, iletişimini ve savunulacağını kapsar.",
+          "bestFor": "Stratejik yol haritalarından sorumlu ürün yöneticileri",
+          "learningObjectives": [
+            "Özellik listeleri yerine sonuç odaklı yol haritaları oluşturmak",
+            "Yol haritasında rekabet eden yatırım kategorilerini dengelemek",
+            "Paydaş güvenini kaybetmeden yol haritası değişikliklerini iletmek",
+            "Ürün yol haritasını iş stratejisiyle uyumlamak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Sonuç Odaklı Yol Haritası",
+              "description": "Özellik listelerinden (ne inşa edeceğiz) sonuç hedeflerine (ne başaracağız) geçiş. Zaman dilimleri: Şimdi (taahhüt edilmiş), Sonraki (planlanmış), İleride (keşif). Stratejik esnekliği korur."
+            },
+            {
+              "title": "Yol Haritası İletişimi",
+              "description": "Farklı hedef kitleler için farklı versiyonlar: yönetim (stratejik temalar), mühendislik (teknik kapsam), müşteriler (değer teslimatı). Planlar değiştiğinde beklenti yönetimi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-track",
+      "title": "Mühendislik Parkuru",
+      "description": "Kurumsal ürün teslimat becerilerini derinleştiren mühendislik liderleri ve mimarlar için tasarlanmıştır.",
+      "modules": [
+        {
+          "id": "ENG1",
+          "title": "Stratejik Yatırım Olarak Teknik Borç",
+          "duration": "40 dk",
+          "purpose": "Teknik borç doğası gereği kötü değildir—bilinçli yönetildiğinde stratejik bir araçtır. Bu modül borcu 'yarattığımız karmaşa' yerine 'takip ettiğimiz yatırım kararı' olarak yeniden çerçeveler.",
+          "bestFor": "Özellik teslimatıyla birlikte borcu yöneten mühendislik liderleri",
+          "learningObjectives": [
+            "Teknik borcu tür ve iş etkisine göre sınıflandırmak",
+            "Borcu paydaşlara iş dilinde iletmek",
+            "Sistematik bir borç yönetimi pratiği oluşturmak",
+            "Borç azaltma ile özellik teslimatı arasında denge kurmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Teknik Borç Taksonomisi",
+              "description": "Kasıtlı vs. kazara oluşan borç. Basiretli vs. pervasız borç. Borç dörtlüsü: Kasıtlı/Basiretli ('Bu kısayolu biliyoruz ve düzelteceğiz'), Kasıtlı/Pervasız ('Tasarıma vakit yok'), Kazara/Basiretli ('Şimdi nasıl yapmamız gerektiğini biliyoruz'), Kazara/Pervasız ('Katmanlı mimari nedir?')."
+            },
+            {
+              "title": "Borç İletişim Çerçevesi",
+              "description": "Teknik borcu iş diline çevirme: kesinti riski, geciken özelliklerin maliyeti, geliştirici üretkenliği etkisi ve güvenlik açığı maruziyeti. Görünmeyeni görünür kılmak."
+            }
+          ]
+        },
+        {
+          "id": "ENG2",
+          "title": "Üretim Mükemmelliği ve SRE Pratikleri",
+          "duration": "40 dk",
+          "purpose": "Üretim sistemlerinden sorumlu mühendislik ekipleri için Modül 5'in operasyon içeriğini genişletir. SRE pratikleri, hata bütçeleri ve zahmet azaltma konularında derinlemesine inceleme.",
+          "bestFor": "Üretim sistemlerini işleten mühendislik ekipleri",
+          "learningObjectives": [
+            "Mühendislik ekiplerinde SRE pratiklerini uygulamak",
+            "Hata bütçelerini tanımlamak ve yönetmek",
+            "Operasyonel zahmeti belirlemek ve azaltmak",
+            "Üretim mükemmelliğini bir ekip disiplini olarak inşa etmek"
+          ],
+          "keyTopics": [
+            {
+              "title": "Hata Bütçeleri",
+              "description": "SLO'nuz %99,95 erişilebilirlik ise hata bütçeniz %0,05'tir. Bütçeyi özellik hızına harcayın (bir miktar risk kabul ederek) veya kararlılık için saklayın. Bütçe tükendiğinde özellikleri dondurun ve güvenilirliğe odaklanın."
+            },
+            {
+              "title": "Zahmet Azaltma",
+              "description": "Zahmet; tekrarlayan, manuel, otomatikleştirilebilir ve sistem büyüdükçe doğrusal artan iştir. Google'ın SRE ilkesi: bir SRE'nin zamanının %50'sinden fazlası zahmet olmamalıdır. Zahmeti belirleyin, ölçün ve sistematik olarak otomatikleştirin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operations-track",
+      "title": "Operasyon ve Tedarik Parkuru",
+      "description": "Operasyon ekipleri, BT tedarik ve tedarikçi yönetimi profesyonelleri için tasarlanmıştır.",
+      "modules": [
+        {
+          "id": "OPS1",
+          "title": "Tedarikçi İlişki Yönetimi",
+          "duration": "35 dk",
+          "purpose": "Tedarikçi seçimi sadece başlangıçtır. Bu modül, sürdürülebilir değer teslimatı için tedarikçi ilişkilerini yönetmenin devam eden disiplinini kapsar.",
+          "bestFor": "BT tedarik ve tedarikçi yönetimi profesyonelleri",
+          "learningObjectives": [
+            "Etkili ve sürekli tedarikçi ilişkileri kurmak",
+            "Yapılandırılmış tedarikçi performans değerlendirmeleri yürütmek",
+            "Sözleşme yenilemeleri ve müzakerelerini yönetmek",
+            "Tedarikçi geçişleri ve çıkış stratejileri planlamak"
+          ],
+          "keyTopics": [
+            {
+              "title": "Tedarikçi Performans Yönetimi",
+              "description": "Üç aylık iş değerlendirmeleri (QBR'ler): yapı, metrikler, eskalasyon. SLA uyum takibi ve trend analizi. Tedarikçi performans puan kartı oluşturma."
+            },
+            {
+              "title": "Çıkış Planlama ve Tedarikçi Geçişleri",
+              "description": "Her tedarikçi ilişkisinde, ihtiyaç duymadan önce bir çıkış planı olmalıdır. Veri taşınabilirliği, bilgi transferi, geçiş zaman çizelgeleri ve paralel çalışma dönemleri."
+            }
+          ]
+        },
+        {
+          "id": "OPS2",
+          "title": "BT Hizmet Yönetimi ve ITIL Entegrasyonu",
+          "duration": "35 dk",
+          "purpose": "Kurumsal ürünler izole olarak var olmaz—ITSM çerçeveleri içinde çalışır. Bu modül, ürün teslimatı ile operasyonel hizmet yönetimi arasında köprü kurar.",
+          "bestFor": "Yeni ürünleri mevcut BT hizmet yönetimine entegre eden operasyon ekipleri",
+          "learningObjectives": [
+            "Yeni ürünleri mevcut ITSM çerçevelerine entegre etmek",
+            "Hizmet katalogları ve destek modelleri tasarlamak",
+            "DevOps ve ITSM pratikleri arasında köprü kurmak",
+            "Operasyonel hazırlık ve devir planlaması yapmak"
+          ],
+          "keyTopics": [
+            {
+              "title": "ITIL ve DevOps Birlikte Yaşamı",
+              "description": "ITIL ve DevOps düşman değildir—farklı kaygıları ele alırlar. ITIL yönetişim ve hizmet odaklılığı sağlar; DevOps hız ve otomasyon sağlar. Kurumsal ekipler için aradaki boşluğu kapatma."
+            },
+            {
+              "title": "Operasyonel Hazırlık Devri",
+              "description": "Proje ekibinden operasyon ekibine geçiş, birçok ürünün tökezlediği noktadır. Bilgi transferi, çalışma kitabı oluşturma, eğitim ve lansman sonrası 'yoğun bakım' dönemi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

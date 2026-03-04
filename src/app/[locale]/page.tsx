@@ -13,18 +13,58 @@ export default async function HomePage({
   return (
     <div className="relative">
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/4 h-[700px] w-[700px] rounded-full bg-violet-600/[0.07] blur-[120px]" />
-        <div className="absolute right-0 top-[30%] h-[400px] w-[400px] rounded-full bg-sky-600/[0.04] blur-[100px]" />
+        <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/4 h-[700px] w-[700px] rounded-full bg-teal-700/[0.07] blur-[120px]" />
+        <div className="absolute right-0 top-[30%] h-[400px] w-[400px] rounded-full bg-cyan-600/[0.04] blur-[100px]" />
       </div>
 
       {/* Hero */}
-      <section className="mx-auto max-w-5xl px-6 pt-24 pb-16 sm:pt-32 sm:pb-24 lg:pt-40">
+      <section className="mx-auto max-w-5xl px-6 pt-10 pb-14 sm:pt-14 sm:pb-20 lg:pt-16">
         <div className="flex flex-col items-center text-center">
-          <p className="text-sm font-semibold tracking-[0.2em] uppercase text-violet-400">
-            {t("tagline")}
-          </p>
+          {/* Branded hero box */}
+          <div className="relative mb-10 w-full max-w-sm overflow-hidden rounded-xl bg-gradient-to-br from-[#0c2a3a] via-[#102f42] to-[#143848] shadow-2xl shadow-teal-950/40 ring-1 ring-white/[0.06] sm:max-w-3xl sm:rounded-2xl md:max-w-4xl lg:max-w-5xl">
+            <div className="relative z-10 flex flex-col items-center px-6 py-8 text-center sm:flex-row sm:justify-center sm:gap-6 sm:px-10 sm:py-10 lg:gap-8 lg:px-16 lg:py-12">
+              <div className="flex flex-col items-center sm:flex-row sm:items-baseline sm:gap-3 lg:gap-4">
+                <h2 className="text-2xl font-light tracking-wide text-[#8faab8] sm:text-3xl lg:text-5xl">
+                  Atlantic
+                </h2>
+                <p className="mt-0.5 text-3xl font-bold tracking-tight text-white sm:mt-0 sm:text-4xl lg:text-[3.5rem]">
+                  Learning
+                </p>
+              </div>
+              <div className="mt-3 h-px w-12 bg-[#2a7a78]/60 sm:mt-0 sm:h-8 sm:w-px" aria-hidden />
+              <span className="mt-3 flex flex-col items-center text-[10px] font-medium tracking-[0.2em] uppercase text-[#7a9dad] sm:mt-0 sm:flex-row sm:gap-1.5 sm:text-xs sm:tracking-[0.25em] lg:text-sm lg:tracking-[0.3em]">
+                <span>Better Managers.</span>
+                <span>Better Business.</span>
+              </span>
+            </div>
 
-          <h1 className="mt-8 text-4xl font-bold tracking-tight leading-[1.15] sm:text-5xl lg:text-6xl">
+            {/* Decorative wave layers */}
+            <svg
+              className="absolute right-0 bottom-0 h-[55%] w-[40%] sm:h-[70%] sm:w-[30%]"
+              viewBox="0 0 400 200"
+              fill="none"
+              preserveAspectRatio="none"
+              aria-hidden
+            >
+              <path
+                d="M400 200H0c0 0 40-30 100-50s80-55 140-50 70 30 160 10V200Z"
+                fill="#1a4a50"
+                opacity="0.5"
+              />
+              <path
+                d="M400 200H80c0 0 30-25 80-35s70-40 120-30 60 20 120 5V200Z"
+                fill="#2a7a78"
+                opacity="0.4"
+              />
+              <path
+                d="M400 200H160c0 0 20-20 70-28s60-30 100-20 40 15 70 8V200Z"
+                fill="#4db8a8"
+                opacity="0.35"
+              />
+            </svg>
+          </div>
+
+          <h1 className="mt-0 text-4xl font-bold tracking-tight leading-[1.15] sm:text-5xl lg:text-6xl">
             <span className="bg-gradient-to-b from-white via-zinc-200 to-zinc-500 bg-clip-text text-transparent">
               {t("heroLine1")}
             </span>

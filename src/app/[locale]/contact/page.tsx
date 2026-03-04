@@ -131,6 +131,7 @@ export default function ContactPage() {
                 {t("interestPlaceholder")}
               </option>
               <option value="leadership">{t("interestLeadership")}</option>
+              <option value="product-lifecycle">{t("interestProductLifecycle")}</option>
               <option value="tech">{t("interestTech")}</option>
               <option value="custom">{t("interestCustom")}</option>
               <option value="other">{t("interestOther")}</option>

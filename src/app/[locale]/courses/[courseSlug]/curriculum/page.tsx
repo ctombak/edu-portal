@@ -173,6 +173,7 @@ export default async function CurriculumPage({
           </Link>
         </div>
       </div>
+
     </div>
   );
 }

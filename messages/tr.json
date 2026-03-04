@@ -6,7 +6,8 @@
     "contact": "İletişim"
   },
   "home": {
-    "title": "Cihat Tombak",
+    "title": "Atlantic Learning",
+    "slogan": "Better Managers. Better Business.",
     "tagline": "Eğitim & Gelişim",
     "heroLine1": "Liderlerinize Yatırım Yapın.",
     "heroLine2": "Organizasyonunuzu Dönüştürün.",
@@ -42,7 +43,8 @@
     "interest": "İlgi Alanı",
     "interestPlaceholder": "Bir alan seçin",
     "interestLeadership": "Liderlik ve Yönetim Eğitimi",
-    "interestTech": "Teknik Eğitim (React, TypeScript vb.)",
+    "interestProductLifecycle": "Kurumsal Ürün Yaşam Döngüsü Eğitimi",
+    "interestTech": "Teknik Eğitim",
     "interestCustom": "Özel Program",
     "interestOther": "Diğer",
     "message": "İhtiyaçlarınızı anlatın",
@@ -55,15 +57,9 @@
   "courses": {
     "tagline": "Hizmet Kataloğu",
     "title": "Eğitim Programları",
-    "subtitle": "Organizasyonunuzun liderlerini ve teknik ekiplerini geliştirmek için tasarlanmış uzman liderlikli programlar.",
+    "subtitle": "Organizasyonunuzun liderlerini geliştirmek için tasarlanmış uzman liderlikli programlar.",
     "backToCourses": "Tüm Programlar",
     "noCourses": "Henüz program bulunmuyor.",
-    "modules": "Modüller",
-    "noModules": "Bu kursta henüz modül yok.",
-    "lessons": "Dersler",
-    "noLessons": "Bu modülde henüz ders yok.",
-    "openModule": "Modülü aç",
-    "startLearning": "Öğrenmeye başla",
     "learnMore": "Daha Fazla Bilgi"
   },
   "training": {
