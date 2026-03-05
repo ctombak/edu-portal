@@ -18,7 +18,7 @@ export default async function HomePage({
       </div>
 
       {/* Hero */}
-      <section className="mx-auto max-w-5xl px-6 pt-10 pb-14 sm:pt-14 sm:pb-20 lg:pt-16">
+      <section className="mx-auto max-w-5xl px-6 pt-10 pb-24 sm:pt-14 sm:pb-32 lg:pt-16 lg:pb-36">
         <div className="flex flex-col items-center text-center">
           {/* Branded hero box */}
           <div className="relative mb-10 w-full max-w-sm overflow-hidden rounded-xl bg-gradient-to-br from-[#0c2a3a] via-[#102f42] to-[#143848] shadow-2xl shadow-teal-950/40 ring-1 ring-white/[0.06] sm:max-w-3xl sm:rounded-2xl md:max-w-4xl lg:max-w-5xl">
@@ -74,14 +74,14 @@ export default async function HomePage({
             </span>
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-400 sm:text-xl sm:leading-relaxed">
+          <p className="mt-8 max-w-2xl text-lg leading-relaxed text-zinc-400 sm:text-xl sm:leading-relaxed">
             {t("heroDesc")}
           </p>
           <p className="mt-2 max-w-2xl text-lg leading-relaxed text-zinc-400 sm:text-xl sm:leading-relaxed">
             {t("heroDesc2")}
           </p>
 
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
             <Link
               href={`/${locale}/courses`}
               className="group inline-flex items-center gap-2.5 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-zinc-900 shadow-lg shadow-white/5 transition-all hover:shadow-white/10 hover:bg-zinc-100"
@@ -104,7 +104,7 @@ export default async function HomePage({
 
       {/* Why Partner With Us */}
       <section className="border-t border-zinc-800/40">
-        <div className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
+        <div className="mx-auto max-w-5xl px-6 pt-8 pb-16 sm:pt-10 sm:pb-20">
           <h2 className="mb-10 text-center text-lg font-semibold text-zinc-100">
             {t("whyTitle")}
           </h2>
