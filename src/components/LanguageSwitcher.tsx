@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { useLocale } from "next-intl";
 import { usePathname } from "next/navigation";
 import { locales, type Locale } from "@/i18n/config";
@@ -9,6 +10,7 @@ const LABEL_BY_LOCALE: Record<Locale, string> = {
   tr: "TR",
 };
 
+const SCROLL_KEY = "lang-switch-scroll";
 const LOCALE_REGEX = new RegExp(`^/(${locales.join("|")})`);
 
 export function LanguageSwitcher() {
@@ -16,8 +18,17 @@ export function LanguageSwitcher() {
   const fullPathname = usePathname();
   const pathWithoutLocale = fullPathname.replace(LOCALE_REGEX, "") || "";
 
+  useEffect(() => {
+    const saved = sessionStorage.getItem(SCROLL_KEY);
+    if (saved) {
+      sessionStorage.removeItem(SCROLL_KEY);
+      window.scrollTo(0, parseInt(saved, 10));
+    }
+  }, []);
+
   function switchTo(targetLocale: Locale) {
     if (targetLocale === locale) return;
+    sessionStorage.setItem(SCROLL_KEY, String(window.scrollY));
     const newPath =
       pathWithoutLocale === "" || pathWithoutLocale === "/"
         ? `/${targetLocale}`
