@@ -24,15 +24,15 @@ export default async function HomePage({
           <div className="relative mb-10 w-full max-w-sm overflow-hidden rounded-xl bg-gradient-to-br from-[#0c2a3a] via-[#102f42] to-[#143848] shadow-2xl shadow-teal-950/40 ring-1 ring-white/[0.06] sm:max-w-3xl sm:rounded-2xl md:max-w-4xl lg:max-w-5xl">
             <div className="relative z-10 flex flex-col items-center px-6 py-8 text-center sm:flex-row sm:justify-center sm:gap-6 sm:px-10 sm:py-10 lg:gap-8 lg:px-16 lg:py-12">
               <div className="flex flex-col items-center sm:flex-row sm:items-baseline sm:gap-3 lg:gap-4">
-                <h2 className="text-2xl font-light tracking-wide text-[#8faab8] sm:text-3xl lg:text-5xl">
+                <h2 className="text-2xl font-light tracking-wide text-[#c8dce6] sm:text-3xl lg:text-5xl">
                   Atlantic
                 </h2>
                 <p className="mt-0.5 text-3xl font-bold tracking-tight text-white sm:mt-0 sm:text-4xl lg:text-[3.5rem]">
                   Learning
                 </p>
               </div>
-              <div className="mt-3 h-px w-12 bg-[#2a7a78]/60 sm:mt-0 sm:h-8 sm:w-px" aria-hidden />
-              <span className="mt-3 flex flex-col items-center text-[10px] font-medium tracking-[0.2em] uppercase text-[#7a9dad] sm:mt-0 sm:flex-row sm:gap-1.5 sm:text-xs sm:tracking-[0.25em] lg:text-sm lg:tracking-[0.3em]">
+              <div className="mt-3 h-px w-12 bg-[#4db8a8]/70 sm:mt-0 sm:h-8 sm:w-px" aria-hidden />
+              <span className="mt-3 flex flex-col items-center text-[10px] font-medium tracking-[0.2em] uppercase text-[#b8d8e8] sm:mt-0 sm:flex-row sm:gap-1.5 sm:text-xs sm:tracking-[0.25em] lg:text-sm lg:tracking-[0.3em]">
                 <span>Better Managers.</span>
                 <span>Better Business.</span>
               </span>
