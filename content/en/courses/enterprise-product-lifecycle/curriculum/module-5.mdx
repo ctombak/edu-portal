@@ -1,0 +1,37 @@
+---
+id: module5
+title: "Module 5: Go-Live & Production Operations"
+subtitle: "Deployment, Reliability & Continuous Improvement"
+duration: 35 min
+learningObjectives:
+  - Select and execute appropriate deployment strategies
+  - Conduct production readiness reviews
+  - Build observability and incident management practices
+  - Establish continuous improvement and product evolution loops
+---
+
+Launch day isn't the finish line—it's the starting line. This module covers how to deploy safely, operate reliably, respond to incidents effectively, and continuously improve the product.
+
+## Deployment Strategies & Production Readiness
+
+Safe deployment is about controlling blast radius and enabling fast rollback. Blue-green deployment: maintain two identical production environments. Deploy to the inactive one, verify, then switch traffic. Instant rollback by switching back. Canary releases: deploy to a small subset of users (1-5%), monitor key metrics, gradually increase if healthy. Rolling deployments: update instances one-by-one, maintaining service availability throughout. Production Readiness Review (PRR) checklist: runbooks documented and tested, monitoring and alerting configured, on-call rotation staffed and trained, rollback procedure verified, capacity headroom confirmed, security scan results clean. Go/no-go decision criteria: all quality gates passed, performance benchmarks met, security validation complete, rollback tested, stakeholder sign-off received. Hardware: phased hardware rollouts by site (pilot → regional → global), pilot site selection based on risk tolerance and support proximity, field upgrade procedures for firmware updates, and rollback mechanisms (dual firmware partitions with fallback boot).
+
+> Launch day isn't the finish line—it's the starting line. The best products are built by teams that operate what they build.
+
+**Framework: Deployment Strategy Selection** — Blue-green (instant switch, full rollback), Canary (gradual rollout, metric-driven), Rolling (incremental, zero-downtime). Choose based on risk tolerance and infrastructure capabilities.
+
+**Framework: Production Readiness Review** — Runbooks, monitoring, alerting, on-call, rollback, capacity, security. All must be verified before go-live. No exceptions.
+
+## Observability & Incident Management
+
+You can't fix what you can't see. The three pillars of observability: Metrics (what's happening—request rates, error rates, latencies, resource utilization), Logs (why it happened—structured event records with correlation IDs), Traces (where it happened—request flow across services with timing). The SLO/SLI/SLA hierarchy: SLIs (Service Level Indicators) measure specific behaviors (e.g., 95th percentile latency), SLOs (Service Level Objectives) set internal targets with margin (e.g., 99.95% availability), SLAs (Service Level Agreements) formalize external commitments with consequences (e.g., credits if below 99.9%). Always set SLOs tighter than SLAs to create an error budget. Alerting strategy: alert on user-facing symptoms (high error rate) not internal causes (CPU at 80%). Reduce alert noise to prevent fatigue. Every alert should be actionable—if there's nothing to do, it shouldn't page someone at 3 AM. Incident management lifecycle: Detect (automated monitoring catches it), Triage (assess severity and impact), Mitigate (stop the bleeding—restoration over root cause), Resolve (fix the underlying issue), Review (blameless post-mortem focused on system improvement).
+
+**Framework: Three Pillars of Observability** — Metrics (what), Logs (why), Traces (where). All three together give you the complete picture. Any one alone is insufficient.
+
+**Framework: Blameless Post-Mortem** — Timeline, impact, root causes, contributing factors, action items. Focus on system improvement, not individual blame. Assume good intent.
+
+## Continuous Improvement & Product Evolution
+
+Products that stop evolving start dying. Multiple feedback loops drive continuous improvement: user analytics (how people actually use the product vs. how you expected), support ticket analysis (patterns reveal systematic issues), NPS and customer satisfaction surveys (sentiment trends), customer advisory boards (deep qualitative insight from key accounts). Technical debt management is an ongoing discipline: maintain a visible tech debt register, prioritize by business impact (not just engineering preference), allocate a consistent percentage of capacity (typically 15-20%) to debt reduction. Product roadmap governance balances three investment categories: New features (grow the product), Technical health (maintain the platform), Operational improvements (reduce toil and risk). End-of-life planning is part of the lifecycle: data migration paths, customer communication timelines, graceful deprecation of APIs with sunset headers, and archival strategies. The product is never 'done'—it evolves or it dies.
+
+**Framework: Three Investment Categories** — New features (growth), Technical health (sustainability), Operational improvements (efficiency). Healthy products balance all three in their roadmap.

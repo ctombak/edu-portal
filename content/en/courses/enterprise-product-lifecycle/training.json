@@ -3,7 +3,6 @@
   "duration": "Full Day (8 Hours)",
   "audience": "Product Managers, Engineering Leaders, Architects & Technical Decision-Makers",
   "facilitator": "Cihat Tombak",
-  "overview": "This program provides a comprehensive, end-to-end view of enterprise product delivery—from the first RFI to a stable production system. Drawing on proven frameworks from IIBA, SEI/CMMI, TOGAF, ITIL, and Google SRE practices, participants gain practical tools for every phase of the product lifecycle.\n\nWhile the primary focus is software products, the training integrates hardware, firmware, and SOC (System-on-Chip) examples throughout—because modern enterprise products increasingly span the hardware-software boundary. Participants leave with actionable frameworks they can apply to their next product initiative immediately.",
   "stats": [
     "70% of enterprise IT projects experience significant scope creep; 45% exceed budget",
     "Only 29% of projects are completed on time, on budget, and with required features",
@@ -156,7 +155,6 @@
     "Personal product lifecycle action plan with prioritized next steps"
   ],
   "practicePercentage": 65,
-  "facilitatorBio": "Cihat Tombak brings over 15 years of experience in software development leadership at global multinational companies. Having led teams through dozens of enterprise product deliveries—from greenfield builds to complex vendor integrations and legacy modernizations—he provides practical, battle-tested frameworks for navigating the full product lifecycle.",
   "logistics": {
     "time": "08:30 – 17:00 (8 hours including 1.5 hours of breaks)",
     "breaks": "1.5 hours total",

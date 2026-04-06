@@ -1,0 +1,45 @@
+---
+id: module1
+title: "Modül 1: Keşif Aşaması"
+subtitle: "Gereksinimler, RFI ve Yap-Satın Al Kararı"
+duration: 75 dk
+learningObjectives:
+  - "Kurumsal ürün yaşam döngüsünü haritalamak ve yaygın başarısızlık modlarını belirlemek"
+  - "Paydaş ihtiyaçlarını yapılandırılmış ve izlenebilir gereksinimlere dönüştürmek"
+  - "RFI/RFP/RFQ tedarik sürecini etkili bir şekilde yönetmek"
+  - "Yapılandırılmış bir Yap-Satın Al karar çerçevesi uygulamak"
+---
+
+Bu modül, ürün yaşam döngüsünün kritik ilk aşamasını kapsar: neye ihtiyacınız olduğunu anlamak, bunu nasıl elde edeceğinizi belirlemek ve sonrasındaki her şeyi şekillendiren temel yap-veya-satın al kararını vermek.
+
+## Kurumsal Ürün Yaşam Döngüsü Haritası
+
+Yaşam döngüsü altı aşamadan oluşur: Keşif (neye ihtiyacımız var?), Değerlendirme (bunu kim sunabilir?), Planlama (bunu nasıl teslim edeceğiz?), Geliştirme (hayata geçirme), Lansman (canlıya geçiş) ve Operasyon (çalışır durumda tutma ve geliştirme). Her aşamanın belirli girdileri, çıktıları, kalite kapıları ve karar noktaları vardır. Yaşam döngüsü doğrusal değildir — geri bildirim döngüleriyle yinelemeli bir süreçtir. Keşif aşamasındaki bir içgörü mimariyi yeniden şekillendirebilir; geliştirme aşamasındaki bir kısıt gereksinimleri yeniden tanımlayabilir. Bu süreci aşamadan aşamaya bir şelale olarak ele alan kuruluşlar tutarlı biçimde düşük performans gösterir.
+
+> Yaşam döngüsü bir taşıma bandı değildir — aşamalar arasında bir diyalogdur. En iyi takımlar her aşamada geri bildirim döngülerini canlı tutar.
+
+**Framework: Product Lifecycle Phases** — Keşif → Değerlendirme → Planlama → Geliştirme → Lansman → Operasyon. Her aşamanın tanımlı girdileri, çıktıları, kalite kapıları ve önceki aşamalara geri bildirim döngüleri vardır.
+
+## Gereksinim Mühendisliği — İhtiyaçlardan Spesifikasyonlara
+
+Gereksinimler üç seviyede bulunur: İş Gereksinimleri (neden — stratejik hedefler), Kullanıcı Gereksinimleri (ne — ihtiyaç duyulan yetenekler) ve Fonksiyonel/Teknik Gereksinimler (nasıl — belirli davranışlar ve kısıtlar). MoSCoW yöntemi acımasızca önceliklendirir: Must have / Olmazsa Olmaz (ürün bu olmadan başarısız olur), Should have / Olması Gereken (önemli ama lansman için kritik değil), Could have / Olsa İyi Olur (bütçe izin verirse güzel olur), Won't have / Kapsam Dışı (açıkça kapsam dışı — tanımlanması eşit derecede önemli). Gereksinim İzlenebilirlik Matrisi, her gereksinimi iş gerekçesine geri ve test senaryosuna ileri bağlar. Donanım örneği: gömülü sistem gereksinimleri, fonksiyonel spesifikasyonların yanı sıra çalışma sıcaklık aralıklarını (endüstriyel için -40°C ila +85°C), güç tüketim bütçelerini (pille çalışan IoT için mW), fiziksel boyutları, ağırlık kısıtlarını ve EMC uyumluluğunu belirtmelidir.
+
+**Framework: MoSCoW Prioritization** — Must have / Olmazsa Olmaz (kritik), Should have / Olması Gereken (önemli), Could have / Olsa İyi Olur (arzu edilen), Won't have / Kapsam Dışı (açıkça hariç). Zor önceliklendirme konuşmalarını erken başlatır.
+
+**Framework: Requirements Traceability Matrix** — Her gereksinimi iş gerekçesine, tasarım bileşenine ve doğrulama test senaryosuna bağlar. Nedensiz hiçbir şeyin inşa edilmemesini ve test edilmemiş hiçbir şeyin kalmamasını sağlar.
+
+## RFI/RFP/RFQ Tedarik Çerçevesi
+
+Üç araç, üç amaç için: RFI (Request for Information / Bilgi Talebi) pazar taraması içindir — sorununuzu bilirsiniz ama çözebilecek olanı bilmezsiniz. Geniş kapsamlı, keşifsel ve bağlayıcı değildir. RFP (Request for Proposal / Teklif Talebi) çözüm değerlendirmesi içindir — neye ihtiyacınız olduğunu bilir ve tedarikçilerin yaklaşımlarını ve fiyatlandırmalarını sunmalarını istersiniz. Detaylı, yapılandırılmış ve karşılaştırmalıdır. RFQ (Request for Quote / Fiyat Talebi) fiyat müzakeresi içindir — tam olarak ne istediğinizi bilir ve en iyi fiyatı ararsınız. Spesifikasyon odaklı ve fiyat merkezlidir. Sıralama önemlidir: RFI pazarı 20 tedarikçiden 5'e daraltır; RFP bu 5'i değerlendirir ve 2-3 finalist seçer; RFQ (veya son müzakere) kazananı belirler. SOC örneği: SOC-as-a-Service platformu tedarik etme — RFI, entegre SIEM, SOAR ve tehdit istihbaratı sunan tedarikçileri araştırır. RFP, gerekli tespit kurallarını, ortalama tespit süresi SLA'larını, log kaynağı kapsamını ve analist kadro modellerini belirler. RFQ, log hacmi katmanına göre fiyatlandırmayı kesinleştirir.
+
+> İyi yazılmış bir RFP, değerlendirme işinin yarısını sizin yerinize yapar — tedarikçileri pazarlama söylemleri yerine gerçek gereksinimlerinize yanıt vermeye zorlar.
+
+**Framework: RFI/RFP/RFQ Framework** — RFI (pazarı araştır), RFP (çözümleri değerlendir), RFQ (fiyat müzakeresi yap). Geniş keşiften spesifik taahhüde doğru sıralı daraltma.
+
+## Yap-Satın Al Karar Çerçevesi
+
+Karar iki eksene dayanır: Stratejik Farklılaşma (bu yetenek size rekabet avantajı sağlıyor mu?) ve Kurumsal Yetkinlik (bunu piyasadan daha iyi inşa edip sürdürebilir misiniz?). Yetenek değer önerinizin temeliyse ve yetenekli kadronuz varsa (veya çekebiliyorsanız) inşa edin. Yetenek standart bir ihtiyaçsa ve piyasa olgun, iyi desteklenen seçenekler sunuyorsa satın alın. İnşa etmenin gizli maliyetleri: süregelen bakım, yetenek elde tutma, fırsat maliyeti. Satın almanın gizli maliyetleri: entegrasyon, özelleştirme kısıtlamaları, tedarikçi bağımlılığı, lisans artışları. 3-5 yıl üzerinden Toplam Sahip Olma Maliyeti (TCO) analizi — Yıl 0 (uygulama) ile Yıl 5 (süregelen operasyonlar ve evrim) arasını kapsar. Donanım değerlendirmeleri: COTS (Ticari Raf Ürünü) ile özel donanım tasarımı karşılaştırması. COTS başlangıçta daha hızlı ve ucuzdur ancak tam performans, form faktörü veya sertifikasyon gereksinimlerini karşılamayabilir. Özel tasarım tam kontrol sağlar ancak NRE (Tekrarlanmayan Mühendislik) yatırımı ve daha uzun pazara çıkış süresi gerektirir.
+
+**Framework: Build vs. Buy Matrix** — Yetenekleri Stratejik Farklılaşma ve Kurumsal Yetkinlik eksenlerinde konumlandırın. Yüksek farklılaşma + yüksek yetkinlik için inşa edin; standart ihtiyaç + düşük yetkinlik için satın alın.
+
+**Framework: TCO Analysis** — 3-5 yıl üzerinden Toplam Sahip Olma Maliyeti: uygulama, entegrasyon, özelleştirme, bakım, eğitim, lisans artışları ve fırsat maliyeti.

@@ -1,0 +1,43 @@
+---
+id: module4
+title: "Modül 4: Geliştirme ve Kalite"
+subtitle: Geliştirmeden Doğrulamaya
+duration: 65 dk
+learningObjectives:
+  - "CI/CD pipeline'ları ve ortam stratejileri tasarlamak"
+  - "Test piramidi kullanarak kalite kapıları uygulamak"
+  - "Güvenlik taramalarını geliştirme iş akışına entegre etmek"
+  - "Performans mühendisliğini baştan planlamak ve uygulamak"
+---
+
+Bu modül uygulama aşamasını kapsar — planları ve mimarileri çalışan, test edilmiş, güvenli ve performanslı yazılıma (ve donanıma) dönüştürme. Kalite sondaki bir aşama değildir; her aşamaya örülmüş bir disiplindir.
+
+## Geliştirme Yaşam Döngüsü Yönetimi
+
+Etkili geliştirme otomasyon, net ortamlar ve kontrollü sürümler gerektirir. CI/CD pipeline tasarımı: her kod gönderimi derleme → birim test → statik analiz → güvenlik taraması → entegrasyon test → staging ortamına dağıtım sürecini tetikler. Gönderi ile staging arasında manuel adım yok — otomasyon insan hatasını ortadan kaldırır ve tutarlılık sağlar. Ortam stratejisi: Geliştirme (geliştirici deneyleri, kararsız), Entegrasyon (takım kod birleştirmeleri, yarı kararlı), Staging (üretim aynası, kararlı), Ön-üretim (üretime benzer verilerle son doğrulama), Üretim (canlı). Her ortamın net terfi kriterleri ve veri politikaları vardır (anonimleştirme olmadan üretim verisi geliştirme/staging ortamında bulunmaz). Feature flag'ler kademeli teslimatı mümkün kılar: kodu kullanıcılara göstermeden üretime dağıtın, ardından alt kümelere kademeli olarak etkinleştirin — patlama yarıçapını azaltır ve hızlı geri alma sağlar. Donanım değerlendirmeleri: firmware geliştirme iş akışları, yazılımın gerçek donanıma veya yüksek sadakatli simülatörlere karşı çalıştırıldığı hardware-in-the-loop (HIL) testi gerektirir. FPGA prototipleme, donanım-yazılım ortak geliştirmeyi hızlandırır. Zorluk: donanım tedarik süreleri (haftalar-aylar) ile agile yazılım sprintleri (günler-haftalar) arasındaki fark. Çözüm: iyi tanımlanmış donanım soyutlama katmanlarıyla donanım ve yazılım teslimatını birbirinden ayırın.
+
+**Framework: CI/CD Pipeline** — Commit → Build → Test → Scan → Deploy. Tamamen otomatik, gönderi ile staging arasında manuel kapı yok. Her aşama hızlı geri bildirim sağlar.
+
+**Framework: Environment Promotion Strategy** — Dev → Entegrasyon → Staging → Ön-üretim → Üretim. Her seviyede net terfi kriterleri, veri politikaları ve sahiplik.
+
+## Kalite Kapıları ve Test Stratejisi
+
+Test piramidi stratejik çerçeveyi sağlar: Birim testler (çok sayıda, hızlı, ucuz — bileşenleri izole olarak test eder), Entegrasyon testleri (orta sayıda — bileşenler arası etkileşimleri test eder), Uçtan uca testler (az sayıda, yavaş, pahalı — tam kullanıcı iş akışlarını test eder). Piramidi ters çevirin ve yavaş geri bildirim, güvenilmez testler ve hayal kırıklığına uğramış geliştiriciler elde edersiniz. Her yaşam döngüsü aşamasındaki kalite kapıları, hataların ucuza düzeltilebileceği erken aşamada yakalanmasını sağlar: Kod incelemesi (her değişiklik en az bir eş tarafından incelenir), Statik analiz (otomatik kod kalitesi ve stil uygulaması), Test kapsam eşikleri (%100 değil — ancak kritik yolların kapsamı), Performans karşılaştırma değerleri (belirlenen taban çizgilerinden sapma yok), Güvenlik taraması temiz (kritik veya yüksek seviye güvenlik açığı yok). Tamamlanma Tanımı bir takım sözleşmesi olarak: kod tamamlandı, testler geçti, dokümantasyon güncellendi, güvenlik taraması temiz, performans doğrulandı, eş incelemesi yapıldı. Donanım paraleli: çevresel testler sıcaklık, titreşim, nem ve yükseklik aralıklarında çalışmayı doğrular. Güvenilirlik testleri MTBF (Ortalama Arızalar Arası Süre) ve MTTF (Ortalama Arızaya Kadar Süre) hesaplar. Uyumluluk testleri, üretimden önce FCC (elektromanyetik emisyon), CE (Avrupa uyumluluğu) ve UL (güvenlik) sertifikasyon gereksinimlerinin karşılandığını doğrular.
+
+> Bir hatayı düzeltme maliyeti her yaşam döngüsü aşamasında 10 kat artar. Gereksinimler aşamasında yakalanan bir hata 1 dolara mal olur; üretimdeki aynı hata 10.000 dolara mal olur.
+
+**Framework: Test Pyramid** — Çok sayıda birim test (hızlı, ucuz), daha az entegrasyon testi (orta), az sayıda uçtan uca test (yavaş, pahalı). Ters piramitler test stratejisi sorunlarına işaret eder.
+
+**Framework: Quality Gate Checklist** — Kod incelendi, statik analiz geçti, testler başarılı, kapsam eşikleri karşılandı, güvenlik taraması temiz, performans karşılaştırma değerleri sağlandı, dokümantasyon güncellendi.
+
+## Güvenlik Doğrulama ve Uyumluluk
+
+Güvenlik testi bir aşama değildir — geliştirme iş akışına entegredir. SAST (Static Application Security Testing): kaynak kodu çalıştırmadan güvenlik açıkları için analiz eder. Hızlıdır, yaygın kalıpları yakalar (SQL injection, XSS, buffer overflow) ve her gönderide çalışır. DAST (Dynamic Application Security Testing): saldırıları simüle ederek çalışan uygulamayı test eder. SAST'ın kaçırdığı çalışma zamanı güvenlik açıklarını yakalar (kimlik doğrulama kusurları, yapılandırma hataları). SCA (Software Composition Analysis): üçüncü taraf bağımlılıklarındaki bilinen güvenlik açıklarını belirler. Modern kod tabanlarının %80'i açık kaynak bağımlılıkları olduğu için kritiktir. Penetrasyon testi: gerçek saldırganları simüle eden güvenlik uzmanları tarafından periyodik manuel test. Kritik sistemler için üç ayda bir, diğerleri için yılda bir. SOC 2 denetim hazırlığı son dakika telaşı değil, sürekli bir disiplindir: sürekli kanıt toplama (mümkün olan her yerde otomatik), kontrol dokümantasyonu (ne yaptığınız ve neden), boşluk belirleme ve giderme (denetçi bulmadan önce ele alın). Donanım güvenliği: HSM'ler kriptografik anahtarları kurcalamaya dayanıklı donanımda korur. Güvenli önyükleme, cihazda yalnızca imzalı, doğrulanmış firmware'in çalışmasını sağlar. Firmware imzalama yetkisiz değişiklikleri önler. Fiziksel kurcalama algılama (ağ sensörleri, epoksi kaplama) donanım saldırılarına karşı korur.
+
+**Framework: Security Testing Integration** — Her gönderide SAST, her derlemede SCA, staging dağıtımlarında DAST, üç ayda bir penetrasyon testi. Geliştirmeyi yavaşlatmadan güvenliği sola kaydırın.
+
+## Performans Mühendisliği
+
+Performans bir özelliktir, sonradan düşünülecek bir şey değildir. Kullanıcılar şikayet ettiğinde onları çoktan kaybetmişsinizdir. Performans test türleri: Yük testi (beklenen trafik kalıpları — SLA'ları karşılıyor mu?), Stres testi (beklenen sınırların ötesinde — nerede kırılıyor?), Dayanıklılık testi (saatler/günler boyunca sürekli yük — bellek sızıntısı veya kaynak tükenmesi var mı?), Ani yük testi (ani trafik patlamaları — otomatik ölçekleme yeterince hızlı tepki veriyor mu?). Kapasite planlaması: altyapıyı öngörülen büyüme eğrileri ve zirve senaryolarına (Black Friday, yıl sonu işlemleri, ürün lansmanları) göre boyutlandırın. Marj bırakın — %80 kapasitede çalışmak, beklenmedik bir zirvenin performans düşüşünü tetiklemesi anlamına gelir. Karşılaştırma değerleri taban çizgileri oluşturarak kullanıcılar fark etmeden önce performans gerilemesini tespit etmenizi sağlar. Her sürüm taban çizgisiyle karşılaştırılmalıdır. Gözlemlenebilirlik odaklı geliştirme: göndermeden önce kodunuzu enstrümante edin. Ölçemediğiniz şeyi optimize edemezsiniz. Donanım performans mühendisliği: termal kısma analizi (işlemci sürekli yük altında saat hızını düşürüyor mu?), çeşitli iş yükleri altında güç tüketimi profili çıkarma (pille çalışan cihazlar için kritik), çalışma frekansında sinyal bütünlüğü testi (PCB tasarımı veri hızlarını destekliyor mu?), gerçek çalışma koşullarında EMI uyumluluğu (yalnızca tezgahta değil).
+
+**Framework: Performance Test Strategy** — Yük (beklenen), Stres (sınırların ötesinde), Dayanıklılık (sürekli), Ani yük (patlamalar). Her test türü, sistem davranışı hakkında farklı bir soruyu yanıtlar.

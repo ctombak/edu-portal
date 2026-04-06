@@ -1,0 +1,45 @@
+---
+id: module2
+title: "Modül 2: Tedarikçi Değerlendirme ve Mimari Tasarım"
+subtitle: Kısa Listeden Mimari Plana
+duration: 70 dk
+learningObjectives:
+  - "Yapılandırılmış puanlama ve POC metodolojisi kullanarak tedarikçileri değerlendirmek"
+  - "Kurumsal bağlamlara uygun mimari kalıpları seçmek"
+  - "Entegrasyon stratejileri ve API sözleşmeleri tasarlamak"
+  - "Güvenlik ve uyumluluğu mimari kararlara dahil etmek"
+---
+
+Neye ihtiyacınız olduğunu ve inşa mı satın alma mı (veya her ikisi) yapacağınızı belirledikten sonra, bu modül tedarikçileri nesnel biçimde değerlendirmeyi, dayanıklı mimariler tasarlamayı, ölçeklenebilir entegrasyonlar planlamayı ve güvenliği baştan tasarıma dahil etmeyi kapsar.
+
+## Tedarikçi Değerlendirme Metodolojisi
+
+İçgüdüsel kararların ve satış demolarının ötesine geçerek yapılandırılmış değerlendirmeye yönelin. Ağırlıklı puanlama matrisi kriterleri tanımlar (teknik uyum, ölçeklenebilirlik, tedarikçi sürdürülebilirliği, destek modeli, entegrasyon yeteneği, toplam maliyet), önceliklerinizi yansıtan ağırlıklar atar ve her tedarikçiyi nesnel olarak puanlar. Proof of Concept (POC) teknik fizibiliteyi doğrular: tedarikçinin ürünü sizin ortamınızda gerçekten iddia ettiklerini yapabilir mi? Proof of Value (POV) daha ileriye gider — ölçülebilir iş değeri sunuyor mu? Referans kontrolleri: ölçek ve karmaşıklık bakımından size benzer müşterilerle konuşun, yalnızca tedarikçinin özenle seçtiği referanslarla değil. Mali durum tespiti: bu tedarikçi 3 yıl sonra var olacak mı? SOC örneği: SIEM tedarikçilerini değerlendirme — tespit kuralı kapsamı (MITRE ATT&CK eşlemesi), log hacminizde yanlış pozitif oranları, log alma verimi, SOAR entegrasyon derinliği ve analist iş akışı verimliliği üzerinden puanlayın.
+
+> Değerlendirme kriterlerinizi asla tedarikçinin belirlemesine izin vermeyin. Onların kriterleri, kazanmalarını sağlamak üzere tasarlanmıştır.
+
+**Framework: Weighted Vendor Scoring Matrix** — Kriterleri tanımlayın, ağırlıklar atayın, nesnel olarak puanlayın. Kategoriler: teknik uyum, ölçeklenebilirlik, tedarikçi sürdürülebilirliği, destek, entegrasyon, toplam maliyet. Eşit koşullarda karşılaştırma sağlar.
+
+**Framework: POC vs. POV** — POC 'çalışabilir mi?' sorusunu doğrular. POV 'değer üretir mi?' sorusunu doğrular. Her ikisine başlamadan önce mutlaka başarı kriterlerini tanımlayın.
+
+## Kurumsal Mimari Kalıpları
+
+Mimari, en iyi uygulamalar değil ödünleşimlerle ilgilidir. Monolit: geliştirmesi ve dağıtması basit, bağımsız ölçeklendirmesi ve evrimleştirmesi daha zor. Mikroservisler: bağımsız dağıtılabilir, servis bazında ölçeklenebilir, ancak operasyonel olarak karmaşık ve olgun DevOps gerektirir. Modüler monolit: pragmatik orta yol — tek dağıtılabilir birimde mantıksal olarak ayrılmış modüller, daha sonra servisleri çıkarma seçeneğiyle. Olay güdümlü mimari: olaylar üzerinden iletişim kuran ayrıştırılmış üreticiler ve tüketiciler — gerçek zamanlı işleme, denetim izleri ve sistem entegrasyonu için ideal. Veri mimarisi: data mesh (alan takımları kendi veri ürünlerinin sahibidir), data lake (analitik için merkezi ham depolama), data warehouse (raporlama için yapılandırılmış, küratörlü). Architecture Decision Record (ADR) uygulaması: kararı, bağlamı, değerlendirilen seçenekleri ve gerekçeyi belgeleyin. Gelecekteki siz, bugünkü size teşekkür edecek. Donanım paraleli: SoC mimarisi benzer ödünleşimler içerir — IP çekirdek seçimi (ARM Cortex vs. RISC-V), bus mimarisi (bant genişliği ihtiyaçları için AMBA AHB vs. AXI), bellek hiyerarşisi (SRAM vs. DRAM vs. Flash ödünleşimleri) ve silikon IP blokları için yap-veya-lisansla kararı.
+
+**Framework: Architecture Decision Record (ADR)** — Başlık, Bağlam, Karar, Durum, Sonuçlar. Bir mimari seçimin yalnızca ne olduğunu değil, neden yapıldığını belgeler.
+
+## Entegrasyon Stratejisi ve API Tasarımı
+
+Kurumsal ürünler izole yaşamaz — mevcut sistemlerle, veri kaynaklarıyla ve iş akışlarıyla entegre olmaları gerekir. API-first tasarım: uygulamayı geliştirmeden önce sözleşmeyi tanımlayın. Bu, paralel geliştirmeyi ve sistemler arasında net sınırları mümkün kılar. Entegrasyon kalıpları: Noktadan noktaya (2-3 bağlantı için basit, ölçekte spagetti hâline gelir), ESB/Entegrasyon Platformu (merkezi yönlendirme ve dönüştürme), Event Bus/Mesaj Aracısı (ayrıştırılmış, ölçeklenebilir, dayanıklı). Bağlama göre protokol seçimi: standart CRUD operasyonları ve harici API'ler için REST, esnek istemci odaklı sorgular için GraphQL, yüksek performanslı dahili servis iletişimi için gRPC. Versiyonlama stratejisi: tüketicileri bozmadan API'leri nasıl evrimleştireceğiniz. Donanım protokolleri: IoT cihaz iletişimi için MQTT ve CoAP (düşük bant genişliği, güvenilmez ağlar); otomotiv ve endüstriyel kontrol için CAN bus; kart seviyesinde çipten çipe iletişim için SPI ve I2C; endüstriyel ekipman entegrasyonu için Modbus.
+
+**Framework: API-First Design** — Uygulamadan önce sözleşmeyi tanımlayın (OpenAPI/AsyncAPI). Paralel geliştirmeyi, net sınırları ve tüketici odaklı tasarımı mümkün kılar.
+
+## Güvenlik Mimarisi ve Tasarımdan Uyumluluk
+
+Sonradan eklenen güvenlik pahalı, eksik ve kırılgandır. Mimariye tasarlanmış güvenlik ise rekabet avantajıdır. STRIDE ile tehdit modelleme: her bileşen ve veri akışı için altı kategoride tehditleri belirleyin — Spoofing (kimlik sahteciliği), Tampering (veri değiştirme), Repudiation (inkar), Information Disclosure (bilgi sızıntısı), Denial of Service (hizmet engelleme), Elevation of Privilege (yetki yükseltme). Güvenlik mimarisi kalıpları: Zero Trust (asla güvenme, her zaman doğrula — ağ konumundan bağımsız olarak), Defense in Depth (çok katmanlı güvenlik kontrolleri), Least Privilege (gereken minimum yetkiler). Mimari gereksinimleri olarak uyumluluk çerçeveleri: SOC 2 Type II (güven hizmet kriterleri: güvenlik, erişilebilirlik, işlem bütünlüğü, gizlilik, mahremiyet), ISO 27001 (bilgi güvenliği yönetim sistemi), GDPR (tasarımdan ve varsayılan olarak veri koruma). Donanım güvenliği: anahtar yönetimi için Hardware Security Module (HSM), firmware kurcalamayı önlemek için güvenli önyükleme zincirleri, donanım köklü güven için Trusted Platform Module (TPM) ve fiziksel kurcalama algılama mekanizmaları.
+
+> Güvenlik eklediğiniz bir özellik değildir — mimarinizin bir özelliğidir. Ya tasarımda dahil edersiniz ya da 10 kat maliyetle sonradan eklersiniz.
+
+**Framework: STRIDE Threat Model** — Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege. Her bileşen ve veri akışı için sistematik tehdit belirleme.
+
+**Framework: Zero Trust Architecture** — Asla güvenme, her zaman doğrula. Ağ konumundan bağımsız olarak her isteği kimlik doğrulama ve yetkilendirmeye tabi tut. Mikro segmentasyon ve sürekli doğrulama.

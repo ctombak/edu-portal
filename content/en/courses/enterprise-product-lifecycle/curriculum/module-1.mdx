@@ -1,0 +1,45 @@
+---
+id: module1
+title: "Module 1: The Discovery Phase"
+subtitle: "Requirements, RFI & Build-vs-Buy"
+duration: 75 min
+learningObjectives:
+  - Map the enterprise product lifecycle and identify common failure modes
+  - "Translate stakeholder needs into structured, traceable requirements"
+  - Navigate the RFI/RFP/RFQ procurement process effectively
+  - Apply a structured Build-vs-Buy decision framework
+---
+
+This module covers the critical first phase of the product lifecycle: understanding what you need, determining how to get it, and making the fundamental build-or-buy decision that shapes everything that follows.
+
+## The Enterprise Product Lifecycle Map
+
+The lifecycle spans six phases: Discovery (what do we need?), Evaluation (who can deliver it?), Planning (how will we deliver it?), Build (making it real), Launch (going live), and Operate (keeping it running and evolving). Each phase has specific inputs, outputs, quality gates, and decision points. The lifecycle isn't linear—it's iterative with feedback loops. A discovery insight can reshape architecture; a build constraint can redefine requirements. Organizations that treat this as a waterfall from phase to phase consistently underperform.
+
+> The lifecycle isn't a conveyor belt—it's a conversation between phases. The best teams maintain feedback loops at every stage.
+
+**Framework: Product Lifecycle Phases** — Discovery → Evaluation → Planning → Build → Launch → Operate. Each phase has defined inputs, outputs, quality gates, and feedback loops to earlier phases.
+
+## Requirements Engineering — From Needs to Specifications
+
+Requirements exist at three levels: Business Requirements (why—strategic goals), User Requirements (what—capabilities needed), and Functional/Technical Requirements (how—specific behaviors and constraints). The MoSCoW method prioritizes ruthlessly: Must have (the product fails without it), Should have (important but not critical for launch), Could have (nice to have if budget allows), Won't have (explicitly out of scope—equally important to define). The Requirements Traceability Matrix links every requirement back to its business justification and forward to its test case. Hardware example: embedded system requirements must specify operating temperature ranges (-40°C to +85°C for industrial), power consumption budgets (mW for battery-powered IoT), physical dimensions, weight constraints, and EMC compliance alongside functional specifications.
+
+**Framework: MoSCoW Prioritization** — Must have (critical), Should have (important), Could have (desirable), Won't have (explicit exclusion). Forces difficult prioritization conversations early.
+
+**Framework: Requirements Traceability Matrix** — Links each requirement to its business justification, design component, and validation test case. Ensures nothing is built without reason and nothing is untested.
+
+## The RFI/RFP/RFQ Procurement Framework
+
+Three instruments for three purposes: RFI (Request for Information) is for market scanning—you know your problem but not who can solve it. It's broad, exploratory, and non-committal. RFP (Request for Proposal) is for solution evaluation—you know what you need and want vendors to propose their approach and pricing. It's detailed, structured, and comparative. RFQ (Request for Quote) is for price negotiation—you know exactly what you want and need the best price. It's specification-driven and price-focused. Sequencing matters: RFI narrows the market from 20 vendors to 5; RFP evaluates the 5 and selects 2-3 finalists; RFQ (or final negotiation) determines the winner. SOC example: procuring a SOC-as-a-Service platform—the RFI explores which vendors offer integrated SIEM, SOAR, and threat intelligence. The RFP specifies required detection rules, mean-time-to-detect SLAs, log source coverage, and analyst staffing models. The RFQ finalizes pricing per log volume tier.
+
+> A well-written RFP does half the evaluation work for you—it forces vendors to address your real requirements, not their marketing talking points.
+
+**Framework: RFI/RFP/RFQ Framework** — RFI (explore the market), RFP (evaluate solutions), RFQ (negotiate pricing). Sequential narrowing from broad discovery to specific commitment.
+
+## Build vs. Buy Decision Framework
+
+The decision hinges on two axes: Strategic Differentiation (does this capability give you competitive advantage?) and Organizational Capability (can you build and maintain this better than the market?). Build when the capability is core to your value proposition and you have (or can attract) the talent. Buy when the capability is commodity and the market offers mature, well-supported options. The hidden costs of building: ongoing maintenance, talent retention, opportunity cost. The hidden costs of buying: integration, customization limitations, vendor lock-in, license escalation. Total Cost of Ownership (TCO) analysis over 3-5 years, including Year 0 (implementation) through Year 5 (ongoing operations and evolution). Hardware considerations: COTS (Commercial Off-The-Shelf) vs. custom hardware design. COTS is faster and cheaper upfront but may not meet exact performance, form factor, or certification needs. Custom design gives full control but requires NRE (Non-Recurring Engineering) investment and longer time-to-market.
+
+**Framework: Build vs. Buy Matrix** — Plot capabilities on Strategic Differentiation vs. Organizational Capability. Build for high differentiation + high capability; buy for commodity + lower capability.
+
+**Framework: TCO Analysis** — Total Cost of Ownership over 3-5 years: implementation, integration, customization, maintenance, training, license escalation, and opportunity cost.

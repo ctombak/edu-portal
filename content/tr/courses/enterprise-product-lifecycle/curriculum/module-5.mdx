@@ -1,0 +1,37 @@
+---
+id: module5
+title: "Modül 5: Canlıya Geçiş ve Üretim Operasyonları"
+subtitle: "Dağıtım, Güvenilirlik ve Sürekli İyileştirme"
+duration: 35 dk
+learningObjectives:
+  - "Uygun dağıtım stratejilerini seçmek ve uygulamak"
+  - "Üretime hazırlık değerlendirmeleri yapmak"
+  - "Gözlemlenebilirlik ve olay yönetimi pratikleri oluşturmak"
+  - "Sürekli iyileştirme ve ürün evrimi döngüleri kurmak"
+---
+
+Lansman günü bitiş çizgisi değil — başlangıç çizgisidir. Bu modül, güvenli dağıtım yapma, güvenilir operasyon yürütme, olaylara etkili müdahale etme ve ürünü sürekli iyileştirmeyi kapsar.
+
+## Dağıtım Stratejileri ve Üretime Hazırlık
+
+Güvenli dağıtım, patlama yarıçapını kontrol etmek ve hızlı geri almayı mümkün kılmakla ilgilidir. Blue-green deployment: iki özdeş üretim ortamını sürdürün. Aktif olmayan ortama dağıtın, doğrulayın, ardından trafiği yönlendirin. Geri geçiş yaparak anında geri alma. Canary release: küçük bir kullanıcı alt kümesine (%1-5) dağıtın, temel metrikleri izleyin, sağlıklıysa kademeli olarak artırın. Rolling deployment: hizmet erişilebilirliğini koruyarak sunucuları birer birer güncelleyin. Production Readiness Review (PRR) kontrol listesi: çalışma kılavuzları belgelenmiş ve test edilmiş, izleme ve uyarılar yapılandırılmış, nöbet rotasyonu kadrolanmış ve eğitilmiş, geri alma prosedürü doğrulanmış, kapasite marjı teyit edilmiş, güvenlik tarama sonuçları temiz. Devam/iptal karar kriterleri: tüm kalite kapıları geçilmiş, performans karşılaştırma değerleri sağlanmış, güvenlik doğrulaması tamamlanmış, geri alma test edilmiş, paydaş onayı alınmış. Donanım: saha bazında aşamalı donanım dağıtımları (pilot → bölgesel → küresel), risk toleransı ve destek yakınlığına göre pilot saha seçimi, firmware güncellemeleri için saha yükseltme prosedürleri ve geri alma mekanizmaları (yedek önyükleme ile çift firmware bölümleri).
+
+> Lansman günü bitiş çizgisi değil — başlangıç çizgisidir. En iyi ürünler, inşa ettiklerini işleten takımlar tarafından geliştirilir.
+
+**Framework: Deployment Strategy Selection** — Blue-green (anlık geçiş, tam geri alma), Canary (kademeli dağıtım, metrik odaklı), Rolling (artımlı, sıfır kesinti). Risk toleransı ve altyapı yeteneklerine göre seçin.
+
+**Framework: Production Readiness Review** — Çalışma kılavuzları, izleme, uyarılar, nöbet, geri alma, kapasite, güvenlik. Canlıya geçişten önce tümü doğrulanmış olmalıdır. İstisna yoktur.
+
+## Gözlemlenebilirlik ve Olay Yönetimi
+
+Göremediğiniz şeyi düzeltemezsiniz. Gözlemlenebilirliğin üç sütunu: Metrikler (ne oluyor — istek oranları, hata oranları, gecikme süreleri, kaynak kullanımı), Loglar (neden oldu — korelasyon kimlikli yapılandırılmış olay kayıtları), Trace'ler (nerede oldu — zamanlama bilgisiyle servisler arasında istek akışı). SLO/SLI/SLA hiyerarşisi: SLI'lar (Service Level Indicator) belirli davranışları ölçer (ör. 95. yüzdelik gecikme süresi), SLO'lar (Service Level Objective) marjlı iç hedefler belirler (ör. %99,95 erişilebilirlik), SLA'lar (Service Level Agreement) sonuçları olan dış taahhütleri resmileştirir (ör. %99,9'un altında kredi). Hata bütçesi oluşturmak için SLO'ları her zaman SLA'lardan daha sıkı tutun. Uyarı stratejisi: dahili nedenler (CPU %80'de) yerine kullanıcıya dönük belirtilere (yüksek hata oranı) uyarı verin. Alarm yorgunluğunu önlemek için uyarı gürültüsünü azaltın. Her uyarı eyleme geçirilebilir olmalıdır — yapılacak bir şey yoksa gece saat 3'te birisini uyandırmamalıdır. Olay yönetimi yaşam döngüsü: Tespit (otomatik izleme yakalar), Triyaj (ciddiyet ve etkiyi değerlendirme), Hafifletme (kanamayı durdurun — kök neden yerine hizmeti geri yükleme), Çözme (altta yatan sorunu düzeltme), İnceleme (sistem iyileştirmesine odaklanan suçlama yapmayan son-değerlendirme).
+
+**Framework: Three Pillars of Observability** — Metrikler (ne), Loglar (neden), Trace'ler (nerede). Üçü birlikte tam resmi verir. Tek başına herhangi biri yetersizdir.
+
+**Framework: Blameless Post-Mortem** — Zaman çizelgesi, etki, kök nedenler, katkıda bulunan faktörler, aksiyon kalemleri. Bireysel suçlama yerine sistem iyileştirmesine odaklanın. İyi niyeti varsayın.
+
+## Sürekli İyileştirme ve Ürün Evrimi
+
+Evrimleşmeyi bırakan ürünler ölmeye başlar. Birden fazla geri bildirim döngüsü sürekli iyileştirmeyi yönlendirir: kullanıcı analitiği (insanların ürünü beklediğinizin aksine nasıl kullandığı), destek talebi analizi (kalıplar sistematik sorunları ortaya çıkarır), NPS ve müşteri memnuniyeti anketleri (duygu eğilimleri), müşteri danışma kurulları (kilit hesaplardan derin niteliksel içgörü). Teknik borç yönetimi süregelen bir disiplindir: görünür bir teknik borç kaydı tutun, iş etkisine göre önceliklendirin (yalnızca mühendislik tercihine göre değil), borç azaltmaya tutarlı bir kapasite yüzdesi ayırın (genellikle %15-20). Ürün yol haritası yönetişimi üç yatırım kategorisini dengeler: Yeni özellikler (ürünü büyütme), Teknik sağlık (platformu sürdürme), Operasyonel iyileştirmeler (zahmeti ve riski azaltma). Kullanım sonu planlaması yaşam döngüsünün bir parçasıdır: veri göçü yolları, müşteri iletişim zaman çizelgeleri, sunset başlıklarıyla API'lerin kademeli kullanımdan kaldırılması ve arşivleme stratejileri. Ürün asla 'bitti' olmaz — ya evrimleşir ya da ölür.
+
+**Framework: Three Investment Categories** — Yeni özellikler (büyüme), Teknik sağlık (sürdürülebilirlik), Operasyonel iyileştirmeler (verimlilik). Sağlıklı ürünler yol haritalarında üçünü de dengeler.

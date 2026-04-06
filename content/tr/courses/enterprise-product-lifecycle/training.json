@@ -3,7 +3,6 @@
   "duration": "Tam Gün (8 Saat)",
   "audience": "Ürün Yöneticileri, Mühendislik Liderleri, Mimarlar ve Teknik Karar Vericiler",
   "facilitator": "Cihat Tombak",
-  "overview": "Bu program, kurumsal ürün teslimatının uçtan uca kapsamlı bir görünümünü sunar — ilk RFI'dan kararlı bir üretim sistemine kadar. IIBA, SEI/CMMI, TOGAF, ITIL ve Google SRE uygulamalarından kanıtlanmış çerçevelerden yararlanılarak hazırlanan içerik, katılımcılara ürün yaşam döngüsünün her aşaması için pratik araçlar sunmaktadır.\n\nBirincil odak yazılım ürünleri olmakla birlikte, eğitim boyunca donanım, firmware ve SOC (System-on-Chip) örnekleri entegre edilmektedir — çünkü modern kurumsal ürünler giderek artan biçimde donanım-yazılım sınırını aşmaktadır. Katılımcılar, bir sonraki ürün girişimlerinde hemen uygulayabilecekleri eyleme dönüştürülebilir çerçevelerle ayrılır.",
   "stats": [
     "Kurumsal BT projelerinin %70'i önemli kapsam kayması yaşıyor; %45'i bütçeyi aşıyor",
     "Projelerin yalnızca %29'u zamanında, bütçe dahilinde ve gerekli özelliklerle tamamlanıyor",
@@ -156,7 +155,6 @@
     "Önceliklendirilmiş sonraki adımlarla kişisel ürün yaşam döngüsü eylem planı"
   ],
   "practicePercentage": 65,
-  "facilitatorBio": "Cihat Tombak, küresel çok uluslu şirketlerde 15 yılı aşkın yazılım geliştirme liderliği deneyimine sahiptir. Sıfırdan geliştirmelerden karmaşık tedarikçi entegrasyonlarına ve eski sistem modernizasyonlarına kadar düzinelerce kurumsal ürün teslimatına liderlik etmiş olup, ürün yaşam döngüsünün tamamında yol almak için pratik, savaşta test edilmiş çerçeveler sunmaktadır.",
   "logistics": {
     "time": "08:30 – 17:00 (molalar dahil 8 saat)",
     "breaks": "Toplam 1,5 saat mola",

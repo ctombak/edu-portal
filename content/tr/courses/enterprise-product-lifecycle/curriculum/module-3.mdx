@@ -1,0 +1,47 @@
+---
+id: module3
+title: "Modül 3: Planlama ve Yönetişim"
+subtitle: Sözleşmeden Başlangıca
+duration: 70 dk
+learningObjectives:
+  - "Net kapsam, kilometre taşları ve SLA tanımlarıyla sözleşme müzakere etmek"
+  - "Proje bağlamına uygun teslimat metodolojilerini seçmek"
+  - "Yapılandırılmış risk belirleme ve azaltma çerçeveleri uygulamak"
+  - "RACI modeli kullanarak net roller ve sorumluluklar tanımlamak"
+---
+
+İyi mimari, kötü yönetişimle başarısız olur. Bu modül, ürün girişiminizin başarısını belirleyen organizasyonel ve prosedürel temelleri kapsar: sözleşmeler, metodolojiler, risk yönetimi ve takım yapısı.
+
+## Sözleşme Müzakeresi ve SLA'lar
+
+Sözleşme, tedarikçi ilişkilerinin temelidir. Temel unsurlar: kesin kapsam tanımı (nelerin dahil VE nelerin hariç olduğu), kilometre taşı bazlı ödeme planları (takvim tarihlerine değil teslimatlarla ilişkilendirilmiş), kabul kriterleri (nesnel, ölçülebilir, test edilebilir), fikri mülkiyet sahipliği (özellikle özel geliştirmelerde kimin neye sahip olduğu), değişiklik yönetimi prosedürleri (kapsam değişikliklerinin nasıl talep edileceği, değerlendirileceği ve fiyatlandırılacağı) ve çıkış maddeleri (işler ters giderse kaçış planınız). SLA tasarımı kesinti maliyetini anlamayı gerektirir: %99,9 erişilebilirlik yılda 8,7 saat kesintiye izin verir; %99,99 yalnızca 52,6 dakikaya izin verir. Her ek dokuz, altyapı maliyetini yaklaşık 10 kat artırır. Yanıt süresi katmanları: P1 (kritik — 30 dk yanıt, 4 saat çözüm), P2 (yüksek — 2 saat yanıt, 8 saat çözüm), P3/P4 (düşük aciliyet). Tedarikçi davranışını sonuçlarınızla uyumlu hâle getiren ceza ve teşvik yapıları. Donanım değerlendirmeleri: garanti koşulları (süre, kapsam), yedek donanım için MTTR taahhütleri, yedek parça stoklama anlaşmaları ve kullanım sonu bildirim süreleri (en az 24 ay önceden).
+
+> En iyi sözleşme, her iki tarafın da asla başvurmak zorunda kalmamayı umduğu sözleşmedir — çünkü yönetişim, iş birliğini doğal kılar.
+
+**Framework: SLA Design Framework** — SLI'ları tanımlayın (neyi ölçeceğiniz), SLO'ları belirleyin (marjlı iç hedefler), SLA'ları resmileştirin (sonuçları olan dış taahhütler). SLO'ları her zaman SLA'lardan daha sıkı tutun.
+
+## Teslimat Metodolojisi Seçimi
+
+Hiçbir metodoloji evrensel olarak üstün değildir — her biri farklı bağlamlara hizmet eder. Agile (Scrum/Kanban): gereksinimleri gelişen, hızlı geri bildirim döngüleri ve yinelemeli teslimatın rekabet avantajı yarattığı ürünler için en uygundur. SAFe (Scaled Agile Framework): tek bir ürün veya platform sunan birden fazla agile takımı koordine eder — büyük ölçekli uyum için yapı ekler. Waterfall: düzenleyici gereksinimlerin yoğun olduğu teslimatlar, sabit kapsamlı sözleşmeler veya geç değişikliklerin aşırı maliyetli olduğu donanım bağımlı zaman çizelgeleri için uygundur. Hibrit yaklaşımlar: Waterfall yönetimindeki genel program çerçevesinde yazılım geliştirme sprintleri için Agile — donanım-yazılım ürünlerine sahip kuruluşlarda yaygındır. Metodoloji ürüne hizmet etmelidir, tersi değil. Takımınız ürün geliştirmekten çok süreç seremonilerine zaman harcıyorsa bir şeyler yanlıştır. Donanıma özel: donanım-yazılım ortak tasarımı gerektiren sistemler için V-Model — gereksinimler sol tarafta aşağı akar, doğrulama sağ tarafta yukarı akar. Fiziksel ürün geliştirme için aşama-kapı modeli: konsept, tasarım, prototip, pilot, üretim. Her kapıda üretim hazırlık değerlendirmeleri.
+
+**Framework: Methodology Selection Matrix** — Metodolojiyi bağlamla eşleştirin: Agile (gelişen gereksinimler, hızlı geri bildirim), SAFe (çoklu takım koordinasyonu), Waterfall (düzenleyici/donanım), Hibrit (karma kısıtlar). Herkese uyan tek bir çözüm yoktur.
+
+**Framework: V-Model** — Sol taraf: gereksinimler → tasarım → uygulama (ayrıştırma). Sağ taraf: birim test → entegrasyon test → sistem test → kabul test (doğrulama). Her sağ taraf aşaması, sol taraftaki karşılığını doğrular.
+
+## Risk Yönetimi ve Azaltma
+
+Umut bir strateji değildir. Her ürün girişimi risk taşır — soru, bunları proaktif olarak mı belirleyip yöneteceğiniz yoksa kriz olarak mı keşfedeceğinizdir. Risk belirleme teknikleri: Ön-mortem analizi (projenin başarısız olduğunu hayal edin — ne ters gitti?), Risk taksonomisi incelemesi (teknik, organizasyonel, dışsal, zaman çizelgesi, bütçe kategorileri), benzer projelerden alınan dersler. Etki × Olasılık matrisi riskleri dört çeyreğe önceliklendirir: Yüksek etki × Yüksek olasılık (derhal aksiyon gerekli), Yüksek etki × Düşük olasılık (acil durum planları hazır), Düşük etki × Yüksek olasılık (rutin izleme ve azaltma), Düşük etki × Düşük olasılık (kabul edip devam edin). Dört azaltma stratejisi: Kaçınma (riski ortadan kaldırmak için planı değiştirin), Transfer (riski başka bir tarafa aktarın — sigorta, sözleşmesel tahsis), Azaltma (belirli eylemlerle olasılığı veya etkiyi düşürün), Kabul (acil durum bütçesi ve planıyla bilinçli karar). SOC örneği: güvenlik platformu göçü için risk değerlendirmesi. Ya yeni SIEM geçiş sırasında kritik bir tespiti kaçırırsa? Azaltma: her iki platformu 30 gün paralel çalıştırın, eski sistem yedek olarak. Ya tedarikçinin log alma kapasitesi zirve hacmi kaldıramazsa? Azaltma: sözleşme imzalanmadan önce öngörülen zirvenin 2 katında yük testi yapın.
+
+> Umut bir risk azaltma stratejisi değildir. Ön-mortem, proje yönetiminin en az kullanılan aracıdır.
+
+**Framework: Pre-Mortem Analysis** — Projenin başarısız olduğunu hayal edin. Geriye doğru çalışın: ne ters gitti? İyimserlik önyargısının gizleyeceği riskleri ortaya çıkarır.
+
+**Framework: Impact x Probability Matrix** — Riskleri ciddiyet ve olasılık eksenlerinde konumlandırın. Olasılıktan bağımsız olarak yüksek etkili risklere azaltma çabası odaklayın.
+
+## Takım Yapısı ve RACI
+
+Net hesap verebilirlik, çapraz fonksiyonlu teslimatın temelidir. RACI, her karar ve teslimat için dört rol tanımlar: Responsible / Sorumlu (işi yapan kişi veya takım), Accountable / Hesap Verebilir (sonuca sahip olan tek kişi — yalnızca bir tane olabilir), Consulted / Danışılan (karar öncesinde görüşü alınan kişiler), Informed / Bilgilendirilen (karar sonrasında haberdar edilen kişiler). Yaygın RACI hataları: çok fazla kişinin Hesap Verebilir olması (kimse olmaz), Danışılan ile Bilgilendirilen'in karıştırılması (her şeyi yavaşlatır), tedarikçilerin matrise dahil edilmemesi. Çapraz fonksiyonlu takım tasarımı: Ürün (ne inşa edileceği ve neden), Mühendislik (nasıl inşa edileceği), QA (çalışıp çalışmadığı), Güvenlik (güvenli olup olmadığı), Operasyonlar (çalışır durumda olup olmadığı). Tedarikçi-müşteri entegrasyon modelleri: Gömülü (tedarikçi takım üyeleri müşteri takımlarında yer alır), İrtibat (özel entegrasyon yöneticileri köprü kurar), Bağımsız (tedarikçi tanımlı arayüzlerle otonom çalışır). Takım yapısını ölçeklendirme: Conway Yasası, sistem mimarinizin takım iletişim yapınızı yansıtacağını belirtir. Ters Conway manevrası: istediğiniz mimariyi üretecek şekilde takım yapınızı tasarlayın.
+
+**Framework: RACI Matrix** — Responsible / Sorumlu (işi yapar), Accountable / Hesap Verebilir (sonuca sahip — yalnızca bir kişi), Consulted / Danışılan (öncesinde görüş sağlar), Informed / Bilgilendirilen (sonrasında haberdar edilir). Hesap verebilirlik boşluklarını ve karar felcini önler.
+
+**Framework: Conway's Law** — Sistem mimarisi, takım iletişim yapısını yansıtır. Ters Conway manevrasını kullanın: istediğiniz mimariyi üretecek şekilde takımları tasarlayın.
