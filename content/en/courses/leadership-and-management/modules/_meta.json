@@ -1,0 +1,36 @@
+{
+  "coreModules": [
+    "core/01-opening",
+    "core/02-the-adaptive-leader",
+    "core/03-the-relational-leader",
+    "core/04-the-growth-leader",
+    "core/05-the-strategic-leader",
+    "core/06-the-ai-fluent-leader",
+    "core/07-closing"
+  ],
+  "pluginModules": [
+    "plugins/conflict",
+    "plugins/hybrid-remote",
+    "plugins/managing-up",
+    "plugins/leadership-pipeline",
+    "plugins/emotional-intelligence",
+    "plugins/prioritization",
+    "plugins/cross-cultural",
+    "plugins/hr-leader-of-leaders",
+    "plugins/hr-transformation",
+    "plugins/hr-culture-architect",
+    "plugins/hr-data-driven",
+    "plugins/hr-dual-role",
+    "plugins/financial-storytelling",
+    "plugins/scorekeeper-to-partner",
+    "plugins/cost-pressure",
+    "plugins/future-ready-finance",
+    "plugins/risk-uncertainty",
+    "plugins/ic-to-manager",
+    "plugins/engineering-to-business",
+    "plugins/engineering-team-health",
+    "plugins/technical-debt",
+    "plugins/engineering-ai",
+    "plugins/dual-ladder"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "hr",
+  "title": "HR Team Training",
+  "description": "Core program (Modules 1-3) with HR plug-ins replacing Modules 4 and 5",
+  "modules": ["core/01-opening", "core/02-the-adaptive-leader", "core/03-the-relational-leader", "core/04-the-growth-leader", "plugins/hr-leader-of-leaders", "plugins/hr-dual-role", "core/07-closing"],
+  "schedule": [
+    { "session": "Opening", "module": "core/01-opening", "duration": "40 min", "startTime": "08:30" },
+    { "session": "Module 1", "module": "core/02-the-adaptive-leader", "duration": "75 min", "startTime": "09:10" },
+    { "session": "Break", "module": null, "duration": "15 min", "startTime": "10:25" },
+    { "session": "Module 2", "module": "core/03-the-relational-leader", "duration": "70 min", "startTime": "10:40" },
+    { "session": "Lunch", "module": null, "duration": "60 min", "startTime": "11:50" },
+    { "session": "Module 3", "module": "core/04-the-growth-leader", "duration": "70 min", "startTime": "12:50" },
+    { "session": "Break", "module": null, "duration": "15 min", "startTime": "14:00" },
+    { "session": "HR: Leader of Leaders", "module": "plugins/hr-leader-of-leaders", "duration": "40 min", "startTime": "14:15" },
+    { "session": "HR: Dual Role", "module": "plugins/hr-dual-role", "duration": "35 min", "startTime": "14:55" },
+    { "session": "Closing", "module": "core/07-closing", "duration": "40 min", "startTime": "15:30" }
+  ],
+  "note": "Module 4 (Strategic Leader) and Module 5 (AI) are replaced by HR plug-ins."
+}

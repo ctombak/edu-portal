@@ -1,0 +1,19 @@
+{
+  "id": "finance",
+  "title": "Finance Team Training",
+  "description": "Core program (Modules 1-3) with Finance plug-ins replacing Modules 4 and 5",
+  "modules": ["core/01-opening", "core/02-the-adaptive-leader", "core/03-the-relational-leader", "core/04-the-growth-leader", "plugins/financial-storytelling", "plugins/scorekeeper-to-partner", "core/07-closing"],
+  "schedule": [
+    { "session": "Opening", "module": "core/01-opening", "duration": "40 min", "startTime": "08:30" },
+    { "session": "Module 1", "module": "core/02-the-adaptive-leader", "duration": "75 min", "startTime": "09:10" },
+    { "session": "Break", "module": null, "duration": "15 min", "startTime": "10:25" },
+    { "session": "Module 2", "module": "core/03-the-relational-leader", "duration": "70 min", "startTime": "10:40" },
+    { "session": "Lunch", "module": null, "duration": "60 min", "startTime": "11:50" },
+    { "session": "Module 3", "module": "core/04-the-growth-leader", "duration": "70 min", "startTime": "12:50" },
+    { "session": "Break", "module": null, "duration": "15 min", "startTime": "14:00" },
+    { "session": "Finance: Storytelling", "module": "plugins/financial-storytelling", "duration": "40 min", "startTime": "14:15" },
+    { "session": "Finance: Strategic Partner", "module": "plugins/scorekeeper-to-partner", "duration": "40 min", "startTime": "14:55" },
+    { "session": "Closing", "module": "core/07-closing", "duration": "40 min", "startTime": "15:35" }
+  ],
+  "note": "Module 4 (Strategic Leader) and Module 5 (AI) are replaced by Finance plug-ins."
+}

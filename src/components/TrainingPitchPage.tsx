@@ -33,7 +33,7 @@ const MODULE_ICONS: Record<string, React.ElementType> = {
 };
 
 const MODULE_COLORS: Record<string, { bg: string; text: string; ring: string; border: string }> = {
-  adaptive: { bg: "bg-violet-500/10", text: "text-violet-400", ring: "ring-violet-500/20", border: "border-violet-500/20" },
+  adaptive: { bg: "bg-teal-500/10", text: "text-teal-400", ring: "ring-teal-500/20", border: "border-teal-500/20" },
   relational: { bg: "bg-sky-500/10", text: "text-sky-400", ring: "ring-sky-500/20", border: "border-sky-500/20" },
   growth: { bg: "bg-emerald-500/10", text: "text-emerald-400", ring: "ring-emerald-500/20", border: "border-emerald-500/20" },
   strategic: { bg: "bg-amber-500/10", text: "text-amber-400", ring: "ring-amber-500/20", border: "border-amber-500/20" },
@@ -54,7 +54,7 @@ export async function TrainingPitchPage({
   return (
     <div className="relative">
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/4 h-[800px] w-[800px] rounded-full bg-violet-600/[0.06] blur-[140px]" />
+        <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/4 h-[800px] w-[800px] rounded-full bg-teal-600/[0.06] blur-[140px]" />
         <div className="absolute right-0 top-[40%] h-[400px] w-[400px] rounded-full bg-sky-600/[0.04] blur-[100px]" />
       </div>
 
@@ -72,8 +72,8 @@ export async function TrainingPitchPage({
       {/* Hero */}
       <section className="mx-auto max-w-4xl px-6 pt-8 pb-12 sm:pb-16">
         <div className="flex items-center gap-2">
-          <User className="h-4 w-4 text-violet-400/60" aria-hidden />
-          <p className="text-sm font-semibold tracking-[0.2em] uppercase text-violet-400">
+          <User className="h-4 w-4 text-teal-400/60" aria-hidden />
+          <p className="text-sm font-semibold tracking-[0.2em] uppercase text-teal-400">
             {t("facilitator")} {training.facilitator}
           </p>
         </div>
@@ -87,7 +87,7 @@ export async function TrainingPitchPage({
         <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
           <div className="rounded-lg bg-zinc-800/50 px-4 py-3 ring-1 ring-zinc-700/40">
             <div className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-500">
-              <Clock className="h-3 w-3 text-violet-400" aria-hidden />
+              <Clock className="h-3 w-3 text-teal-400" aria-hidden />
               {t("duration")}
             </div>
             <p className="text-sm font-medium text-zinc-200">{training.duration}</p>
@@ -234,10 +234,10 @@ export async function TrainingPitchPage({
           ))}
           <Link
             href={`/${locale}/courses/${course.slug}/plugins`}
-            className="group flex items-center justify-center gap-2 rounded-xl border border-dashed border-violet-500/30 bg-violet-500/[0.04] p-5 text-center transition-all hover:border-violet-500/50 hover:bg-violet-500/[0.08]"
+            className="group flex items-center justify-center gap-2 rounded-xl border border-dashed border-teal-500/30 bg-teal-500/[0.04] p-5 text-center transition-all hover:border-teal-500/50 hover:bg-teal-500/[0.08]"
           >
-            <ArrowRight className="h-4 w-4 text-violet-400 transition-transform group-hover:translate-x-0.5" aria-hidden />
-            <span className="text-sm font-semibold text-violet-400">{t("seeAll")}</span>
+            <ArrowRight className="h-4 w-4 text-teal-400 transition-transform group-hover:translate-x-0.5" aria-hidden />
+            <span className="text-sm font-semibold text-teal-400">{t("seeAll")}</span>
           </Link>
         </div>
       </section>
@@ -296,7 +296,7 @@ export async function TrainingPitchPage({
             icon={Clock}
             label={t("time")}
             value={training.logistics.time}
-            color="text-violet-400"
+            color="text-teal-400"
           />
           <LogisticsCard
             icon={Coffee}
@@ -321,7 +321,7 @@ export async function TrainingPitchPage({
 
       {/* CTA */}
       <section className="mx-auto max-w-4xl px-6 pb-20">
-        <div className="overflow-hidden rounded-2xl border border-violet-500/20 bg-gradient-to-br from-violet-500/[0.08] to-sky-500/[0.04] p-8 text-center sm:p-12">
+        <div className="overflow-hidden rounded-2xl border border-teal-500/20 bg-gradient-to-br from-teal-500/[0.08] to-sky-500/[0.04] p-8 text-center sm:p-12">
           <h2 className="text-2xl font-bold text-zinc-50 sm:text-3xl">
             {t("ctaTitle")}
           </h2>

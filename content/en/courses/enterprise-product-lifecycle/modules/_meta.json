@@ -1,0 +1,18 @@
+{
+  "coreModules": [
+    "core/01-opening",
+    "core/02-the-discovery-phase",
+    "core/03-vendor-evaluation-architecture",
+    "core/04-planning-governance",
+    "core/05-build-quality",
+    "core/06-go-live-production",
+    "core/07-closing"
+  ],
+  "pluginModules": [
+    "plugins/cloud-migration",
+    "plugins/legacy-modernization",
+    "plugins/regulatory-compliance",
+    "plugins/ai-ml-integration",
+    "plugins/product-analytics"
+  ]
+}

@@ -23,7 +23,7 @@ export function FacilitatorLink({
       onDoubleClick={() => router.push(`/${locale}/courses/${courseSlug}/curriculum`)}
       title={t("viewCurriculum")}
     >
-      <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-violet-500/10 text-lg font-bold text-violet-400 ring-1 ring-violet-500/20">
+      <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-teal-500/10 text-lg font-bold text-teal-400 ring-1 ring-teal-500/20">
         CT
       </div>
       <div>

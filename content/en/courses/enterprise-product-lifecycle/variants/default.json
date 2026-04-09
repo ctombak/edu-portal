@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "title": "Enterprise Product Lifecycle",
+  "description": "The complete product lifecycle program with all five core modules",
+  "modules": ["core/01-opening", "core/02-the-discovery-phase", "core/03-vendor-evaluation-architecture", "core/04-planning-governance", "core/05-build-quality", "core/06-go-live-production", "core/07-closing"],
+  "schedule": [
+    { "session": "Opening", "module": "core/01-opening", "duration": "40 min", "startTime": "08:30" },
+    { "session": "Module 1", "module": "core/02-the-discovery-phase", "duration": "75 min", "startTime": "09:10" },
+    { "session": "Break", "module": null, "duration": "15 min", "startTime": "10:25" },
+    { "session": "Module 2", "module": "core/03-vendor-evaluation-architecture", "duration": "70 min", "startTime": "10:40" },
+    { "session": "Lunch", "module": null, "duration": "60 min", "startTime": "11:50" },
+    { "session": "Module 3", "module": "core/04-planning-governance", "duration": "70 min", "startTime": "12:50" },
+    { "session": "Break", "module": null, "duration": "15 min", "startTime": "14:00" },
+    { "session": "Module 4", "module": "core/05-build-quality", "duration": "65 min", "startTime": "14:15" },
+    { "session": "Module 5", "module": "core/06-go-live-production", "duration": "35 min", "startTime": "15:20" },
+    { "session": "Closing", "module": "core/07-closing", "duration": "50 min", "startTime": "15:55" }
+  ]
+}

@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# temp/dev files
+*.png
+*.mjs
+cookies.txt
+SLIDE-REVIEW-JOB.md
+BLUEPRINT.md
+.claude/

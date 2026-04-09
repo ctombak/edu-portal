@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowRight, X, Clock, Users, CheckCircle2, BookOpen, Info } 
 import type { PluginModuleDetail, PluginCategory, TeamGuide } from "@/types/course";
 
 const CATEGORY_COLORS: Record<string, { accent: string; bg: string; ring: string }> = {
-  general: { accent: "text-violet-400", bg: "bg-violet-500/10", ring: "ring-violet-500/20" },
+  general: { accent: "text-teal-400", bg: "bg-teal-500/10", ring: "ring-teal-500/20" },
   hr: { accent: "text-sky-400", bg: "bg-sky-500/10", ring: "ring-sky-500/20" },
   finance: { accent: "text-emerald-400", bg: "bg-emerald-500/10", ring: "ring-emerald-500/20" },
   engineering: { accent: "text-amber-400", bg: "bg-amber-500/10", ring: "ring-amber-500/20" },
@@ -59,7 +59,7 @@ export function PluginsPageClient({
   return (
     <div className="relative">
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/3 h-[600px] w-[600px] rounded-full bg-violet-600/[0.05] blur-[120px]" />
+        <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/3 h-[600px] w-[600px] rounded-full bg-teal-600/[0.05] blur-[120px]" />
       </div>
 
       <div className="mx-auto max-w-5xl px-6 pt-8 pb-20">
@@ -74,7 +74,7 @@ export function PluginsPageClient({
           <span className="text-zinc-800">|</span>
           <Link
             href={`/${locale}/courses/${courseSlug}/selection-guide`}
-            className="group inline-flex items-center gap-2 text-sm font-medium text-violet-400 transition-colors hover:text-violet-300"
+            className="group inline-flex items-center gap-2 text-sm font-medium text-teal-400 transition-colors hover:text-teal-300"
           >
             {t("selectionGuide")}
             <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
@@ -158,7 +158,7 @@ export function PluginsPageClient({
             </button>
 
             <div className="mb-4 flex items-center gap-3">
-              <span className="rounded-md bg-violet-500/10 px-2.5 py-1 text-xs font-bold text-violet-400 ring-1 ring-violet-500/20">
+              <span className="rounded-md bg-teal-500/10 px-2.5 py-1 text-xs font-bold text-teal-400 ring-1 ring-teal-500/20">
                 {selected.id}
               </span>
               <span className="flex items-center gap-1 text-xs text-zinc-500">
@@ -195,7 +195,7 @@ export function PluginsPageClient({
                   {selected.keyTopics.map((topic, i) => (
                     <div key={i} className="rounded-lg bg-zinc-800/40 px-4 py-3">
                       <div className="flex items-center gap-2">
-                        <BookOpen className="h-3.5 w-3.5 text-violet-400" aria-hidden />
+                        <BookOpen className="h-3.5 w-3.5 text-teal-400" aria-hidden />
                         <h4 className="text-sm font-semibold text-zinc-200">{topic.title}</h4>
                       </div>
                       <p className="mt-1.5 text-sm leading-relaxed text-zinc-400">{topic.description}</p>
@@ -311,7 +311,7 @@ export function PluginsPageClient({
             <div className="mt-6 text-center">
               <Link
                 href={`/${locale}/courses/${courseSlug}/selection-guide`}
-                className="inline-flex items-center gap-2 text-sm font-medium text-violet-400 transition-colors hover:text-violet-300"
+                className="inline-flex items-center gap-2 text-sm font-medium text-teal-400 transition-colors hover:text-teal-300"
                 onClick={closeModal}
               >
                 View Full Selection Guide

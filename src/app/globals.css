@@ -22,7 +22,7 @@ body {
 }
 
 ::selection {
-  background: rgba(139, 92, 246, 0.3);
+  background: rgba(45, 160, 148, 0.3);
   color: #fff;
 }
 
@@ -75,7 +75,7 @@ html[data-theme="light"] {
 }
 
 html[data-theme="light"] ::selection {
-  background: rgba(139, 92, 246, 0.25);
+  background: rgba(45, 160, 148, 0.25);
   color: #18181b;
 }
 
@@ -98,4 +98,360 @@ html[data-theme="light"] .prose-invert {
   --tw-prose-code: var(--color-zinc-300);
   --tw-prose-pre-code: var(--color-zinc-300);
   --tw-prose-pre-bg: var(--color-zinc-900);
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/*  Presentation theme — uses real colors, NOT zinc (which gets   */
+/*  remapped). Works in both light and dark.                      */
+/* ═══════════════════════════════════════════════════════════════ */
+
+/* ── Dark presentation ── */
+html[data-theme="dark"] .pres-root,
+html:not([data-theme]) .pres-root {
+  --pres-bg: #070e17;
+  --pres-slide: #0c1520;
+  --pres-heading: #f4f4f5;
+  --pres-body: #b8c8d8;
+  --pres-muted: #7a8fa6;
+  --pres-dim: #3d5060;
+  --pres-strong: #ffffff;
+  --pres-subtitle: #7a8fa6;
+  --pres-accent: #4db8a8;
+  --pres-bar: #060c14;
+  --pres-bar-border: rgba(77,184,168,0.15);
+  --pres-notes: #0a1018;
+  --pres-badge-bg: rgba(77,184,168,0.10);
+  --pres-badge-border: rgba(77,184,168,0.25);
+  --pres-badge-text: #4db8a8;
+  --pres-blockquote-bg: rgba(77,184,168,0.08);
+  --pres-blockquote-border: #2d9f93;
+  --pres-blockquote-text: #7dd3c8;
+  --pres-table-bg: rgba(77,184,168,0.04);
+  --pres-table-head: rgba(77,184,168,0.1);
+  --pres-table-th: #e4e8f0;
+  --pres-table-td: #b8c8d8;
+  --pres-table-border: rgba(77,184,168,0.12);
+  --pres-code-bg: rgba(77,184,168,0.08);
+  --pres-code-text: #7dd3c8;
+  --pres-header-from: #115e54;
+  --pres-header-to: #164e63;
+  --pres-glow-1: rgba(77,184,168,0.06);
+  --pres-glow-2: rgba(56,189,248,0.04);
+  --pres-circle-1: rgba(77,184,168,0.08);
+  --pres-circle-2: rgba(77,184,168,0.05);
+  --pres-circle-3: rgba(56,189,248,0.05);
+  --pres-card-active-bg: rgba(77,184,168,0.12);
+  --pres-card-active-border: #2d9f93;
+  --pres-card-idle-bg: rgba(12,22,35,0.6);
+  --pres-card-idle-border: rgba(50,70,90,0.5);
+  --pres-btn-hover: rgba(255,255,255,0.06);
+  --pres-progress-track: #142028;
+  --pres-hr: rgba(77,184,168,0.12);
+  --pres-h1-from: #f4f4f5;
+  --pres-h1-to: #a1a1aa;
+  --pres-mesh-1: rgba(77,184,168,0.12);
+  --pres-mesh-2: rgba(56,189,248,0.07);
+  --pres-mesh-3: rgba(45,160,150,0.06);
+  --pres-dot-color: rgba(77,184,168,0.10);
+  --pres-module-dot: #2d9f93;
+  --pres-card-shadow: 0 8px 48px rgba(0,0,0,0.4), 0 2px 16px rgba(0,0,0,0.3);
+  --pres-card-border-color: rgba(77,184,168,0.12);
+}
+
+/* ── Light presentation ── */
+html[data-theme="light"] .pres-root {
+  --pres-bg: #eef4f6;
+  --pres-slide: #ffffff;
+  --pres-heading: #1a2d3a;
+  --pres-body: #3a5060;
+  --pres-muted: #607888;
+  --pres-dim: #a8bcc8;
+  --pres-strong: #0f1a24;
+  --pres-subtitle: #607888;
+  --pres-accent: #1a8a7a;
+  --pres-bar: #e4ecf0;
+  --pres-bar-border: rgba(45,160,148,0.2);
+  --pres-notes: #f2f6f8;
+  --pres-badge-bg: rgba(45,160,148,0.08);
+  --pres-badge-border: rgba(45,160,148,0.25);
+  --pres-badge-text: #177a6c;
+  --pres-blockquote-bg: rgba(45,160,148,0.06);
+  --pres-blockquote-border: #2d9f93;
+  --pres-blockquote-text: #156b60;
+  --pres-table-bg: rgba(45,160,148,0.03);
+  --pres-table-head: rgba(45,160,148,0.08);
+  --pres-table-th: #1a2d3a;
+  --pres-table-td: #3a5060;
+  --pres-table-border: rgba(45,160,148,0.12);
+  --pres-code-bg: rgba(45,160,148,0.06);
+  --pres-code-text: #177a6c;
+  --pres-header-from: #2d9f93;
+  --pres-header-to: #1a8a9e;
+  --pres-glow-1: rgba(45,160,148,0.06);
+  --pres-glow-2: rgba(56,189,248,0.04);
+  --pres-circle-1: rgba(45,160,148,0.06);
+  --pres-circle-2: rgba(45,160,148,0.04);
+  --pres-circle-3: rgba(56,189,248,0.04);
+  --pres-card-active-bg: rgba(45,160,148,0.1);
+  --pres-card-active-border: #2d9f93;
+  --pres-card-idle-bg: rgba(255,255,255,0.8);
+  --pres-card-idle-border: rgba(45,160,148,0.12);
+  --pres-btn-hover: rgba(0,0,0,0.05);
+  --pres-progress-track: #dae4e8;
+  --pres-hr: rgba(45,160,148,0.12);
+  --pres-h1-from: #1a2d3a;
+  --pres-h1-to: #607888;
+  --pres-mesh-1: rgba(45,160,148,0.18);
+  --pres-mesh-2: rgba(56,189,248,0.12);
+  --pres-mesh-3: rgba(34,211,238,0.08);
+  --pres-dot-color: rgba(45,160,148,0.08);
+  --pres-module-dot: #2d9f93;
+  --pres-card-shadow: 0 12px 60px rgba(30,80,100,0.12), 0 4px 20px rgba(30,80,100,0.08);
+  --pres-card-border-color: rgba(45,160,148,0.12);
+}
+
+/* ── Apply variables ── */
+.pres-root { background: var(--pres-bg); color: var(--pres-body); }
+.pres-heading { color: var(--pres-heading); }
+.pres-body { color: var(--pres-body); }
+.pres-strong { color: var(--pres-strong); }
+.pres-muted { color: var(--pres-muted); }
+.pres-dim { color: var(--pres-dim); }
+.pres-accent { color: var(--pres-accent); }
+.pres-subtitle { color: var(--pres-subtitle); }
+
+.pres-h1 {
+  background: linear-gradient(135deg, var(--pres-h1-from), var(--pres-h1-to));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Slide card frame ── */
+.pres-slide-card {
+  border-radius: 14px;
+  box-shadow: var(--pres-card-shadow);
+  border: 1px solid var(--pres-card-border-color);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  /* Rich layered gradient background */
+  background:
+    radial-gradient(ellipse 90% 70% at 95% -10%, var(--pres-mesh-1) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 90% at -10% 110%, var(--pres-mesh-2) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 50% at 50% 50%, var(--pres-mesh-3) 0%, transparent 70%),
+    var(--pres-slide);
+}
+
+/* Decorative corner accents */
+.pres-slide-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle at 100% 0%, var(--pres-mesh-1) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+.pres-slide-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle at 0% 100%, var(--pres-mesh-2) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Gradient accent strip at top of card */
+.pres-accent-strip {
+  height: 4px;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, var(--pres-accent), var(--pres-header-to), transparent 70%);
+  position: relative;
+  z-index: 1;
+}
+
+/* Slide inner area */
+.pres-slide-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  min-height: 0;
+  overflow: hidden;
+  padding: 2.5rem 5rem 2.5rem 12rem;
+}
+
+.pres-badge {
+  background: var(--pres-badge-bg);
+  border: 1px solid var(--pres-badge-border);
+  color: var(--pres-badge-text);
+}
+
+.pres-blockquote {
+  background: var(--pres-blockquote-bg);
+  border-left: 3px solid var(--pres-blockquote-border);
+  color: var(--pres-blockquote-text);
+}
+
+.pres-table-wrap {
+  background: var(--pres-table-bg);
+  border: 1px solid var(--pres-table-border);
+}
+.pres-table-head { background: var(--pres-table-head); }
+.pres-table-th { color: var(--pres-table-th); border-bottom: 1px solid var(--pres-table-border); }
+.pres-table-td { color: var(--pres-table-td); border-bottom: 1px solid var(--pres-table-border); }
+
+.pres-code-inline { background: var(--pres-code-bg); color: var(--pres-code-text); }
+.pres-code-block { background: var(--pres-code-bg); color: var(--pres-body); }
+
+.pres-bar { background: var(--pres-bar); border-top: 1px solid var(--pres-bar-border); }
+.pres-progress-track { height: 3px; background: var(--pres-progress-track); }
+.pres-progress-fill { height: 100%; background: linear-gradient(90deg, #2d9f93, #4db8a8); }
+
+.pres-notes-panel { background: var(--pres-notes); border-left: 1px solid var(--pres-bar-border); }
+
+.pres-btn { border-radius: 0.5rem; padding: 0.5rem; color: var(--pres-muted); transition: all 0.15s; }
+.pres-btn:hover { background: var(--pres-btn-hover); color: var(--pres-heading); }
+.pres-btn-active { color: var(--pres-accent) !important; background: var(--pres-badge-bg) !important; }
+
+.pres-card-active { border-color: var(--pres-card-active-border); background: var(--pres-card-active-bg); }
+.pres-card-idle { border-color: var(--pres-card-idle-border); background: var(--pres-card-idle-bg); box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+
+
+.pres-glow-1 { background: var(--pres-glow-1); }
+.pres-glow-2 { background: var(--pres-glow-2); }
+.pres-circle-1 { border: 1px solid var(--pres-circle-1); }
+.pres-circle-2 { border: 1px solid var(--pres-circle-2); }
+.pres-circle-3 { background: var(--pres-circle-3); }
+.pres-hr { border-color: var(--pres-hr); }
+
+/* Title content */
+.pres-title-content h1 { color: var(--pres-heading); }
+.pres-title-content h2 { color: var(--pres-subtitle); }
+.pres-title-content p { color: var(--pres-body); }
+
+/* Content area — presentation-scale text */
+.pres-content h2, .pres-content h3 { color: var(--pres-heading); }
+.pres-content p { color: var(--pres-body); font-size: 1.45rem; line-height: 1.7; }
+.pres-content strong { color: var(--pres-strong); }
+.pres-content li { color: var(--pres-body); font-size: 1.45rem; line-height: 1.7; }
+.pres-content em { color: var(--pres-muted); }
+
+/* ── Layout: vertical centering via absolute + Grid ── */
+.pres-layout-center {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  padding: 3rem 4rem 2.5rem 4rem;
+  z-index: 10;
+  overflow: hidden;
+}
+
+/* Module label */
+.pres-module-label {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-size: 0.85rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.18em; color: var(--pres-accent);
+}
+.pres-module-label::before {
+  content: ""; display: block; width: 0.6rem; height: 0.6rem;
+  border-radius: 9999px; background: var(--pres-module-dot);
+}
+
+/* ═══════════════════════════════════════════════════════════════ */
+/*  Landing page — theme-aware styles                             */
+/* ═══════════════════════════════════════════════════════════════ */
+
+/* Gradient text — works in both themes */
+.landing-gradient-text {
+  background: linear-gradient(135deg, #2d9f93, #1a8a9e, #1590b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Dark mode landing ── */
+html[data-theme="dark"] .landing-hero,
+html:not([data-theme]) .landing-hero {
+  background: linear-gradient(160deg, #060d18 0%, #0b1a2d 30%, #0f2236 55%, #0a1525 80%, #050b14 100%);
+}
+html[data-theme="dark"] .landing-orb-1,
+html:not([data-theme]) .landing-orb-1 {
+  background: radial-gradient(ellipse, rgba(30,120,140,0.12) 0%, transparent 65%);
+}
+html[data-theme="dark"] .landing-orb-2,
+html:not([data-theme]) .landing-orb-2 {
+  background: radial-gradient(circle, rgba(56,189,248,0.06) 0%, transparent 60%);
+}
+html[data-theme="dark"] .landing-orb-3,
+html:not([data-theme]) .landing-orb-3 {
+  background: radial-gradient(circle, rgba(77,184,168,0.07) 0%, transparent 65%);
+}
+html[data-theme="dark"] .landing-badge,
+html:not([data-theme]) .landing-badge {
+  border: 1px solid rgba(77,184,168,0.2);
+  background: rgba(77,184,168,0.05);
+}
+html[data-theme="dark"] .landing-cta-primary,
+html:not([data-theme]) .landing-cta-primary {
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+}
+
+/* ── Light mode landing ── */
+html[data-theme="light"] .landing-hero {
+  background: linear-gradient(160deg, #f0f7fa 0%, #e4f0f6 30%, #dcedf5 55%, #eaf4f8 80%, #f5f9fb 100%);
+}
+html[data-theme="light"] .landing-orb-1 {
+  background: radial-gradient(ellipse, rgba(30,120,140,0.08) 0%, transparent 65%);
+}
+html[data-theme="light"] .landing-orb-2 {
+  background: radial-gradient(circle, rgba(56,189,248,0.06) 0%, transparent 60%);
+}
+html[data-theme="light"] .landing-orb-3 {
+  background: radial-gradient(circle, rgba(77,184,168,0.05) 0%, transparent 65%);
+}
+html[data-theme="light"] .landing-badge {
+  border: 1px solid rgba(30,100,100,0.15);
+  background: rgba(30,100,100,0.05);
+}
+html[data-theme="light"] .landing-cta-primary {
+  background: #0f2236;
+  color: #ffffff;
+  box-shadow: 0 8px 30px rgba(15,34,54,0.2);
+}
+
+/* Secondary button */
+html[data-theme="dark"] .landing-cta-secondary,
+html:not([data-theme]) .landing-cta-secondary {
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.85);
+}
+html[data-theme="light"] .landing-cta-secondary {
+  border: 1px solid rgba(15,34,54,0.15);
+  background: rgba(15,34,54,0.04);
+  color: #1e293b;
+}
+
+/* "Why Partner" alt section — tinted, not plain white */
+html[data-theme="dark"] .landing-section-alt,
+html:not([data-theme]) .landing-section-alt {
+  background: linear-gradient(180deg, #070e19 0%, #0a1422 100%);
+  border-top: 1px solid rgba(77,184,168,0.08);
+}
+html[data-theme="light"] .landing-section-alt {
+  background: linear-gradient(180deg, #e8f0f4 0%, #dfe9ef 100%);
+  border-top: 1px solid rgba(30,100,100,0.08);
 }

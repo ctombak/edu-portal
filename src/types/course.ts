@@ -152,3 +152,51 @@ export interface SelectionGuideData {
   decisionMatrixTitle: string;
   decisionMatrixDesc: string;
 }
+
+/* ------------------------------------------------------------------ */
+/*  Admin / Presentation types                                        */
+/* ------------------------------------------------------------------ */
+
+export interface ModuleFrontmatter {
+  id: string;
+  title: string;
+  subtitle?: string;
+  duration: string;
+  type: "core" | "plugin";
+  learningObjectives?: string[];
+}
+
+export interface Slide {
+  content: string;
+  notes?: string;
+  moduleId: string;
+  moduleTitle: string;
+  index: number;
+}
+
+export interface ParsedModule {
+  frontmatter: ModuleFrontmatter;
+  rawContent: string;
+  slides: Slide[];
+}
+
+export interface VariantScheduleItem {
+  session: string;
+  module: string | null;
+  duration: string;
+  startTime: string;
+}
+
+export interface Variant {
+  id: string;
+  title: string;
+  description: string;
+  modules: string[];
+  schedule: VariantScheduleItem[];
+  note?: string;
+}
+
+export interface ModuleMeta {
+  coreModules: string[];
+  pluginModules: string[];
+}
